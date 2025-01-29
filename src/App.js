@@ -14,9 +14,14 @@ import Tutorials from "./components/pages/Developers/Tutorials";
 import Tools from "./components/pages/Developers/Tools";
 import Releases from "./components/pages/Developers/Releases";
 import Roadmap from "./components/pages/Developers/Roadmap";
+import Discover from "./components/pages/Ecosystem/Discover";
+import Grants from "./components/pages/Ecosystem/Grants";
+import Projects from "./components/pages/Ecosystem/Projects";
+import Partners from "./components/pages/Ecosystem/Partners";
+import Validators from "./components/pages/Ecosystem/Validators";
 
 const App = () => {
-return (
+  return (
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -33,13 +38,23 @@ return (
         />
         <Route exact path="/Developers/BuildersHub" element={<BuildersHub />} />
         <Route exact path="/Developers/Dapp" element={<Dapp />} />
+        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
         <Route exact path="/Developers/Tools" element={<Tools />} />
         <Route exact path="/Developers/Releases" element={<Releases />} />
         <Route exact path="/Developers/Roadmap" element={<Roadmap />} />
-        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
-        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
-        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
-        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
+        <Route exact path="/ecosystem/Discover" element={<Discover />} />
+        <Route exact path="/ecosystem/Grants" element={<Grants />} />
+        <Route exact path="/ecosystem/Projects" element={<Projects />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Validators" element={<Validators />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
+        <Route exact path="/ecosystem/Partners" element={<Partners />} />
       </Routes>
       <Footer />
     </BrowserRouter>

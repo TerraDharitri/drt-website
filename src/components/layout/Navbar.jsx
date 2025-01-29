@@ -55,11 +55,11 @@ const Navbar = () => {
       explorer: "/products/xexplorer",
     },
     ecosystem: {
-      discover: "/ecosystem/discover",
-      grants: "/ecosystem/grants",
-      projects: "/ecosystem/projects",
-      partners: "/ecosystem/partners",
-      validators: "/ecosystem/validators",
+      Discover: "/ecosystem/Discover",
+      Grants: "/ecosystem/Grants",
+      Projects: "/ecosystem/Projects",
+      Partners: "/ecosystem/Partners",
+      Validators: "/ecosystem/Validators",
       service: "/ecosystem/service-providers",
     },
     community: {
@@ -251,33 +251,33 @@ const Navbar = () => {
           description:
             "Explore projects and partners from the Dharitri ecosystem",
           icon: "🤝",
-          path: routes.ecosystem.discover,
+          path: routes.ecosystem.Discover,
         },
         {
           title: "Grants",
           description: "Join the Dharitri Growth Games grants program",
           icon: "🤝",
-          path: routes.ecosystem.grants,
+          path: routes.ecosystem.Grants,
         },
         {
           title: "Projects",
           description:
             "A new dimension of utility built and launched on Dharitri",
           icon: "🚀",
-          path: routes.ecosystem.projects,
+          path: routes.ecosystem.Projects,
         },
         {
           title: "Partners",
           description:
             "Seamlessly connect with leading platforms and protocols",
           icon: "📈",
-          path: routes.ecosystem.partners,
+          path: routes.ecosystem.Partners,
         },
         {
           title: "Validators",
           description: "Help secure the network and earn rewards",
           icon: "🎯",
-          path: routes.ecosystem.validators,
+          path: routes.ecosystem.Validators,
         },
         {
           title: "Service Providers",
@@ -481,7 +481,6 @@ const Navbar = () => {
                   )}
                 </button>
               </div> */}
-
 
               {/* Mobile menu button */}
               <button
