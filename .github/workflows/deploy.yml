@@ -32,8 +32,5 @@ jobs:
 
     - name: Deploy to GitHub Pages
       env:
-        # Use a personal access token with organization access
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: |
-        git remote set-url origin https://${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        npm run deploy
+      run: npm run deploy
