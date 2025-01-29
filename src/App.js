@@ -21,6 +21,7 @@ return (
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/drt-website" element={<Home />} />
         <Route exact path="/Individuals/Started" element={<Started />} />
         <Route exact path="/Individuals/Rewa" element={<Rewa />} />
         <Route exact path="/Individuals/Chain" element={<Chain />} />
