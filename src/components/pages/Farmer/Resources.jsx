@@ -1,9 +1,9 @@
 import React from "react";
 import NotFound from "../../ui/NotFound";
-const Program = () => (
+const Resources = () => (
   <div>
     <NotFound />
   </div>
 );
 
-export default Program;
+export default Resources;
