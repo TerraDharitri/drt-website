@@ -26,9 +26,14 @@ jobs:
     - name: Build React App
       run: npm run build
 
+    - name: Configure Git with username and email
+      run: |
+        git config --global user.name "teja78906"
+        git config --global user.email "tejaswaroop0507@gmail.com"
+
     - name: Deploy to GitHub Pages (Force Update)
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         # Initialize a clean gh-pages deployment
-        npx gh-pages -d build --remote "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git" --remove "*.html" --remove "*.js" --remove "*.css" --remove "*.json" --remove "static/*"
+        npx gh-pages -d build --repo "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/TerraDharitri/drt-website.git" --remove "*.html" --remove "*.js" --remove "*.css" --remove "*.json" --remove "static/*"
