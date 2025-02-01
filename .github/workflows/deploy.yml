@@ -1,4 +1,4 @@
-name: Force Deploy React App
+name: Deploy React App
 
 on:
   push:
@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        persist-credentials: false
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -23,17 +25,13 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build React App
-      run: npm run build
-
-    - name: Configure Git with username and email
+    - name: Configure Git
       run: |
         git config --global user.name "teja78906"
         git config --global user.email "tejaswaroop0507@gmail.com"
+        git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
 
-    - name: Deploy to GitHub Pages (Force Update)
+    - name: Deploy to GitHub Pages
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: |
-        # Initialize a clean gh-pages deployment
-        npx gh-pages -d build --repo "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/TerraDharitri/drt-website.git" --remove "*.html" --remove "*.js" --remove "*.css" --remove "*.json" --remove "static/*"
+      run: npm run deploy
