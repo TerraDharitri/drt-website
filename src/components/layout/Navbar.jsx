@@ -82,7 +82,7 @@ const Navbar = () => {
       dropdownItems: [
         {
           title: "Get Started",
-          description: "Blockchain to the power of Dharitri",
+          description: "Blockchain the power of Dharitri",
           icon: "👤",
           path: routes.individuals.Started,
         },
