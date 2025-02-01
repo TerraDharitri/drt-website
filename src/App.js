@@ -1,8 +1,11 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import NotFound from "./components/ui/NotFound";
+
+// Import your components
 import Started from "./components/pages/Individuals/Started";
 import Rewa from "./components/pages/Individuals/Rewa";
 import Chain from "./components/pages/Individuals/Chain";
@@ -47,80 +50,64 @@ import Program from "./components/pages/Community/Program";
 import Transformation from "./components/pages/About/Transformation";
 import Media from "./components/pages/About/Media";
 import Careers from "./components/pages/About/Careers";
-import NotFound from "./components/ui/NotFound";
 
 const App = () => {
-  const basename = process.env.NODE_ENV === 'production' ? '/drt-website' : '';
   return (
-    <BrowserRouter basename={basename}>
+    <HashRouter>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/drt-website" element={<Home />} />
-        <Route exact path="/Individuals/Started" element={<Started />} />
-        <Route exact path="/Individuals/Rewa" element={<Rewa />} />
-        <Route exact path="/Individuals/Chain" element={<Chain />} />
-        <Route exact path="/Individuals/Staking" element={<Staking />} />
-        <Route
-          exact
-          path="/Individuals/Sustainability"
-          element={<Sustainability />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/drt-website" element={<Home />} />
+        <Route path="/Individuals/Started" element={<Started />} />
+        <Route path="/Individuals/Rewa" element={<Rewa />} />
+        <Route path="/Individuals/Chain" element={<Chain />} />
+        <Route path="/Individuals/Staking" element={<Staking />} />
+        <Route path="/Individuals/Sustainability" element={<Sustainability />} />
 
-        <Route exact path="/Developers/BuildersHub" element={<BuildersHub />} />
-        <Route exact path="/Developers/Dapp" element={<Dapp />} />
-        <Route exact path="/Developers/Tutorials" element={<Tutorials />} />
-        <Route exact path="/Developers/Tools" element={<Tools />} />
-        <Route exact path="/Developers/Releases" element={<Releases />} />
-        <Route exact path="/Developers/Roadmap" element={<Roadmap />} />
+        <Route path="/Developers/BuildersHub" element={<BuildersHub />} />
+        <Route path="/Developers/Dapp" element={<Dapp />} />
+        <Route path="/Developers/Tutorials" element={<Tutorials />} />
+        <Route path="/Developers/Tools" element={<Tools />} />
+        <Route path="/Developers/Releases" element={<Releases />} />
+        <Route path="/Developers/Roadmap" element={<Roadmap />} />
 
-        <Route exact path="/Farmer/Resources" element={<Resources />} />
-        <Route exact path="/Farmer/Programs" element={<Programs />} />
-        <Route exact path="/Farmer/Training" element={<Training />} />
-        <Route exact path="/Farmer/Community" element={<Community />} />
+        <Route path="/Farmer/Resources" element={<Resources />} />
+        <Route path="/Farmer/Programs" element={<Programs />} />
+        <Route path="/Farmer/Training" element={<Training />} />
+        <Route path="/Farmer/Community" element={<Community />} />
 
-        <Route
-          exact
-          path="/Motherearth/Sustainabilitys"
-          element={<Sustainabilitys />}
-        />
-        <Route
-          exact
-          path="/Motherearth/Initiatives"
-          element={<Initiatives />}
-        />
-        <Route exact path="/Motherearth/Impact" element={<Impact />} />
-        <Route exact path="/Motherearth/Project" element={<Project />} />
+        <Route path="/Motherearth/Sustainabilitys" element={<Sustainabilitys />} />
+        <Route path="/Motherearth/Initiatives" element={<Initiatives />} />
+        <Route path="/Motherearth/Impact" element={<Impact />} />
+        <Route path="/Motherearth/Project" element={<Project />} />
 
-        <Route exact path="/products/Xwallet" element={<Xwallet />} />
-        <Route exact path="/products/Xexchange" element={<Xexchange />} />
-        <Route exact path="/products/Xbridge" element={<Xbridge />} />
-        <Route exact path="/products/Xexplorer" element={<Xexplorer />} />
+        <Route path="/products/Xwallet" element={<Xwallet />} />
+        <Route path="/products/Xexchange" element={<Xexchange />} />
+        <Route path="/products/Xbridge" element={<Xbridge />} />
+        <Route path="/products/Xexplorer" element={<Xexplorer />} />
 
-        <Route exact path="/ecosystem/Discover" element={<Discover />} />
-        <Route exact path="/ecosystem/Grants" element={<Grants />} />
-        <Route exact path="/ecosystem/Projects" element={<Projects />} />
-        <Route exact path="/ecosystem/Partners" element={<Partners />} />
-        <Route exact path="/ecosystem/Validators" element={<Validators />} />
-        <Route exact path="/ecosystem/Service" element={<Service />} />
+        <Route path="/ecosystem/Discover" element={<Discover />} />
+        <Route path="/ecosystem/Grants" element={<Grants />} />
+        <Route path="/ecosystem/Projects" element={<Projects />} />
+        <Route path="/ecosystem/Partners" element={<Partners />} />
+        <Route path="/ecosystem/Validators" element={<Validators />} />
+        <Route path="/ecosystem/Service" element={<Service />} />
 
-        <Route exact path="/community/Events" element={<Events />} />
-        <Route exact path="/community/Governance" element={<Governance />} />
-        <Route exact path="/community/Faq" element={<Faq />} />
-        <Route exact path="/community/Blog" element={<Blog />} />
-        <Route exact path="/community/Program" element={<Program />} />
+        <Route path="/community/Events" element={<Events />} />
+        <Route path="/community/Governance" element={<Governance />} />
+        <Route path="/community/Faq" element={<Faq />} />
+        <Route path="/community/Blog" element={<Blog />} />
+        <Route path="/community/Program" element={<Program />} />
 
-        <Route
-          exact
-          path="/about/Transformation"
-          element={<Transformation />}
-        />
-        <Route exact path="/about/Media" element={<Media />} />
-        <Route exact path="/about/Careers" element={<Careers />} />
-        <Route exact path="/NotFound" element={<NotFound />} />
+        <Route path="/about/Transformation" element={<Transformation />} />
+        <Route path="/about/Media" element={<Media />} />
+        <Route path="/about/Careers" element={<Careers />} />
+
+        {/* Fallback Not Found Page */}
+        <Route path="*" element={<NotFound/>} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

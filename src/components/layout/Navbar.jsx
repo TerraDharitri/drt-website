@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
 import logo from "../../logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
-  // const [isDark, setIsDark] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,29 +18,27 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Define routes for navigation
-  // Define expanded routes for navigation
   const routes = {
     individuals: {
-      Started: "/individuals/Started",
-      Rewa: "/individuals/Rewa",
-      Chain: "/individuals/Chain",
-      Staking: "/individuals/Staking",
-      Sustainability: "/individuals/Sustainability",
+      Started: "/Individuals/Started",
+      Rewa: "/Individuals/Rewa",
+      Chain: "/Individuals/Chain",
+      Staking: "/Individuals/Staking",
+      Sustainability: "/Individuals/Sustainability",
     },
     developers: {
       Builders: "/Developers/BuildersHub",
-      Dapp: "/developers/Dapp",
-      Tutorials: "/developers/Tutorials",
-      Tools: "/developers/Tools",
-      Releases: "/developers/Releases",
-      Roadmap: "/developers/Roadmap",
+      Dapp: "/Developers/Dapp",
+      Tutorials: "/Developers/Tutorials",
+      Tools: "/Developers/Tools",
+      Releases: "/Developers/Releases",
+      Roadmap: "/Developers/Roadmap",
     },
     farmer: {
-      Resources: "/farmer/Resources",
-      Programs: "/farmer/Programs",
-      Training: "/farmer/Training",
-      Community: "/farmer/Community",
+      Resources: "/Farmer/Resources",
+      Programs: "/Farmer/Programs",
+      Training: "/Farmer/Training",
+      Community: "/Farmer/Community",
     },
     motherEarth: {
       Sustainabilitys: "/Motherearth/Sustainabilitys",
@@ -49,30 +47,30 @@ const Navbar = () => {
       Project: "/Motherearth/Project",
     },
     products: {
-      Xwallet: "/products/Xwallet",
-      Xexchange: "/products/Xexchange",
-      Xbridge: "/products/Xbridge",
-      Xexplorer: "/products/Xexplorer",
+      Xwallet: "/Products/Xwallet",
+      Xexchange: "/Products/Xexchange",
+      Xbridge: "/Products/Xbridge",
+      Xexplorer: "/Products/Xexplorer",
     },
     ecosystem: {
-      Discover: "/ecosystem/Discover",
-      Grants: "/ecosystem/Grants",
-      Projects: "/ecosystem/Projects",
-      Partners: "/ecosystem/Partners",
-      Validators: "/ecosystem/Validators",
-      Service: "/ecosystem/Service",
+      Discover: "/Ecosystem/Discover",
+      Grants: "/Ecosystem/Grants",
+      Projects: "/Ecosystem/Projects",
+      Partners: "/Ecosystem/Partners",
+      Validators: "/Ecosystem/Validators",
+      Service: "/Ecosystem/Service",
     },
     community: {
-      Events: "/community/Events",
-      Governance: "/community/Governance",
-      Program: "/community/Program",
-      Faq: "/community/Faq",
-      Blog: "/community/Blog",
+      Events: "/Community/Events",
+      Governance: "/Community/Governance",
+      Program: "/Community/Program",
+      Faq: "/Community/Faq",
+      Blog: "/Community/Blog",
     },
     about: {
-      Transformation: "/about/Transformation",
-      Media: "/about/Media",
-      Careers: "/about/Careers",
+      Transformation: "/About/Transformation",
+      Media: "/About/Media",
+      Careers: "/About/Careers",
     },
   };
 
@@ -352,11 +350,16 @@ const Navbar = () => {
       ],
     },
   ];
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsOpen(false); // Close mobile menu
+    setActiveDropdown(null); // Reset active dropdown
+  };
 
   return (
     <div className="relative">
       <nav
-        className={`fixed w-full z-50 transition-all duration-500  ${
+        className={`fixed w-full z-50 transition-all duration-500 ${
           isScrolled
             ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-lg"
             : "bg-gray-900/90 backdrop-blur-lg"
@@ -368,8 +371,7 @@ const Navbar = () => {
               {/* Logo */}
               <div className="flex-shrink-0 flex items-center space-x-4 mr-16">
                 <div className="relative">
-                  {/* Using placeholder image instead of imported logo */}
-                  <Link to="/">
+                  <Link to="/" onClick={() => setIsOpen(false)}>
                     <img
                       src={logo}
                       alt="Dharitri Logo"
@@ -392,22 +394,22 @@ const Navbar = () => {
                   >
                     <button
                       className={`
-                  px-4 py-2 rounded-full flex items-center text-sm font-medium
-                  transition-all duration-200
-                  ${
-                    isScrolled
-                      ? "text-gray-700 dark:text-gray-300 hover:text-indigo-400"
-                      : "text-gray-100 hover:text-indigo-400"
-                  }
-                  relative
-                `}
+                        px-4 py-2 rounded-full flex items-center text-sm font-medium
+                        transition-all duration-200
+                        ${
+                          isScrolled
+                            ? "text-gray-700 dark:text-gray-300 hover:text-indigo-400"
+                            : "text-gray-100 hover:text-indigo-400"
+                        }
+                        relative
+                      `}
                     >
                       {item.title}
                       <ChevronDown
                         className={`
-                    ml-1 w-4 h-4 transition-transform duration-300
-                    ${hoveredItem === item.title ? "rotate-180" : ""}
-                  `}
+                          ml-1 w-4 h-4 transition-transform duration-300
+                          ${hoveredItem === item.title ? "rotate-180" : ""}
+                        `}
                       />
                       {hoveredItem === item.title && (
                         <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-indigo-500 to-purple-500 transform origin-left scale-x-100 transition-transform duration-300" />
@@ -415,21 +417,15 @@ const Navbar = () => {
                     </button>
 
                     {/* Mega Menu Dropdown */}
-                    <div
-                      className={`
-                  absolute left-0 mt-2 w-80 opacity-0 invisible
-                  group-hover:opacity-100 group-hover:visible
-                  transition-all duration-300 transform
-                  group-hover:translate-y-0 translate-y-2
-                `}
-                    >
+                    <div className="absolute left-0 mt-2 w-80 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 translate-y-2">
                       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl ring-1 ring-black ring-opacity-5 p-6">
                         <div className="grid gap-6">
                           {item.dropdownItems.map((dropdownItem, idx) => (
-                            <a
+                            <Link
                               key={idx}
-                              href={dropdownItem.path}
+                              to={dropdownItem.path}
                               className="flex items-center p-3 -m-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition duration-150 ease-in-out"
+                              onClick={() => handleNavigation(dropdownItem.path)}
                             >
                               <div className="flex-shrink-0">
                                 <span className="text-2xl">
@@ -445,7 +441,7 @@ const Navbar = () => {
                                 </p>
                               </div>
                               <ArrowRight className="w-4 h-4 ml-auto text-gray-400 group-hover:text-gray-500" />
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
@@ -453,34 +449,6 @@ const Navbar = () => {
                   </div>
                 ))}
               </div>
-
-              {/* Right Section */}
-              {/* <div className="hidden lg:flex items-center space-x-4">
-                <button
-                  onClick={() => setIsDark(!isDark)}
-                  className="p-2 rounded-full hover:bg-gray-800 transition-colors text-gray-100"
-                >
-                  {isDark ? (
-                    <Sun className="w-4 h-4" />
-                  ) : (
-                    <Moon className="w-4 h-4" />
-                  )}
-                </button>
-                <button
-                  onClick={() => setIsNavVisible(!isNavVisible)}
-                  className={`p-3 rounded-full transition-colors ${
-                    isScrolled
-                      ? "text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
-                      : "text-gray-100 hover:bg-gray-800"
-                  }`}
-                >
-                  {isNavVisible ? (
-                    <X className="w-5 h-5" />
-                  ) : (
-                    <Menu className="w-5 h-5" />
-                  )}
-                </button>
-              </div> */}
 
               {/* Mobile menu button */}
               <button
@@ -526,10 +494,11 @@ const Navbar = () => {
                 {activeDropdown === item.title && (
                   <div className="pl-4 space-y-2">
                     {item.dropdownItems.map((dropdownItem, idx) => (
-                      <a
+                      <Link
                         key={idx}
-                        href={dropdownItem.path}
+                        to={dropdownItem.path}
                         className="flex items-center p-2 text-sm text-gray-300 rounded-lg hover:bg-gray-800"
+                        onClick={() => handleNavigation(dropdownItem.path)}
                       >
                         <span className="text-xl mr-3">
                           {dropdownItem.icon}
@@ -540,7 +509,7 @@ const Navbar = () => {
                             {dropdownItem.description}
                           </p>
                         </div>
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
@@ -549,14 +518,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* {!isNavVisible && (
-        <button
-          onClick={() => setIsNavVisible(true)}
-          className="fixed top-4 right-4 z-50 p-3 rounded-full bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg transition-all duration-300"
-        >
-          <Menu className="w-5 h-5" />
-        </button>
-      )} */}
     </div>
   );
 };
