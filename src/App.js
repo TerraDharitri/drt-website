@@ -50,8 +50,9 @@ import Careers from "./components/pages/About/Careers";
 import NotFound from "./components/ui/NotFound";
 
 const App = () => {
+  const basename = process.env.NODE_ENV === 'production' ? '/drt-website' : '';
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
