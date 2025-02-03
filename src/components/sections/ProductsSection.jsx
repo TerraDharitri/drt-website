@@ -2,16 +2,16 @@ import React from "react";
 
 const ProductCard = ({ title, description, icon: Icon }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-      <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white mb-4">
+    <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+      <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 text-white mb-4">
         <Icon className="w-6 h-6" />
       </div>
-      <h3 className="text-lg font-medium text-gray-1100 mb-2">{description}</h3>
-      <p className="text-gray-500">{title}</p>
-      <div className="mt-4">
+      <h3 className="text-xl font-semibold text-gray-900 mb-2">{title}</h3>
+      <p className="text-gray-600">{description}</p>
+      <div className="mt-6">
         <a
           href="/dharitriChanges"
-          className="inline-flex items-center text-indigo-600 hover:text-indigo-500"
+          className="inline-flex items-center text-indigo-600 hover:text-indigo-500 font-medium transition-colors duration-300"
         >
           Learn more
           <svg
@@ -114,17 +114,19 @@ const ProductsSection = () => {
   ];
 
   return (
-    <section className="py-28 bg-gray-50">
+    <section className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 mt-32">
+      {" "}
+      {/* Added mt-32 for spacing */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Our Transaction
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-5xl">
+            Our Transactions
           </h2>
-          <p className="mt-4 text-xl text-gray-500">
-            Become part of a community of millions.
+          <p className="mt-4 text-xl text-gray-600">
+            Become Part of a Community of Millions
           </p>
         </div>
-        <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}
