@@ -9,9 +9,9 @@ import {
 
 const Rewa = () => {
   const tokenStats = [
-    { label: "Market Cap", value: "$150M" },
-    { label: "Circulating Supply", value: "2.5B REWA" },
-    { label: "Total Supply", value: "5B REWA" },
+    { label: "Market Cap", value: "$0" },
+    { label: "Circulating Supply", value: "0 REWA" },
+    { label: "Total Supply", value: "0 REWA" },
   ];
 
   const features = [

@@ -31,7 +31,7 @@ const Validators = () => {
                 Active Validators
               </h3>
             </div>
-            <p className="text-3xl font-bold text-gray-900">3,200+</p>
+            <p className="text-3xl font-bold text-gray-900">3</p>
             <p className="text-gray-600 mt-2">Securing the network</p>
           </div>
 
@@ -42,7 +42,7 @@ const Validators = () => {
                 Network Security
               </h3>
             </div>
-            <p className="text-3xl font-bold text-gray-900">$2B+</p>
+            <p className="text-3xl font-bold text-gray-900">$0</p>
             <p className="text-gray-600 mt-2">Total value secured</p>
           </div>
 
@@ -120,7 +120,7 @@ const Validators = () => {
                 Staking Requirements
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li>• Minimum stake: 2,500 REWA</li>
+                <li>• Minimum stake: 200 REWA</li>
                 <li>• Server uptime: 99.9%</li>
                 <li>• Technical knowledge of node operation</li>
                 <li>• Secure key management</li>

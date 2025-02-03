@@ -56,15 +56,15 @@ const Partners = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-gray-900 mb-2">100+</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-2">200+</h3>
               <p className="text-gray-600">Global Partners</p>
             </div>
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-gray-900 mb-2">30+</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-2">4</h3>
               <p className="text-gray-600">Countries</p>
             </div>
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-gray-900 mb-2">5M+</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-2">0</h3>
               <p className="text-gray-600">Users Reached</p>
             </div>
           </div>

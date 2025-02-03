@@ -81,49 +81,44 @@ const AboutSection = () => {
 
   const teamMembers = [
     {
-      name: "Alex Thompson",
+      name: "Kasi Vishwanath Aurangabad",
       role: "Chief Executive Officer",
       image: null,
     },
     {
-      name: "Sarah Chen",
-      role: "Chief Technology Officer",
+      name: "Teja Swaroop",
+      role: "Lead BlockChain Developer",
       image: null,
     },
     {
-      name: "Michael Rodriguez",
-      role: "Head of Research",
-      image: null,
-    },
-    {
-      name: "Emma Wilson",
-      role: "Head of Ecosystem",
+      name: "Sai Sumanth",
+      role: "Lead Blockchain Developer",
       image: null,
     },
   ];
 
   const roadmapItems = [
     {
-      quarter: "Q2",
-      year: "2024",
-      title: "Protocol Upgrade",
-      status: "completed",
+      quarter: "Q1",
+      year: "2025",
+      title: "DevNet Deployement",
+      status: "In Progress",
       description:
-        "Major protocol upgrade implementing advanced sharding capabilities.",
+        "Few Repositories to be uploaded and DevNet will be deployed",
+    },
+    {
+      quarter: "Q2",
+      year: "2025",
+      title: "TestNet Deployement",
+      status: "in-progress",
+      description: "The TestNet deployment will provide a secure and controlled environment for extensive testing, ensuring stability, performance, and seamless functionality before the MainNet launch.",
     },
     {
       quarter: "Q3",
-      year: "2024",
-      title: "DeFi Framework",
+      year: "2025",
+      title: "MainNet Deployement",
       status: "in-progress",
-      description: "Launch of comprehensive DeFi development framework.",
-    },
-    {
-      quarter: "Q4",
-      year: "2024",
-      title: "Cross-chain Bridge",
-      status: "planned",
-      description: "Implementation of secure cross-chain bridge protocol.",
+      description: "The launch of our blockchain marks the beginning of our journey to serve and revolutionize the crypto world",
     },
   ];
 

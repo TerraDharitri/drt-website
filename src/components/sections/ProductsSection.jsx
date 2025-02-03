@@ -37,7 +37,7 @@ const ProductsSection = () => {
   const products = [
     {
       title: "Validator Nodes",
-      description: "3,200",
+      description: "10",
       icon: () => (
         <svg
           className="w-6 h-6"
@@ -56,7 +56,7 @@ const ProductsSection = () => {
     },
     {
       title: "Average Cost Per Transaction",
-      description: "$ 0.002",
+      description: "$ 0.001",
       icon: () => (
         <svg
           className="w-6 h-6"
@@ -75,7 +75,7 @@ const ProductsSection = () => {
     },
     {
       title: "Total Transactions",
-      description: "468,134,795",
+      description: "0",
       icon: () => (
         <svg
           className="w-6 h-6"
