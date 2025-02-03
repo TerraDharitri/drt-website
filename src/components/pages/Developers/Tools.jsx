@@ -12,7 +12,7 @@ const Tools = () => {
           link: "#",
         },
         {
-          title: "Rewa SDK",
+          title: "Dharitri SDK",
           description:
             "Build applications with our comprehensive software development kit",
           link: "#",

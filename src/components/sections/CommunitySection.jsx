@@ -65,9 +65,9 @@ const CommunitySection = () => {
 
   const upcomingEvents = [
     {
-      title: "Global Blockchain Summit",
+      title: "Africa Tech Summit Nairobi 2025",
       date: "Feb 11-13, 2025",
-      location: "Virtual Event",
+      location: "Nairobi, kenya",
       description:
         "Join us for two days of insights, networking, and blockchain innovation discussions.",
     },
