@@ -46,37 +46,30 @@ const CommunitySection = () => {
     {
       platform: "Twitter",
       username: "@YourChain",
-      followers: "150K",
+      followers: "0",
       icon: Twitter,
     },
     {
       platform: "Discord",
       username: "YourChain Community",
-      followers: "75K",
+      followers: "15",
       icon: MessageCircle,
     },
     {
       platform: "Telegram",
       username: "YourChain Official",
-      followers: "50K",
+      followers: "0",
       icon: Globe,
     },
   ];
 
   const upcomingEvents = [
     {
-      title: "Global Blockchain Summit",
-      date: "June 15-16, 2024",
-      location: "Virtual Event",
+      title: "Africa Tech Summit Nairobi 2025",
+      date: "Feb 11-13, 2025",
+      location: "Nairobi, kenya",
       description:
         "Join us for two days of insights, networking, and blockchain innovation discussions.",
-    },
-    {
-      title: "Developer Workshop",
-      date: "July 1, 2024",
-      location: "London, UK",
-      description:
-        "Hands-on workshop for developers building on our blockchain.",
     },
   ];
 

@@ -64,25 +64,25 @@ const EcosystemSection = () => {
       title: 'DApps & Projects',
       description: 'Discover and explore decentralized applications built on our blockchain.',
       icon: Activity,
-      stats: { label: 'Total DApps', value: '200+' }
+      stats: { label: 'Total DApps', value: '2' }
     },
     {
       title: 'Staking',
       description: 'Secure the network and earn rewards by staking your tokens.',
       icon: Shield,
-      stats: { label: 'Total Staked', value: '$500M+' }
+      stats: { label: 'Total Staked', value: '$0' }
     },
     {
       title: 'Partners',
       description: 'Strategic partnerships driving ecosystem growth and adoption.',
       icon: Users,
-      stats: { label: 'Active Partners', value: '50+' }
+      stats: { label: 'Active Partners', value: '200+' }
     },
     {
       title: 'Growth',
       description: 'Ecosystem growth metrics and development statistics.',
       icon: TrendingUp,
-      stats: { label: 'Monthly Growth', value: '15%' }
+      stats: { label: 'Monthly Growth', value: '10%' }
     }
   ];
 
@@ -91,19 +91,19 @@ const EcosystemSection = () => {
       name: 'DeFi Protocol',
       category: 'DeFi',
       description: 'Leading decentralized exchange with advanced trading features.',
-      metrics: { tvl: '$100M', users: '50K+', volume: '$2M/day' }
+      metrics: { tvl: '0', users: '0', volume: '$0' }
     },
     {
       name: 'NFT Marketplace',
       category: 'NFT',
       description: 'Premium marketplace for digital collectibles and artwork.',
-      metrics: { tvl: '$20M', users: '25K+', volume: '$500K/day' }
+      metrics: { tvl: '$0', users: '0', volume: '0' }
     },
     {
       name: 'GameFi Platform',
       category: 'Gaming',
       description: 'Play-to-earn gaming platform with multiple game titles.',
-      metrics: { tvl: '$30M', users: '100K+', volume: '$1M/day' }
+      metrics: { tvl: '$0', users: '0', volume: '0' }
     }
   ];
 

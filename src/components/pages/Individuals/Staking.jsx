@@ -5,10 +5,10 @@ const Staking = () => {
   //   const [activeSection, setActiveSection] = useState("overview");
 
   const stakingDetails = {
-    totalStaked: "1,245,678,901",
+    totalStaked: "0",
     apr: "12.5%",
-    validators: 2384,
-    rewardsDistributed: "45,678,901 REWA",
+    validators: 10,
+    rewardsDistributed: "0 REWA",
   };
 
   const stakingOptions = [

@@ -99,15 +99,16 @@ const HeroSection = () => {
             modules={[Autoplay]}
             spaceBetween={10}
             slidesPerView={1}
-            autoplay={{ delay: 2500 }} // Correct autoplay usage
+            autoplay={{ delay: 2500 }} 
             loop={true}
+            className="w-full h-[500px]" // Fixed height for the container
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
                 <img
                   src={src}
                   alt={`Slide ${index}`}
-                  className="slider-image h-full w-full"
+                  className="w-full h-full object-cover" // Fill the slide and cover it
                 />
               </SwiperSlide>
             ))}

@@ -3,9 +3,9 @@ import React from "react";
 const Discover = () => {
   // Sample ecosystem data - replace with your actual data
   const ecosystemStats = [
-    { label: "Total Value Locked", value: "$945M" },
-    { label: "Daily Active Addresses", value: "150K+" },
-    { label: "Projects Built", value: "200+" },
+    { label: "Total Value Locked", value: "$0" },
+    { label: "Daily Active Addresses", value: "0" },
+    { label: "Projects Built", value: "2" },
   ];
 
   const categories = [

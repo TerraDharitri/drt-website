@@ -47,10 +47,10 @@ const Navbar = () => {
       Project: "/Motherearth/Project",
     },
     products: {
-      Xwallet: "/Products/Xwallet",
-      Xexchange: "/Products/Xexchange",
-      Xbridge: "/Products/Xbridge",
-      Xexplorer: "/Products/Xexplorer",
+      Wallet: "/Products/Wallet",
+      DExchange: "/Products/DExchange",
+      Bridge: "/Products/Bridge",
+      Explorer: "/Products/Explorer",
     },
     ecosystem: {
       Discover: "/Ecosystem/Discover",
@@ -85,7 +85,7 @@ const Navbar = () => {
           path: routes.individuals.Started,
         },
         {
-          title: "Th Rewa Token",
+          title: "The Rewa Token",
           description: "eGold is the currency of Dharitri",
           icon: "📈",
           path: routes.individuals.Rewa,
@@ -216,28 +216,28 @@ const Navbar = () => {
       title: "Accountability",
       dropdownItems: [
         {
-          title: "xWallet",
+          title: "Wallet",
           description: "Secure digital wallet",
           icon: "💼",
-          path: routes.products.Xwallet,
+          path: routes.products.Wallet,
         },
         {
-          title: "xExchange",
+          title: "DEXchange",
           description: "Trade assets",
           icon: "💱",
-          path: routes.products.Xexchange,
+          path: routes.products.DExchange,
         },
         {
-          title: "xBridge",
+          title: "Bridge",
           description: "Cross-chain transfers",
           icon: "🌉",
-          path: routes.products.Xbridge,
+          path: routes.products.Bridge,
         },
         {
-          title: "xExplorer",
+          title: "Explorer",
           description: "Blockchain explorer",
           icon: "🔍",
-          path: routes.products.Xexplorer,
+          path: routes.products.Explorer,
         },
       ],
     },
@@ -327,9 +327,9 @@ const Navbar = () => {
       title: "About",
       dropdownItems: [
         {
-          title: "From Elrond to Dharitri",
+          title: "Dharitri",
           description:
-            "The story of our transformation from Elrond to Dharitri",
+            "The story of Dharitri",
           icon: "🎯",
           path: routes.about.Transformation,
         },

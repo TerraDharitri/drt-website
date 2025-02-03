@@ -77,13 +77,13 @@ const DevelopersSection = () => {
                 <div className="flex-shrink-0">
                   <span className="inline-block h-2 w-2 rounded-full bg-indigo-500 mt-2"></span>
                 </div>
-                <p className="ml-3 text-gray-600">Smart contract templates updated</p>
+                <p className="ml-3 text-gray-600">Tokenomics and Whitepaper release</p>
               </li>
               <li className="flex items-start">
                 <div className="flex-shrink-0">
                   <span className="inline-block h-2 w-2 rounded-full bg-indigo-500 mt-2"></span>
                 </div>
-                <p className="ml-3 text-gray-600">New developer tutorials added</p>
+                <p className="ml-3 text-gray-600">Devnet deployment is expected soon.</p>
               </li>
             </ul>
           </div>
