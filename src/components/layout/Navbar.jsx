@@ -222,7 +222,7 @@ const Navbar = () => {
           path: routes.products.Wallet,
         },
         {
-          title: "DExchange",
+          title: "DEXchange",
           description: "Trade assets",
           icon: "💱",
           path: routes.products.DExchange,
@@ -327,9 +327,9 @@ const Navbar = () => {
       title: "About",
       dropdownItems: [
         {
-          title: "From Elrond to Dharitri",
+          title: "Dharitri",
           description:
-            "The story of our transformation from Elrond to Dharitri",
+            "The story of Dharitri",
           icon: "🎯",
           path: routes.about.Transformation,
         },

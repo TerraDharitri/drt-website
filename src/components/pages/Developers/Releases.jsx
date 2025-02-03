@@ -124,7 +124,7 @@ const Releases = () => {
                 </ul>
               </div>
               <div className="p-4">
-                <h3 className="font-semibold text-gray-900 mb-2">Q2 2025</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Q3 2025</h3>
                 <ul className="text-gray-600 space-y-2">
                   <li>• MainNet Deployment</li>
                   <li>• Launch of our blockchain marks the beginning of our journey to serve and revolutionize the crypto world</li>
