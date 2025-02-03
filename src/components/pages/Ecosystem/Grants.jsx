@@ -67,15 +67,15 @@ const Grants = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <p className="text-4xl font-bold text-blue-600 mb-2">$100M+</p>
+              <p className="text-4xl font-bold text-blue-600 mb-2">$0</p>
               <p className="text-gray-600">Total Value Locked</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-purple-600 mb-2">1M+</p>
+              <p className="text-4xl font-bold text-purple-600 mb-2">0</p>
               <p className="text-gray-600">Active Players</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-green-600 mb-2">500+</p>
+              <p className="text-4xl font-bold text-green-600 mb-2">0</p>
               <p className="text-gray-600">Games Launched</p>
             </div>
           </div>

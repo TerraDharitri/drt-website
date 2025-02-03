@@ -116,15 +116,15 @@ const Careers = () => {
               </h3>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <p className="text-3xl font-bold text-green-500">50+</p>
+                  <p className="text-3xl font-bold text-green-500">15+</p>
                   <p className="text-gray-600">Team Members</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-green-500">20+</p>
+                  <p className="text-3xl font-bold text-green-500">2</p>
                   <p className="text-gray-600">Countries</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-green-500">100K+</p>
+                  <p className="text-3xl font-bold text-green-500">10</p>
                   <p className="text-gray-600">Farmers Empowered</p>
                 </div>
                 <div>

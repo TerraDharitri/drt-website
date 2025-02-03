@@ -1,9 +1,9 @@
 import React from "react";
 import NotFound from "../../ui/NotFound";
-const Xwallet = () => (
+const DExchange = () => (
   <div>
     <NotFound />
   </div>
 );
 
-export default Xwallet;
+export default DExchange;

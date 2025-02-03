@@ -29,10 +29,10 @@ import Initiatives from "./components/pages/Motherearth/Initiatives";
 import Impact from "./components/pages/Motherearth/Impact";
 import Project from "./components/pages/Motherearth/Project";
 
-import Xwallet from "./components/pages/products/Xwallet";
-import Xexchange from "./components/pages/products/Xexchange";
-import Xbridge from "./components/pages/products/Xbridge";
-import Xexplorer from "./components/pages/products/Xexplorer";
+import Wallet from "./components/pages/products/Wallet";
+import DExchange from "./components/pages/products/DExchange";
+import Bridge from "./components/pages/products/Bridge";
+import Explorer from "./components/pages/products/Explorer";
 
 import Discover from "./components/pages/Ecosystem/Discover";
 import Grants from "./components/pages/Ecosystem/Grants";
@@ -81,10 +81,10 @@ const App = () => {
         <Route path="/Motherearth/Impact" element={<Impact />} />
         <Route path="/Motherearth/Project" element={<Project />} />
 
-        <Route path="/products/Xwallet" element={<Xwallet />} />
-        <Route path="/products/Xexchange" element={<Xexchange />} />
-        <Route path="/products/Xbridge" element={<Xbridge />} />
-        <Route path="/products/Xexplorer" element={<Xexplorer />} />
+        <Route path="/products/Wallet" element={<Wallet />} />
+        <Route path="/products/DExchange" element={<DExchange />} />
+        <Route path="/products/Bridge" element={<Bridge />} />
+        <Route path="/products/Explorer" element={<Explorer />} />
 
         <Route path="/ecosystem/Discover" element={<Discover />} />
         <Route path="/ecosystem/Grants" element={<Grants />} />

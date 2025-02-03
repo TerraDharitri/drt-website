@@ -61,10 +61,10 @@ const Footer = () => {
               <h4>
                 <b>Accountability</b>
               </h4>
-              <Link to="/help">xWallet</Link>
-              <Link to="/community">xExchange</Link>
-              <Link to="/terms">xBridge</Link>
-              <Link to="/terms">xExplorer</Link>
+              <Link to="/help">Wallet</Link>
+              <Link to="/community">DExchange</Link>
+              <Link to="/terms">Bridge</Link>
+              <Link to="/terms">Explorer</Link>
             </div>
           </div>
           <div>

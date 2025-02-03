@@ -6,7 +6,7 @@ const Events = () => {
     {
       title: "Dharitri Developer Conference",
       date: "March 15, 2025",
-      location: "Singapore",
+      location: "India",
       type: "Conference",
       time: "9:00 AM - 6:00 PM",
       description:
@@ -16,7 +16,7 @@ const Events = () => {
     {
       title: "Rewa Blockchain Summit",
       date: "April 5, 2025",
-      location: "Dubai, UAE",
+      location: "India",
       type: "Summit",
       time: "10:00 AM - 5:00 PM",
       description:
@@ -29,7 +29,7 @@ const Events = () => {
     {
       title: "Dharitri Developers Meetup",
       date: "January 20, 2025",
-      location: "London, UK",
+      location: "India",
       type: "Meetup",
       time: "2:00 PM - 5:00 PM",
       description:
