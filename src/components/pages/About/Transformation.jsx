@@ -8,7 +8,7 @@ const Transformation = () => {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center mt-20">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            The Evolution of Dharitri to Rewa
+            The Evolution of Dharitri
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Transforming the future of blockchain technology with enhanced
@@ -113,7 +113,7 @@ const Transformation = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { value: "100x", label: "Performance Increase" },
-              { value: "1M+", label: "Transactions per Second" },
+              { value: "0", label: "Transactions per Second" },
               { value: "90%", label: "Energy Efficiency" },
             ].map((stat, index) => (
               <div key={index} className="p-6">
