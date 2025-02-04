@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules"; // Updated import
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -19,7 +19,7 @@ const HeroSection = () => {
     >
       {/* Left section */}
       <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-1/2 lg:pb-28 xl:pb-32">
+        <div className="relative z-10 pb-4 sm:pb-8 md:pb-12 lg:max-w-2xl lg:w-1/2 lg:pb-16 xl:pb-20">
           <main className="w-full px-4 pt-10 sm:px-6 lg:px-8">
             <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
               <h1 className="relative text-4xl sm:text-5xl md:text-6xl font-extrabold transition-all duration-700 ease-in-out">
@@ -59,20 +59,6 @@ const HeroSection = () => {
                 >
                   Start Building
                 </a>
-                {/* <a
-                  href="/dharitriChanges"
-                  className="px-4 py-3 rounded-xl text-base font-medium
-                    text-white
-                    border-2 border-indigo-500/50 hover:border-indigo-400
-                    backdrop-blur-sm hover:backdrop-blur-lg
-                    transition-all duration-300 ease-in-out
-                    transform hover:scale-105
-                    shadow-lg hover:shadow-xl
-                    hover:shadow-purple-500/25
-                    bg-white/10 hover:bg-white/20"
-                >
-                  Resource
-                </a> */}
                 <a
                   href="/dharitriChanges"
                   className="px-8 py-3 rounded-xl text-base font-medium
@@ -99,16 +85,16 @@ const HeroSection = () => {
             modules={[Autoplay]}
             spaceBetween={10}
             slidesPerView={1}
-            autoplay={{ delay: 2500 }} 
+            autoplay={{ delay: 2500 }}
             loop={true}
-            className="w-full h-[500px]" // Fixed height for the container
+            className="w-full h-[500px]"
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
                 <img
                   src={src}
                   alt={`Slide ${index}`}
-                  className="w-full h-full object-cover" // Fill the slide and cover it
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
             ))}
