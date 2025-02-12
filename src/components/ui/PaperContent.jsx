@@ -1,12 +1,13 @@
+export const whitepaperContent = `
 ## **Table of Contents**
 
-1\. Executive Summary: Farmer-First Mission & Impactful Vision  
+1. Executive Summary: Farmer-First Mission & Impactful Vision  
     1.1 Problem Statement: Addressing Farmer Challenges and Blockchain Limitations  
     1.2 Dharitri’s Solution: Empowering Farmers and Sustainable Agriculture  
     1.3 Key Innovations: Farmer-Centric Blockchain for Real-World Impact  
     1.4 Vision Statement: Building a Sustainable Web3 Ecosystem
 
-2\. Introduction: Bridging Web3 and Sustainable Agriculture  
+2. Introduction: Bridging Web3 and Sustainable Agriculture  
     2.1 Why Blockchain for Farmers?  
         2.1.1 Decentralization for Fair Pricing and Market Access  
         2.1.2 Transparency for Trust in Supply Chains and Traceability  
@@ -19,22 +20,22 @@
     2.3 Dharitri's Core Principles and Objectives  
     2.4 REWA and COME: Empowering Farmers and the Ecosystem
 
-3\. Technical Architecture: Scalable, Accessible, and Energy-Efficient  
+3. Technical Architecture: Scalable, Accessible, and Energy-Efficient  
     3.1 Adaptive State Sharding: Horizontal Scalability for Mass Adoption  
         3.1.1 Mechanism: Dynamic Shard Splitting and Merging  
         3.1.2 Shard Pruning: Efficient Data Management  
         3.1.3 Impact: High Throughput, Low Latency, and Scalability  
-        3.1.4 Farmer-Friendly Note: Analogy \- Dividing Farm Work for Speed  
+        3.1.4 Farmer-Friendly Note: Analogy - Dividing Farm Work for Speed  
     3.2 Proof-of-Stake (PoS) Consensus: Energy Efficiency and Robust Security  
         3.2.1 Validator Tiers and Requirements: Primary and Secondary Validators  
         3.2.2 Validator Selection Process and Trust Score System  
         3.2.3 Slashing Mechanism: Ensuring Accountability  
         3.2.4 Energy Efficiency Advantages: Eco-Friendly Consensus  
-        3.2.5 Farmer-Friendly Note: Analogy \- Community of Trusted Farmers  
+        3.2.5 Farmer-Friendly Note: Analogy - Community of Trusted Farmers  
     3.3 Cross-Chain Interoperability: Expanding Market Access for Farmers  
     3.4 Virtual Machine Environment: Developer-Friendly and Cost-Effective
 
-4\. Tokenomics: REWA \- Fueling Farmer Empowerment and Sustainable Growth  
+4. Tokenomics: REWA - Fueling Farmer Empowerment and Sustainable Growth  
     4.1 REWA Token Utility: Powering the Dharitri Ecosystem  
     4.2 Token Allocation & Rationale: A Balanced Distribution for Sustainable Growth  
     4.3 Annual Token Release Schedule (2025-2035): Transparency and Controlled Inflation  
@@ -46,7 +47,7 @@
     4.6 0% Loan Mechanism for Farmers: Empowering Financial Inclusion  
     4.7 Conservative Price Projections: Realistic Growth Expectations
 
-5\. Farmer Empowerment Tools: Blockchain Solutions for Real-World Agriculture  
+5. Farmer Empowerment Tools: Blockchain Solutions for Real-World Agriculture  
     5.1 Dharitri Marketplace: Connecting Farmers to Global Markets  
         5.1.1 Workflow Explanation: Farmer to Buyer Marketplace  
         5.1.2 Benefits for Farmers: Direct Access, Fair Pricing, Faster Payments  
@@ -57,47 +58,47 @@
         5.2.3 REWA Rewards for Verified Sustainable Practices  
     5.3 0% Loan Application Process: Simplified Access to Interest-Free Capital
 
-6\. Ecosystem Growth Strategy: Building a Thriving Agricultural Ecosystem  
+6. Ecosystem Growth Strategy: Building a Thriving Agricultural Ecosystem  
     6.1 Developer Adoption: Empowering Innovation in AgriTech and GreenTech  
     6.2 Enterprise Subnets: Transforming Agricultural Supply Chains & Industries  
     6.3 Community Incentives: Building a Farmer-Centric and Engaged Community  
     6.4 REWA-Powered Data Marketplaces: Unlocking the Value of Agricultural Data
 
-7\. Governance: Farmer-Inclusive and Community-Driven  
+7. Governance: Farmer-Inclusive and Community-Driven  
     7.1 DAO Structure: Decentralized Governance by the REWA Community  
     7.2 Proposal Types: Shaping the Future of Dharitri and Sustainable Agriculture  
     7.3 Quadratic Voting Mechanism: Balancing Influence and Ensuring Fair Representation  
     7.4 Farmer DAO Committees: Regional Councils for Localized Farmer Needs  
     7.5 Transparency Dashboard: Real-time Monitoring and Farmer Accountability
 
-8\. Validator Economics and Network Security: Ensuring a Robust and Reliable Network  
+8. Validator Economics and Network Security: Ensuring a Robust and Reliable Network  
     8.1 Validator Tiers and Requirements: Primary and Secondary Validators  
     8.2 Staking Rewards and APR: Incentivizing Participation and Long-Term Commitment  
     8.3 Tiered Validator Rewards (Trust Score): Performance-Based Incentives and Penalties  
     8.4 Slashing Mechanism: Ensuring Accountability and Network Integrity  
     8.5 Insurance Partnerships for Validators: Mitigating Slashing Risks
 
-9\. Risk Mitigation and Long-Term Sustainability: Addressing Challenges and Building Resilience  
+9. Risk Mitigation and Long-Term Sustainability: Addressing Challenges and Building Resilience  
     9.1 Farmer Adoption Risks: Education, Accessibility, and Digital Literacy  
     9.2 REWA Volatility: Stabilization Fund and COME Stablecoin  
     9.3 Security Risks: Audits and Bug Bounty Programs  
     9.4 Regulatory Risks: Compliance and Farmer Data Privacy  
     9.5 Long-Term Economic Sustainability: Deflationary Tokenomics and Diversified Revenue
 
-10\. Roadmap and Future Outlook: Path to Mass Adoption and Sustainable Growth (2025-2035)  
+10. Roadmap and Future Outlook: Path to Mass Adoption and Sustainable Growth (2025-2035)  
     10.1 Phase 1: Foundation (Q2 2025): Mainnet Launch and Core Infrastructure  
     10.2 Phase 2: Expansion (Q4 2026): Ecosystem Growth and Farmer Access  
-    10.3 Phase 3: Maturity (Q2 2027 \- 2035): Global Adoption and Net Deflation  
+    10.3 Phase 3: Maturity (Q2 2027 - 2035): Global Adoption and Net Deflation  
     10.4 Long-Term Vision: Dharitri as the Global Platform for Farmer Empowerment
 
-11\. Financial Projections: Conservative, Farmer-Centric, and Sustainable Growth  
+11. Financial Projections: Conservative, Farmer-Centric, and Sustainable Growth  
     11.1 Year-by-Year Price and Market Cap Projections (2025-2035)  
     11.2 Farmer ROI Analysis:  Illustrating Financial Benefits for Farmers  
     11.3 Investor ROI Analysis:  Highlighting Long-Term Value Creation
 
-12\. Investor Summary: Invest in Dharitri \- Empowering Farmers, Building a Sustainable Future
+12. Investor Summary: Invest in Dharitri - Empowering Farmers, Building a Sustainable Future
 
-13\. Conclusion: Dharitri \- A Farmer-Centric Blockchain for a Sustainable Planet
+13. Conclusion: Dharitri - A Farmer-Centric Blockchain for a Sustainable Planet
 
 Appendices  
     Appendix A: Farmer Accessibility Solutions: Overview of User-Friendly Interfaces  
@@ -112,7 +113,7 @@ Appendices
     Appendix J: References: Comprehensive List of Citations  
     Appendix K: Legal Disclaimers and Risk Warnings
 
-## **1\. Executive Summary: Farmer-First Mission & Impactful Vision**
+## **1. Executive Summary: Farmer-First Mission & Impactful Vision**
 
 ### (1.1) Problem Statement: Addressing Farmer Challenges and Blockchain Limitations
 
@@ -142,7 +143,7 @@ Dharitri is not just another blockchain; it is a purpose-built platform engineer
 
 Dharitri envisions a future where blockchain technology is a powerful force for good, empowering farmers globally and driving a transition towards a more sustainable and equitable world. We are building more than just a blockchain platform; we are building a movement – a **Farmer-First Blockchain for a Sustainable Planet.** Join us as validators, developers, enterprises, and community members to build a greener Web3 future, powered by Dharitri and the REWA token.
 
-## **2\. Introduction: Bridging Web3 and Sustainable Agriculture**
+## **2. Introduction: Bridging Web3 and Sustainable Agriculture**
 
 ### (2.1) Why Blockchain for Farmers?
 
@@ -182,7 +183,7 @@ At the heart of the Dharitri ecosystem are two key tokens, each designed to play
 
 Together, REWA and COME form the economic foundation of Dharitri, creating a powerful and virtuous cycle that empowers farmers, drives sustainable agriculture, and builds a thriving and impactful blockchain ecosystem for a greener future.
 
-## **3\. Technical Architecture: Scalable, Accessible, and Energy-Efficient**
+## **3. Technical Architecture: Scalable, Accessible, and Energy-Efficient**
 
 Dharitri is built upon a cutting-edge technical architecture, carefully engineered to deliver exceptional scalability, robust security, and remarkable energy efficiency – the foundational pillars for a blockchain designed for mass adoption and real-world impact. Leveraging the proven foundation of a MultiversX fork, Dharitri incorporates several key architectural innovations to create a platform that is both powerful and accessible.
 
@@ -194,7 +195,7 @@ To achieve the high throughput and low latency required for real-world applicati
 * **3.1.2 Shard Pruning: Efficient Data Management** As a high-throughput blockchain, Dharitri will inevitably generate a significant volume of data over time. To manage this data growth efficiently and prevent blockchain bloat, Dharitri implements a **Shard Pruning** mechanism. Like archiving old records in a well-organized filing system, shard pruning periodically archives older, less frequently accessed data, freeing up valuable storage space on the active shards. This ensures that validators can operate efficiently without being burdened by constantly growing storage requirements, contributing to the long-term sustainability of the network.  
 * **3.1.3 Impact: High Throughput, Low Latency, and Scalability** The combination of Adaptive State Sharding and Shard Pruning allows Dharitri to achieve remarkable scalability and performance:  
   * **High Throughput (15,000+ TPS):** Dharitri is designed to process over 15,000 transactions per second (TPS) and is architecturally capable of scaling to 100,000+ TPS and beyond through further shard expansion. This level of throughput positions Dharitri to handle the transaction volume of real-world applications, from high-frequency DeFi trading to enterprise-grade supply chain management.  
-  * **Low Latency (1-2 Second Finality \- Intra-Shard, 5 Seconds \- Cross-Shard):** Dharitri achieves fast transaction finality, with intra-shard transactions confirming in just 1-2 seconds, and even cross-shard transactions finalizing within approximately 5 seconds. This rapid finality ensures a smooth and responsive user experience, crucial for applications requiring quick confirmations, such as point-of-sale systems or real-time data verification.  
+  * **Low Latency (1-2 Second Finality - Intra-Shard, 5 Seconds - Cross-Shard):** Dharitri achieves fast transaction finality, with intra-shard transactions confirming in just 1-2 seconds, and even cross-shard transactions finalizing within approximately 5 seconds. This rapid finality ensures a smooth and responsive user experience, crucial for applications requiring quick confirmations, such as point-of-sale systems or real-time data verification.  
   * **Linear Scalability:** Dharitri's sharding architecture allows for near-linear scalability. As the network grows and more validators join, the transaction processing capacity increases proportionally, ensuring that performance remains consistently high even with increasing adoption and network traffic.
 
 * **3.1.4 Farmer-Friendly Note:** Imagine a large group of farmers working together to harvest a vast field. *Adaptive State Sharding is like dividing the field into smaller sections and assigning different teams to each section. Each team works in parallel, harvesting their section quickly and efficiently. If the field is very large (high transaction volume), you can simply add more teams (shards) to increase the overall harvesting speed. Shard pruning is like efficiently managing the harvested crops – storing the most recent harvest in easily accessible locations and archiving older harvests to free up space.* This allows the entire farm (Dharitri network) to operate much faster and more efficiently, ensuring everyone gets their work done quickly.
@@ -219,7 +220,7 @@ Dharitri employs a **Proof-of-Stake (PoS)** consensus mechanism, a next-generati
 * **3.2.3 Slashing Mechanism: Ensuring Accountability** To further ensure validator accountability and network integrity, Dharitri implements a robust **Slashing Mechanism**:  
   * **Downtime Penalties:** Validators who fail to meet the minimum uptime requirements (below 95% for Primary, below 85% for Secondary) face a **1% slashing penalty** of their staked REWA *per epoch* of low uptime.  
   * **Major Offense Penalties:** Validators who engage in malicious activities, such as **double-signing blocks** (attempting to create conflicting transactions) or other Byzantine behavior, face a **severe 10% slashing penalty** of their staked REWA, as well as **blacklisting** from the network, effectively removing them from future participation.  
-  * **Slashing Pool \- Rewards for Honest Validators:** To further incentivize honest validator behavior, **50% of all slashed REWA tokens are burned**, permanently reducing supply and increasing scarcity. The remaining **50% of slashed REWA are redistributed to honest, high-performing validators**, further rewarding good actors and enhancing network security.
+  * **Slashing Pool - Rewards for Honest Validators:** To further incentivize honest validator behavior, **50% of all slashed REWA tokens are burned**, permanently reducing supply and increasing scarcity. The remaining **50% of slashed REWA are redistributed to honest, high-performing validators**, further rewarding good actors and enhancing network security.
 
 * **3.2.4 Energy Efficiency Advantages: Eco-Friendly Consensus** Dharitri's Proof-of-Stake (PoS) consensus mechanism is inherently **vastly more energy-efficient** than older Proof-of-Work (PoW) systems like Bitcoin. PoS eliminates the need for energy-intensive mining, reducing Dharitri's environmental footprint by an estimated **99% compared to Bitcoin**. This energy efficiency is a core principle of Dharitri, aligning with our commitment to environmental sustainability and ensuring that the network operates in an eco-friendly manner.  
 * **3.2.5 Farmer-Friendly Note:** Imagine a group of farmers working together to secure the harvest. *Proof-of-Stake is like choosing the most reliable and experienced farmers (validators) to oversee the process, based on their reputation and commitment (stake). Farmers who do a good job (high Trust Score) get rewarded with a larger share of the harvest (higher APR), while farmers who are negligent or dishonest (low uptime, malicious behavior) face penalties (slashing). This ensures that only the most trustworthy and hardworking farmers are in charge of protecting the community's harvest (Dharitri network).*
@@ -236,7 +237,7 @@ Dharitri provides a versatile and developer-friendly **Virtual Machine (VM) envi
   * **Decentralized Finance (DeFi) Protocols:** Lending/borrowing platforms, decentralized exchanges (DEXs), yield aggregators, stablecoin protocols, and more.  
   * **Non-Fungible Tokens (NFTs):** NFT marketplaces, digital collectibles, and tokenized digital assets.  
   * **Supply Chain Management Solutions:** Traceability platforms, logistics optimization dApps, and verifiable provenance tracking.  
-  * **Environmental Monitoring and Verification dApps:** Carbon credit marketplaces, biodiversity tracking tools, sustainable agriculture verification platforms, and more \- directly aligned with Dharitri's core mission.  
+  * **Environmental Monitoring and Verification dApps:** Carbon credit marketplaces, biodiversity tracking tools, sustainable agriculture verification platforms, and more - directly aligned with Dharitri's core mission.  
   * **Enterprise Applications:** Customizable subnets for enterprise-specific use cases in healthcare, supply chain, finance, and other industries.
 
 * **Gas Optimization and Fee Structure: Low Fees for Mass Adoption** Dharitri prioritizes cost-efficiency and accessibility for users and developers. Our VM environment and sharding architecture are optimized to deliver remarkably **low transaction fees**, estimated to be up to **90% lower than Ethereum** on average, with typical transaction costs around **$0.001 per transaction**. This cost-effectiveness is crucial for enabling mass adoption and making Dharitri a practical platform for everyday use cases, particularly in price-sensitive sectors like agriculture and emerging economies.
@@ -248,7 +249,7 @@ In today's interconnected blockchain landscape, interoperability is essential. D
 * **Native Bridges to Ethereum, BSC, Solana:** Dharitri will launch with native bridges to three of the most prominent blockchain ecosystems: **Ethereum, Binance Smart Chain (BSC), and Solana**. These bridges will allow for seamless and secure transfer of assets (tokens, data, and potentially NFTs in the future) between Dharitri and these major chains, expanding Dharitri's reach and utility.  
 * **REWA as Bridge Gas: Fostering Interoperability and REWA Utility** To further enhance REWA utility and facilitate cross-chain transactions, **REWA will be used as the "gas" token for cross-chain swaps and transfers**. A small **0.1% fee in REWA** will be charged for cross-chain transactions, creating a demand sink for REWA and incentivizing users to hold and use REWA for interoperability purposes. This fee also contributes to the Dharitri ecosystem revenue and can be further directed towards deflationary mechanisms or ecosystem development.
 
-## **4\. Tokenomics Design: REWA \- Fueling Farmer Empowerment and Sustainable Growth**
+## **4. Tokenomics Design: REWA - Fueling Farmer Empowerment and Sustainable Growth**
 
 The REWA token is the lifeblood of the Dharitri ecosystem, carefully designed to be more than just a cryptocurrency; it is the fuel that powers a sustainable and thriving economy, empowering farmers, securing the network, and driving long-term value creation. Dharitri's tokenomics model is meticulously crafted to balance controlled inflation with robust deflationary mechanisms, incentivize key stakeholders, and ensure the long-term health and stability of the ecosystem.
 
@@ -277,7 +278,7 @@ The total supply of REWA is fixed and capped at **10,000,000,000 REWA**, with a 
 | Community Incentives | 10% | 1,000,000,000 | 6-year activity-based (meritocratic) | To reward and incentivize active community participation, fostering a strong and engaged Dharitri community. The 6-year activity-based release ensures that community rewards are distributed fairly and meritocratically to users who actively contribute to the ecosystem, such as governance voters, content creators, and bug reporters, fostering genuine engagement and long-term community loyalty. |
 | Treasury Reserve | 8% | 800,000,000 | 10-year DAO-controlled | To provide a strategic reserve of funds for the Dharitri DAO to manage and allocate for future protocol upgrades, security audits, strategic partnerships, and unforeseen needs. The 10-year DAO-controlled release ensures that treasury funds are managed transparently and allocated through community governance, preventing misuse and ensuring alignment with the long-term interests of the Dharitri ecosystem. |
 | COME Development | 2% | 200,000,000 | 5-year milestone-based | To accelerate the development and launch of the COME stablecoin, a key component of the Dharitri ecosystem designed to enhance financial inclusivity and price stability for farmer transactions. The 5-year milestone-based release ensures that COME development is prioritized and adequately funded, accelerating its deployment and integration within the Dharitri ecosystem. |
-| Liquidity Mining | 5% | 500,000,000 | 24-month linear \+ gradual penalties | To bootstrap liquidity on decentralized exchanges (DEXs) and ensure a liquid and accessible market for REWA tokens. The 24-month linear release, combined with gradual penalties for early withdrawals, is designed to incentivize long-term liquidity provision and discourage short-term "farm-and-dump" behavior, promoting stable and reliable DEX liquidity. |
+| Liquidity Mining | 5% | 500,000,000 | 24-month linear + gradual penalties | To bootstrap liquidity on decentralized exchanges (DEXs) and ensure a liquid and accessible market for REWA tokens. The 24-month linear release, combined with gradual penalties for early withdrawals, is designed to incentivize long-term liquidity provision and discourage short-term "farm-and-dump" behavior, promoting stable and reliable DEX liquidity. |
 | Marketing & Growth | 4% | 400,000,000 | 4-year KPI-based | To fund marketing initiatives and growth strategies designed to drive global awareness and user adoption of the Dharitri platform. The 4-year KPI-based release ensures that marketing funds are strategically allocated and tied to measurable user growth and adoption metrics, maximizing the ROI of marketing spend and ensuring that marketing efforts are directly contributing to the expansion of the Dharitri ecosystem. |
 | Total | 100% | 10,000,000,000 |  |  |
 
@@ -313,7 +314,7 @@ To counteract inflationary pressures from token emissions and create long-term s
 * **4.4.1 Transaction Fee Burns: Base Burn Rate** A fixed percentage of **25% of**  collected on the Dharitri network are **burned** – permanently removed from the total supply. As network adoption and transaction volume grow, this base burn mechanism will become a significant and consistent source of deflation, reducing the overall REWA supply over time.  
   * *Example:* If the Dharitri network processes 1 Billion transactions per year, with an average transaction fee of 0.0001 REWA, this would generate 100,000 REWA in total transaction fees annually. With a 25% base burn rate, **25,000,000 REWA would be burned annually from transaction fees alone** in this scenario, reducing the circulating supply and creating deflationary pressure.
 
-* **4.4.2 Dynamic Burn Adjustments: Congestion-Driven Burns** To further enhance deflationary pressure during periods of high network activity and increased demand, Dharitri implements **Dynamic Burn Adjustments**. When the network Transaction Per Second (TPS) exceeds **5,000 TPS**, indicating network congestion and increased demand for REWA, the transaction fee burn rate **increases to 35%** (a \+10% increase). This dynamic burn mechanism ensures that deflationary pressure automatically scales with network usage, further enhancing scarcity and value appreciation during periods of high demand.  
+* **4.4.2 Dynamic Burn Adjustments: Congestion-Driven Burns** To further enhance deflationary pressure during periods of high network activity and increased demand, Dharitri implements **Dynamic Burn Adjustments**. When the network Transaction Per Second (TPS) exceeds **5,000 TPS**, indicating network congestion and increased demand for REWA, the transaction fee burn rate **increases to 35%** (a +10% increase). This dynamic burn mechanism ensures that deflationary pressure automatically scales with network usage, further enhancing scarcity and value appreciation during periods of high demand.  
   * *Example:* During periods of network congestion exceeding 5,000 TPS, a 0.001 REWA transaction fee would result in **0.00035 REWA burned (35% dynamic burn rate)**, compared to 0.00025 REWA burned during normal network conditions (25% base burn rate).
 
 * **4.4.3 Slashing Burns: Validator Accountability and Deflationary Impact** To further contribute to deflation and ensure validator accountability, **50% of all REWA tokens slashed** from validators due to downtime, malicious behavior, or protocol violations are **permanently burned**. This mechanism not only reinforces network security by penalizing bad actors but also adds another consistent source of deflation to the REWA token supply.  
@@ -354,9 +355,9 @@ To ensure robust network security and incentivize validator participation, Dhari
 | 2035 | 100M | 4.0B | 2.5% | 3.5% |
 
 * **Competitive Base APR:** Dharitri offers a competitive **Base Annual Percentage Rate (APR)** for staking REWA, starting at a high **60% APR in Year 1** to incentivize early validator participation and bootstrap network security. The Base APR gradually decreases over time as the staked supply grows and the network matures, ensuring long-term sustainability of staking emissions.  
-* **Loyalty APR Bonus:** To reward long-term commitment and loyalty to the Dharitri network, delegators who maintain their stake delegation for **5+ years** receive an **additional \+1% Loyalty APR Bonus**, further incentivizing long-term stake commitment and network stability.  
-* **Tiered Validator Rewards (Trust Score Based):** As described in Section 3.2, validators with higher **Trust Scores** (reflecting uptime, latency, and governance participation) earn **Tiered Bonuses** on their staking APR (up to \+15%), rewarding high-performing and reliable validators and further enhancing network security and performance.  
-* **Dynamic APR Adjustments: Scaling with Network Usage** To ensure that staking rewards remain attractive and competitive even during periods of lower network usage or lower staking participation, Dharitri implements **Dynamic APR Adjustments**. The staking APR can **dynamically increase by up to \+5%** during periods of **low staking participation** (e.g., if the overall staked supply falls below a certain threshold). This dynamic mechanism ensures that validator incentives remain robust and adaptable to changing network conditions, maintaining a healthy and secure validator ecosystem.
+* **Loyalty APR Bonus:** To reward long-term commitment and loyalty to the Dharitri network, delegators who maintain their stake delegation for **5+ years** receive an **additional +1% Loyalty APR Bonus**, further incentivizing long-term stake commitment and network stability.  
+* **Tiered Validator Rewards (Trust Score Based):** As described in Section 3.2, validators with higher **Trust Scores** (reflecting uptime, latency, and governance participation) earn **Tiered Bonuses** on their staking APR (up to +15%), rewarding high-performing and reliable validators and further enhancing network security and performance.  
+* **Dynamic APR Adjustments: Scaling with Network Usage** To ensure that staking rewards remain attractive and competitive even during periods of lower network usage or lower staking participation, Dharitri implements **Dynamic APR Adjustments**. The staking APR can **dynamically increase by up to +5%** during periods of **low staking participation** (e.g., if the overall staked supply falls below a certain threshold). This dynamic mechanism ensures that validator incentives remain robust and adaptable to changing network conditions, maintaining a healthy and secure validator ecosystem.
 
 ### (4.6) 0% Loan Mechanism for Farmers: Empowering Financial Inclusion
 
@@ -385,7 +386,7 @@ Dharitri adopts a **conservative approach to price projections**, emphasizing su
 | 2025 | 1,840M | 55M | $0.0008 | $1.44M |
 | 2027 | 4,413M | 280M | $0.003 | $13.2M |
 | 2030 | 7,481M | 885M | $0.008 | $59.8M |
-| 2035 | 10,025M\* | 2,410M | $0.02 | $200.5M |
+| 2035 | 10,025M* | 2,410M | $0.02 | $200.5M |
 
 **Key Takeaways from Conservative Price Projections:**
 
@@ -394,7 +395,7 @@ Dharitri adopts a **conservative approach to price projections**, emphasizing su
 * **Utility-Driven Market Cap Growth:** The projected Market Cap growth to **$200.5 Million by Year 10** is driven by increasing network usage, adoption of enterprise subnets, the success of the COME stablecoin, and the growing demand for REWA within the Dharitri ecosystem, reflecting a sustainable and utility-backed value proposition.  
 * **Focus on Long-Term Value Creation:** Dharitri's tokenomics and financial projections prioritize long-term value creation for REWA holders through scarcity, utility, and ecosystem growth over short-term speculative gains, aligning with our mission of building a sustainable and impactful blockchain platform.
 
-## **5\. Farmer Empowerment Tools: Blockchain Solutions for Real-World Agriculture**
+## **5. Farmer Empowerment Tools: Blockchain Solutions for Real-World Agriculture**
 
 Dharitri is not just a theoretical blockchain platform; it is a practical toolkit designed to empower farmers with tangible, real-world solutions to address the challenges they face in today's agricultural landscape. Our Farmer Empowerment Tools are a suite of decentralized applications (dApps) and features built on Dharitri, specifically engineered to be accessible, user-friendly, and directly beneficial to farmers of all scales and technological backgrounds.
 
@@ -434,7 +435,7 @@ Access to affordable capital is a critical challenge for farmers globally, often
 * **Trust Score Based Eligibility: Rewarding Reliable Farmers:** Loan eligibility is determined by a transparent and meritocratic **Trust Score** system, rewarding farmers who demonstrate a commitment to data transparency, sustainable practices, and community engagement. The Trust Score system ensures that 0% loans are distributed responsibly and effectively to farmers who are most likely to utilize them for productive farm investments and contribute positively to the Dharitri ecosystem. Farmers with higher Trust Scores, based on verifiable harvest data, cooperative participation, and positive community reputation, will have preferential access to 0% loans and potentially larger loan amounts, incentivizing data sharing, community engagement, and responsible loan management.  
 * **COME Stablecoin Loan Disbursement: Price-Stable Capital for Farmer Security:** To protect farmers from the volatility of cryptocurrency markets and ensure the stability of loan capital, 0% loans are disbursed in the COME stablecoin. This price-stable currency, pegged to a basket of currencies and gold, provides farmers with reliable and predictable funds that they can confidently use for farm investments, input purchases, and other essential expenses, without the risk of loan value fluctuating due to market volatility. COME stablecoin loans empower farmers with financial security and predictability, enabling them to focus on improving their farms and building long-term resilience.
 
-## **6\. Ecosystem Growth Strategy: Building a Thriving Agricultural Ecosystem**
+## **6. Ecosystem Growth Strategy: Building a Thriving Agricultural Ecosystem**
 
 Dharitri's success hinges on building a vibrant and thriving ecosystem that benefits all stakeholders – farmers, developers, enterprises, and the environmentally conscious community. Our Ecosystem Growth Strategy is a multi-faceted approach designed to drive adoption, foster innovation, and create a self-sustaining and impactful platform for sustainable agriculture and environmental stewardship.
 
@@ -447,7 +448,7 @@ A thriving developer ecosystem is crucial for building a rich and diverse range 
   * **Sustainable Agriculture Tools:** Supporting dApps that provide farmers with tools for precision agriculture, resource management, carbon sequestration verification, and access to sustainable farming practices.  
   * **Supply Chain Transparency Solutions:** Incentivizing dApps that leverage Dharitri subnets to build transparent and traceable agricultural supply chains, verifying ethical sourcing and sustainability claims.  
   * **DeFi for Farmers:** Funding DeFi protocols that provide farmers with access to lending, insurance, and other financial services, enhancing financial inclusion and resilience within the agricultural community.  
-* The Grants Program will allocate a substantial portion of the **Ecosystem Development fund** (a significant allocation from the REWA token supply, as detailed in Section 3\) to support these developer initiatives, ensuring dedicated resources for fostering innovation and building a vibrant dApp ecosystem. Grant allocation will be milestone-based and performance-linked, ensuring that funds are strategically deployed and tied to tangible project progress and adoption metrics.  
+* The Grants Program will allocate a substantial portion of the **Ecosystem Development fund** (a significant allocation from the REWA token supply, as detailed in Section 3) to support these developer initiatives, ensuring dedicated resources for fostering innovation and building a vibrant dApp ecosystem. Grant allocation will be milestone-based and performance-linked, ensuring that funds are strategically deployed and tied to tangible project progress and adoption metrics.  
 * **Hackathons: Attracting Talent and Fostering Community-Driven Development:** Dharitri will host **Quarterly Hackathons** with attractive REWA prizes to attract talented developers from around the world to build innovative solutions on the platform. These hackathons will be strategically focused on:  
   * **Farmer-Centric Tooling:** Prioritizing hackathon challenges that focus on building user-friendly tools and dApps directly beneficial to farmers, such as mobile interfaces for the Dharitri Marketplace, simplified loan application dApps, and data contribution tools.  
   * **Environmental Data Exchange and Transparency:** Encouraging hackathon projects that leverage Dharitri's Data Marketplaces to build innovative solutions for environmental data verification, carbon credit management, and sustainability impact tracking.  
@@ -511,7 +512,7 @@ Dharitri is fundamentally committed to environmental sustainability, and our Eco
 
 * **Community Rewards for Environmental Data Contribution and Governance:** Rewarding community members for contributing verified environmental data to the Dharitri DPI and for actively participating in governance decisions related to environmental priorities further reinforces our commitment to environmental stewardship and ensures that the Dharitri ecosystem is actively guided by a community that values and prioritizes sustainability. This community-driven approach ensures that Dharitri remains true to its core mission of building a blockchain for a greener future.
 
-## **7\. Governance Model: Farmer-Inclusive and Community-Driven**
+## **7. Governance Model: Farmer-Inclusive and Community-Driven**
 
 Dharitri is committed to building a truly decentralized and community-governed blockchain ecosystem. Our Governance Model is designed to empower REWA holders, particularly farmers and community members, to actively participate in shaping the future of the platform, ensuring transparency, fairness, and long-term sustainability. The Dharitri DAO (Decentralized Autonomous Organization) is the cornerstone of our governance framework, enabling community-driven decision-making and ensuring that the platform evolves in a way that benefits all stakeholders.
 
@@ -553,8 +554,8 @@ The Dharitri DAO will empower REWA holders to propose and vote on a wide range o
 
 To ensure fair and balanced governance and prevent undue influence from large token holders, Dharitri implements **Quadratic Voting**, a more advanced and equitable voting mechanism compared to simple 1-token-1-vote systems:
 
-* **1 REWA \= √votes: Mitigating Whale Influence:** In Quadratic Voting, the voting power of each REWA token **diminishes with the number of tokens held**. Instead of a linear 1-token-1-vote system, Quadratic Voting utilizes a square root function, where **1 REWA \= √votes**. This means that while holding more REWA still grants more voting power, the *increase* in voting power diminishes as the token holding size increases.  
-  * *Example:* A user holding 10,000 REWA would have 100 votes (√10,000 \= 100), while a user holding 1,000,000 REWA would have 1,000 votes (√1,000,000 \= 1,000). While the larger holder still has significantly more voting power, it is not proportionally as large as in a linear voting system (where 1,000,000 REWA would equal 100 times the voting power of 10,000 REWA).  
+* **1 REWA = √votes: Mitigating Whale Influence:** In Quadratic Voting, the voting power of each REWA token **diminishes with the number of tokens held**. Instead of a linear 1-token-1-vote system, Quadratic Voting utilizes a square root function, where **1 REWA = √votes**. This means that while holding more REWA still grants more voting power, the *increase* in voting power diminishes as the token holding size increases.  
+  * *Example:* A user holding 10,000 REWA would have 100 votes (√10,000 = 100), while a user holding 1,000,000 REWA would have 1,000 votes (√1,000,000 = 1,000). While the larger holder still has significantly more voting power, it is not proportionally as large as in a linear voting system (where 1,000,000 REWA would equal 100 times the voting power of 10,000 REWA).  
   * *Impact:* Quadratic Voting effectively **reduces the disproportionate influence of "whales"** (very large token holders) in governance decisions, preventing a small number of wealthy individuals from dominating the DAO and ensuring a more balanced and representative governance process.
 
 * **Delegated Voting: Empowering Expertise and Farmer Representation** To further enhance governance participation and ensure that diverse perspectives are represented, Dharitri implements **Delegated Voting**. REWA holders who may not have the time or expertise to actively participate in every governance decision can **delegate their voting power to trusted individuals or entities** within the Dharitri ecosystem.  
@@ -595,7 +596,7 @@ Transparency is a core value of Dharitri, and to ensure accountability and build
   * **Multi-Language Support:** The dashboard will be available in multiple languages to ensure accessibility for farmers and community members from diverse regions around the world.  
   * **Mobile Optimization:** The dashboard will be fully optimized for mobile devices, ensuring accessibility for farmers who primarily access the internet through smartphones in rural areas.
 
-## **8\. Validator Economics and Network Security: Ensuring a Robust and Reliable Network**
+## **8. Validator Economics and Network Security: Ensuring a Robust and Reliable Network**
 
 A robust and decentralized validator network is the bedrock of any secure and high-performing blockchain. Dharitri’s Validator Economics and Slashing mechanisms are meticulously designed to attract and retain a network of reliable, performant, and honest validators, ensuring the long-term security, stability, and efficiency of the Dharitri platform. Our validator model is structured to provide:
 
@@ -621,13 +622,13 @@ To foster both robust security and broad participation, Dharitri implements a ti
 Dharitri's Staking Rewards mechanism is designed to be generous, dynamic, and sustainable, incentivizing validator participation, securing the network, and rewarding long-term commitment:
 
 * **Competitive Base APR:** Dharitri offers a highly competitive **Base Annual Percentage Rate (APR)** for staking REWA, starting at a compelling **60% APR in Year 1** to attract early validators and bootstrap network security. This high initial APR provides a strong incentive for early adoption and validator participation, ensuring robust network security from the outset. The Base APR is then gradually reduced over time (as detailed in the table below) as the staked supply grows and the network matures, ensuring long-term sustainability of staking emissions and balancing inflation with attractive validator rewards.  
-* **Loyalty APR Bonus: Rewarding Long-Term Delegators:** To incentivize long-term commitment and loyalty to the Dharitri network, delegators who maintain their stake delegation for **5+ consecutive years** receive an **additional \+1% Loyalty APR Bonus** on top of the Base APR. This loyalty bonus rewards long-term holders, encourages stake commitment, and further contributes to network stability and security by incentivizing users to remain active participants in the Dharitri ecosystem for extended periods.  
+* **Loyalty APR Bonus: Rewarding Long-Term Delegators:** To incentivize long-term commitment and loyalty to the Dharitri network, delegators who maintain their stake delegation for **5+ consecutive years** receive an **additional +1% Loyalty APR Bonus** on top of the Base APR. This loyalty bonus rewards long-term holders, encourages stake commitment, and further contributes to network stability and security by incentivizing users to remain active participants in the Dharitri ecosystem for extended periods.  
 * **Tiered Validator Rewards (Trust Score Based): Performance-Based Incentives and Penalties** Dharitri implements a **Tiered Validator Rewards** system, based on the **Trust Score** (as detailed in Section 3.2), to incentivize high-performing and reliable validator operations:  
-  * **Top 10% Validators (Highest Trust Score): \+15% APR Bonus:** Validators who consistently achieve the highest Trust Scores, demonstrating exceptional uptime, low latency, and active governance participation, receive a significant **\+15% Bonus APR** on top of the Base APR and Loyalty Bonus (if applicable). This substantial bonus rewards top-performing validators, incentivizes excellence in validator operations, and further enhances network performance and reliability by rewarding the most valuable contributors to network security.  
+  * **Top 10% Validators (Highest Trust Score): +15% APR Bonus:** Validators who consistently achieve the highest Trust Scores, demonstrating exceptional uptime, low latency, and active governance participation, receive a significant **+15% Bonus APR** on top of the Base APR and Loyalty Bonus (if applicable). This substantial bonus rewards top-performing validators, incentivizes excellence in validator operations, and further enhances network performance and reliability by rewarding the most valuable contributors to network security.  
   * **Middle 80% of Validators: Base APR:** The majority of validators, representing the core of the validator network, receive the **Base APR** for staking REWA, providing a competitive and sustainable baseline reward for validator participation.  
-  * **Bottom 10% of Validators (Lowest Trust Score): \-10% APR Penalty:** Validators who consistently score in the bottom 10% of Trust Scores, indicating underperformance or lack of engagement, face a **\-10% APR Penalty**, receiving a reduced APR compared to the Base APR. This penalty mechanism discourages underperforming validators, incentivizes improvement, and ensures that validators are held accountable for maintaining high standards of network operation and security.
+  * **Bottom 10% of Validators (Lowest Trust Score): -10% APR Penalty:** Validators who consistently score in the bottom 10% of Trust Scores, indicating underperformance or lack of engagement, face a **-10% APR Penalty**, receiving a reduced APR compared to the Base APR. This penalty mechanism discourages underperforming validators, incentivizes improvement, and ensures that validators are held accountable for maintaining high standards of network operation and security.
 
-* **Dynamic APR Adjustments: Scaling with Network Usage** To ensure that staking rewards remain attractive and competitive even as network conditions evolve, Dharitri implements **Dynamic APR Adjustments**. The **Base APR can dynamically increase by up to \+5%** during periods of **low staking participation** (e.g., if the overall staked supply ratio falls below a certain threshold, indicating a need for greater validator incentives). This dynamic mechanism ensures that staking rewards remain competitive and attractive even during periods of lower network activity or market fluctuations, maintaining a healthy and robust validator ecosystem and preventing a decline in network security due to reduced validator participation.
+* **Dynamic APR Adjustments: Scaling with Network Usage** To ensure that staking rewards remain attractive and competitive even as network conditions evolve, Dharitri implements **Dynamic APR Adjustments**. The **Base APR can dynamically increase by up to +5%** during periods of **low staking participation** (e.g., if the overall staked supply ratio falls below a certain threshold, indicating a need for greater validator incentives). This dynamic mechanism ensures that staking rewards remain competitive and attractive even during periods of lower network activity or market fluctuations, maintaining a healthy and robust validator ecosystem and preventing a decline in network security due to reduced validator participation.
 
 **Staking Rewards & APR Schedule (Illustrative):**
 
@@ -649,9 +650,9 @@ Dharitri's **Tiered Validator Rewards** system, based on the **Trust Score**, is
   * **Governance Participation (30% Weight):** Reflects the validator's active engagement in DAO governance, measured by their participation in governance proposals, voting activity, and contributions to community discussions. Higher governance participation translates to a higher Trust Score, rewarding validators who actively contribute to shaping the future of the Dharitri ecosystem and community-driven decision-making.
 
 * **Reward Bonus and Penalty Tiers: Incentivizing Excellence and Discouraging Underperformance** Based on their calculated Trust Score, validators are categorized into three tiers, each with a corresponding adjustment to their staking APR:  
-  * **Top 10% of Validators (Highest Trust Score): \+15% APR Bonus:** The top 10% of validators, consistently achieving the highest Trust Scores, are recognized as "Top Performers" and receive a significant **\+15% Bonus APR** on top of their Base APR and Loyalty Bonus (if applicable). This substantial bonus serves as a powerful incentive for validators to strive for excellence and maintain top-tier performance, creating a competitive and high-performing validator ecosystem.  
+  * **Top 10% of Validators (Highest Trust Score): +15% APR Bonus:** The top 10% of validators, consistently achieving the highest Trust Scores, are recognized as "Top Performers" and receive a significant **+15% Bonus APR** on top of their Base APR and Loyalty Bonus (if applicable). This substantial bonus serves as a powerful incentive for validators to strive for excellence and maintain top-tier performance, creating a competitive and high-performing validator ecosystem.  
   * **Middle 80% of Validators: Base APR:** The majority of validators, representing the core of the validator network and achieving average to good Trust Scores, receive the **Base APR** for staking REWA. This provides a competitive and sustainable baseline reward for reliable and consistent validator participation.  
-  * **Bottom 10% of Validators (Lowest Trust Score): \-10% APR Penalty:** The bottom 10% of validators, consistently scoring the lowest Trust Scores and indicating underperformance or lack of engagement, face a **\-10% APR Penalty**, receiving a reduced APR compared to the Base APR. This penalty mechanism discourages underperforming validators, incentivizes improvement, and ensures accountability within the validator network, maintaining overall network quality and reliability.
+  * **Bottom 10% of Validators (Lowest Trust Score): -10% APR Penalty:** The bottom 10% of validators, consistently scoring the lowest Trust Scores and indicating underperformance or lack of engagement, face a **-10% APR Penalty**, receiving a reduced APR compared to the Base APR. This penalty mechanism discourages underperforming validators, incentivizes improvement, and ensures accountability within the validator network, maintaining overall network quality and reliability.
 
 * **Publicly Visible Trust Scores: Transparency and Validator Accountability** To ensure transparency and accountability, **Validator Trust Scores will be publicly visible** on the Dharitri Transparency Dashboard (as detailed in Section 7.5). This public visibility allows delegators to make informed decisions when choosing validators to delegate their stake to, incentivizing delegators to support high-performing and reliable validators and further reinforcing the performance-driven nature of the validator ecosystem. Public Trust Scores also provide validators with clear and transparent metrics for evaluating their performance and identifying areas for improvement, fostering a culture of continuous optimization and network enhancement.
 
@@ -666,8 +667,8 @@ Dharitri's **Slashing Mechanism** is a critical security feature designed to det
 **Slashing Conditions and Stake Forfeiture Amounts:**
 
 * **Minor Offenses (e.g., Downtime Below Uptime Requirements): 1-3% Stake Slashed** Validators who fail to meet the minimum uptime requirements for their respective tiers (below 95% for Primary, below 85% for Secondary Validators) will face a **minor 1-3% slashing penalty** of their staked REWA *per epoch* of low uptime. The specific slashing percentage within this range may be dynamically adjusted by governance based on network conditions and overall validator performance. This penalty incentivizes validators to invest in robust infrastructure and maintain consistent network availability.  
-* **Major Offenses (e.g., Double-Signing, Byzantine Behavior, Malicious Attacks): 10% Stake Slashed \+ Blacklisting** Validators who engage in major offenses that directly threaten network security and integrity, such as **double-signing blocks**, attempting to create conflicting transactions, participating in **Byzantine behavior** (maliciously disrupting consensus), or engaging in **network attacks**, will face a **severe 10% slashing penalty** of their staked REWA. In addition to stake forfeiture, validators found guilty of major offenses will also be **blacklisted** from the Dharitri network, permanently preventing them from participating as validators in the future, ensuring long-term network protection from malicious actors.  
-* **Slashing Pool \- Rewards for Honest Validators and Deflationary Impact:** To further enhance the positive impact of the Slashing Mechanism, the **slashed REWA tokens are strategically allocated**:  
+* **Major Offenses (e.g., Double-Signing, Byzantine Behavior, Malicious Attacks): 10% Stake Slashed + Blacklisting** Validators who engage in major offenses that directly threaten network security and integrity, such as **double-signing blocks**, attempting to create conflicting transactions, participating in **Byzantine behavior** (maliciously disrupting consensus), or engaging in **network attacks**, will face a **severe 10% slashing penalty** of their staked REWA. In addition to stake forfeiture, validators found guilty of major offenses will also be **blacklisted** from the Dharitri network, permanently preventing them from participating as validators in the future, ensuring long-term network protection from malicious actors.  
+* **Slashing Pool - Rewards for Honest Validators and Deflationary Impact:** To further enhance the positive impact of the Slashing Mechanism, the **slashed REWA tokens are strategically allocated**:  
   * **50% of Slashed REWA Burned (Deflationary Impact):** **Half of all slashed REWA tokens are permanently burned**, reducing the circulating supply and contributing to the overall deflationary pressure on the REWA token, benefiting all REWA holders and increasing scarcity over time.  
   * **50% of Slashed REWA Redistributed to Honest Validators (Rewards for Good Actors):** The remaining **50% of slashed REWA tokens are redistributed to honest, high-performing validators** (specifically, those in the Top 10% Trust Score tier), further rewarding validators who consistently maintain excellent performance and contribute positively to network security and reliability. This redistribution mechanism creates a positive feedback loop, incentivizing validators to strive for excellence and rewarding those who contribute most to the health and security of the Dharitri network.
 
@@ -682,7 +683,7 @@ To further mitigate potential risks associated with slashing penalties and enhan
   * **Enhanced Validator Confidence and Participation:** Reduces validator anxiety about potential slashing penalties, encouraging broader validator participation and increasing the overall robustness and decentralization of the validator network.  
   * **Attracting Institutional Validators:** Insurance options could make validator roles more appealing to institutional investors and larger organizations who may have stricter risk management requirements and seek to mitigate potential slashing risks through insurance coverage.
 
-## **9\. Risk Mitigation and Long-Term Sustainability: Addressing Challenges and Building Resilience**
+## **9. Risk Mitigation and Long-Term Sustainability: Addressing Challenges and Building Resilience**
 
 While Dharitri is designed with robust technical architecture and a compelling tokenomics model, we recognize that the blockchain landscape and the agricultural sector both present inherent risks and challenges. This section outlines Dharitri's proactive and comprehensive **Risk Mitigation Strategy**, detailing the mechanisms and safeguards we have implemented to address potential challenges and ensure the long-term sustainability, security, and resilience of the Dharitri ecosystem for all stakeholders, especially farmers.
 
@@ -755,7 +756,7 @@ Dharitri's long-term economic sustainability is ensured through a carefully desi
   * **Protocol Upgrades and Security Audits:** Treasury funds are allocated to finance protocol upgrades, security audits, and bug bounty programs, ensuring the ongoing maintenance, security, and evolution of the Dharitri network.  
   * **Stabilization Fund for Market Volatility Mitigation:** A dedicated portion of the Treasury Reserve (Stabilization Fund) is strategically deployed to mitigate market volatility and protect REWA value during periods of market downturn, enhancing investor confidence and long-term price stability.
 
-## **10\. Roadmap and Future Outlook: Path to Mass Adoption and Sustainable Growth (2025-2035)**
+## **10. Roadmap and Future Outlook: Path to Mass Adoption and Sustainable Growth (2025-2035)**
 
 Dharitri is embarking on a phased journey to build a global, farmer-centric blockchain ecosystem. Our Roadmap outlines key milestones, timelines, and measurable metrics that will guide our development, adoption, and long-term growth over the next decade, with a focus on realistic and sustainable expansion.
 
@@ -781,19 +782,19 @@ Phase 2, targeted for completion in Q4 2026, will focus on scaling the Dharitri 
 * **500+ Enterprise Subnets Launched:** To drive enterprise adoption and real-world utility, Phase 2 targets the launch of **500+ Enterprise Subnets** on Dharitri, demonstrating the scalability and versatility of the platform for enterprise-grade blockchain solutions. These subnets will focus on key use cases such as carbon credit management, supply chain transparency, and other industry-specific applications, showcasing the value proposition of Dharitri for businesses and organizations.  
 * **Governance DAO Activation and Community Empowerment:** Phase 2 will mark the activation of the Dharitri Governance DAO, transitioning control of the protocol and treasury to the REWA community. This milestone signifies the achievement of decentralized governance and empowers REWA holders to actively shape the future of the Dharitri ecosystem, particularly farmers and community members.  
 * **Dynamic APR Launch for Staking Rewards:** The Dynamic APR mechanism for staking rewards will be launched in Phase 2, introducing dynamic adjustments to the Base APR based on network usage and staking participation, ensuring a competitive and sustainable staking rewards system and incentivizing validator participation.  
-* **COME Stablecoin Testnet Expansion and Refinement:** Building upon the initial COME Testnet launch in Phase 1, Phase 2 will focus on expanding and refining the COME Stablecoin Testnet, conducting rigorous testing, security audits, and community feedback gathering to prepare for the COME mainnet launch in Phase 3\.
+* **COME Stablecoin Testnet Expansion and Refinement:** Building upon the initial COME Testnet launch in Phase 1, Phase 2 will focus on expanding and refining the COME Stablecoin Testnet, conducting rigorous testing, security audits, and community feedback gathering to prepare for the COME mainnet launch in Phase 3.
 
 **Key Metric for Phase 2 Success: 500K Users, $13M Market Cap**
 
 Success in Phase 2 will be measured by achieving a user base of at least **500,000 users** on the Dharitri platform and reaching a conservative **Market Cap of $13 Million USD** for the REWA token, demonstrating significant ecosystem growth, increasing user adoption, and the emergence of a thriving dApp ecosystem and enterprise subnet adoption.
 
-### (10.3) Phase 3: Maturity (Q2 2027 \- 2035): Global Farmer Adoption and Net Deflation
+### (10.3) Phase 3: Maturity (Q2 2027 - 2035): Global Farmer Adoption and Net Deflation
 
 Phase 3, spanning from Q2 2027 to 2035 and beyond, will focus on achieving mass adoption, global farmer empowerment, and establishing Dharitri as a truly sustainable and impactful blockchain ecosystem:
 
 * **COME Stablecoin Mainnet Launch and Widespread Adoption:** The primary milestone of Phase 3 is the launch of the **COME Stablecoin Mainnet**, making the price-stable currency readily available for users and dApps within the Dharitri ecosystem. Phase 3 will focus on driving widespread adoption of COME for farmer transactions, DeFi integrations, and real-world payments, establishing COME as a key stablecoin within the Dharitri ecosystem and beyond.  
 * **Carbon-Neutral Certification for Dharitri Network:** Demonstrating our commitment to environmental sustainability, Phase 3 will target achieving **Carbon-Neutral Certification for the entire Dharitri network**, through a combination of energy-efficient validator operations, renewable energy integration, and carbon offsetting programs, making Dharitri a truly eco-friendly blockchain platform.  
-* **Global Farmer Onboarding and Mass Adoption (5 Million+ Farmers):** Phase 3 will focus on scaling farmer onboarding efforts globally, targeting the onboarding of **5 Million+ farmers** to the Dharitri ecosystem by 2035\. This ambitious goal will be achieved through strategic partnerships with agricultural organizations, NGOs, and governments worldwide, localized farmer support programs, and the expansion of Dharitri's accessibility and user-friendliness for farmers in diverse regions.  
+* **Global Farmer Onboarding and Mass Adoption (5 Million+ Farmers):** Phase 3 will focus on scaling farmer onboarding efforts globally, targeting the onboarding of **5 Million+ farmers** to the Dharitri ecosystem by 2035. This ambitious goal will be achieved through strategic partnerships with agricultural organizations, NGOs, and governments worldwide, localized farmer support programs, and the expansion of Dharitri's accessibility and user-friendliness for farmers in diverse regions.  
 * **Enterprise Adoption in Key Industries (Supply Chain, Healthcare, etc.):** Phase 3 will focus on driving widespread enterprise adoption of Dharitri subnets across key industries, particularly in supply chain management, healthcare, and other sectors where blockchain-based solutions can deliver significant efficiency gains, transparency enhancements, and cost reductions, generating substantial real-world utility and demand for the Dharitri platform and REWA token.  
 * **Net Deflation Achieved for REWA Token Supply:** By Year 5 of Phase 3 (Year 2030 overall), Dharitri projects achieving **Net Deflation** for the REWA token supply, with annual burn rates consistently exceeding annual staking emissions. Achieving net deflation will mark a significant milestone in the long-term sustainability of the REWA tokenomics, driving scarcity, value appreciation, and long-term economic health for the Dharitri ecosystem.
 
@@ -812,7 +813,7 @@ Beyond the milestones outlined in our roadmap, Dharitri's long-term vision is to
 
 Dharitri is more than just a blockchain project; it is a **movement** – a commitment to building a greener, more equitable, and sustainable future, powered by the transformative potential of blockchain technology and driven by the empowerment of farmers and a global community dedicated to environmental stewardship. Join us on this journey to build a better future, one block at a time.
 
-## **11\. Financial Projections: Conservative, Farmer-Centric, and Sustainable Growth**
+## **11. Financial Projections: Conservative, Farmer-Centric, and Sustainable Growth**
 
 Dharitri's financial projections are grounded in a **conservative and realistic adoption model**, prioritizing long-term, utility-driven growth over speculative hype. We believe in setting achievable targets and building a sustainable ecosystem that delivers tangible value to farmers, users, and investors over the long term. Our financial projections are based on a gradual adoption curve and a measured assessment of the potential of the Dharitri ecosystem, focusing on key metrics such as user growth, transaction volume, and the impact of deflationary tokenomics.
 
@@ -825,9 +826,9 @@ The following table presents our conservative price and market cap projections f
 | 2025 | 1,840M | 55M | $0.0008 | $1.44M |
 | 2027 | 4,413M | 280M | $0.003 | $13.2M |
 | 2030 | 7,481M | 885M | $0.008 | $59.8M |
-| 2035 | 10,025M\* | 2,410M | $0.02 | $200.5M |
+| 2035 | 10,025M* | 2,410M | $0.02 | $200.5M |
 
-**Note:** Circulating supply peaks at 10.025B in 2034 before burns reduce it to 7.59B by 2035\.
+**Note:** Circulating supply peaks at 10.025B in 2034 before burns reduce it to 7.59B by 2035.
 
 **Key Assumptions and Drivers Behind Projections:**
 
@@ -845,18 +846,18 @@ Dharitri is fundamentally committed to empowering farmers and improving their li
 * **Increased Revenue from Direct Sales on Dharitri Marketplace:** By selling their produce directly on the Dharitri Marketplace, farmers can potentially increase their revenue by **reducing intermediary fees by an estimated 10-20%**. For a farmer with annual sales of   
 * 10,000,thiscouldtranslatetoanadditional∗∗  
 * 10,000,*thiscouldtranslatetoanadditional*∗∗  
-* 1,000 \- $2,000 in annual income\*\*.  
-* **New Revenue Streams from Data Monetization:** Farmers who contribute valuable environmental data to the Dharitri Data Marketplaces can earn REWA tokens by selling their data sets. Conservative estimates suggest that farmers could potentially earn an additional **$500 \- $2,000 per year** by monetizing data related to soil health, water usage, and sustainable farming practices, depending on the quality and demand for their data.  
+* 1,000 - $2,000 in annual income**.  
+* **New Revenue Streams from Data Monetization:** Farmers who contribute valuable environmental data to the Dharitri Data Marketplaces can earn REWA tokens by selling their data sets. Conservative estimates suggest that farmers could potentially earn an additional **$500 - $2,000 per year** by monetizing data related to soil health, water usage, and sustainable farming practices, depending on the quality and demand for their data.  
 * **Access to 0% Loans and Reduced Interest Costs:** Access to 0% loans through the Dharitri Loan Mechanism eliminates interest payments, significantly reducing borrowing costs for farmers. For a farmer taking out a   
 * 5,000loan,avoidingtypicalinterestratesof10−20  
 * 5,000*loan*,*avoidingtypicalinterestratesof*10−20  
-* 500 \- $1,000 in interest payments\*\*.  
+* 500 - $1,000 in interest payments**.  
 * **Staking Rewards and Passive Income with REWA:** Farmers who hold REWA tokens can earn passive income by staking their tokens to validators or participating in liquidity mining programs. Even at conservative APRs of 5-10% (projected for later years), staking 1,000 REWA (with REWA at a projected price of   
 * 0.02)couldgenerate∗∗  
 * 0.02)*couldgenerate*∗∗  
-* 1 \- $2 per month in passive income\*\*, with potentially higher returns in earlier years with higher APRs.
+* 1 - $2 per month in passive income**, with potentially higher returns in earlier years with higher APRs.
 
-**Combined Farmer ROI Potential:** By participating in various aspects of the Dharitri ecosystem, a farmer could potentially see a **combined increase in income and cost savings ranging from $2,000 \- $5,000+ per year**, representing a significant improvement in their financial well-being and long-term sustainability. *These are illustrative examples and individual farmer ROI will vary based on their participation level, farm size, data contribution, and other factors.*
+**Combined Farmer ROI Potential:** By participating in various aspects of the Dharitri ecosystem, a farmer could potentially see a **combined increase in income and cost savings ranging from $2,000 - $5,000+ per year**, representing a significant improvement in their financial well-being and long-term sustainability. *These are illustrative examples and individual farmer ROI will vary based on their participation level, farm size, data contribution, and other factors.*
 
 ### (11.3) Investor ROI Analysis: Highlighting Long-Term Value Creation
 
@@ -869,17 +870,17 @@ For investors, Dharitri offers a compelling opportunity to invest in a blockchai
 * **0.02 by Year 10 (2035)**, representing a **potential 25x return on investment** for early investors who enter at the IEO price of $0.0008.  
 * **Market Cap Growth Potential:**   
 * 200M+MarketCapby2035:∗∗ReachingaprojectedMarketCapof∗∗  
-* 200*M*\+*MarketCapby*2035:∗∗*ReachingaprojectedMarketCapof*∗∗  
+* 200*M*+*MarketCapby*2035:∗∗*ReachingaprojectedMarketCapof*∗∗  
 * **200 Million USD+ by 2035** represents significant growth and value creation for the Dharitri ecosystem and REWA token, driven by increasing adoption, utility, and deflationary tokenomics.  
 * **Staking Yields and Passive Income:** REWA holders can earn attractive staking yields and passive income through validator delegation, with Base APR starting at 60% in Year 1 and remaining competitive over the long term, providing ongoing rewards for REWA holders who contribute to network security.  
 * **Long-Term Value Driven by Real-World Utility and Deflation:** Dharitri's value proposition is rooted in real-world utility, enterprise adoption, and a deflationary tokenomics model, ensuring that REWA's value is driven by sustainable ecosystem growth and increasing scarcity, rather than purely speculative hype, providing a more robust and resilient investment opportunity compared to purely speculative crypto assets.  
 * **Positive Environmental and Social Impact:** Investing in REWA is not just a financial investment; it is also an investment in a project that is committed to empowering farmers, promoting sustainable agriculture, and driving positive environmental impact globally, offering investors the opportunity to align their investments with their values and contribute to a greener and more equitable future.
 
-## **12\. Investor Summary: Invest in Dharitri \- Empowering Farmers, Building a Sustainable Future**
+## **12. Investor Summary: Invest in Dharitri - Empowering Farmers, Building a Sustainable Future**
 
 Dharitri presents a compelling investment opportunity at the intersection of blockchain innovation, real-world utility, and environmental stewardship. For discerning investors seeking both financial returns and positive global impact, REWA offers a unique and promising value proposition:
 
-**Key Investment Highlights: REWA \- A Token with Purpose and Potential**
+**Key Investment Highlights: REWA - A Token with Purpose and Potential**
 
 * **Low Entry Price: $0.0008 (Limited Downside Risk):** The initial price of REWA at just $0.0008 per token provides a low-risk entry point for early investors, minimizing downside exposure while maximizing potential upside as the ecosystem grows.  
 * **Significant Exit Potential: 25x Return by 2035 ($0.0008 → $0.02):** Based on conservative projections, REWA has the potential to reach a price of $0.02 by Year 10 (2035), representing a substantial **25x return on investment** for early adopters, offering significant capital appreciation potential over the long term.  
@@ -896,7 +897,7 @@ Dharitri presents a compelling investment opportunity at the intersection of blo
 
 **Invest in Dharitri: Be Part of a Movement Empowering Farmers and Building a Sustainable Future.**
 
-## **13\. Conclusion: Dharitri \- A Farmer-Centric Blockchain for a Sustainable Planet**
+## **13. Conclusion: Dharitri - A Farmer-Centric Blockchain for a Sustainable Planet**
 
 Dharitri stands at the convergence of technological innovation and a deeply rooted commitment to environmental stewardship. We are building more than just a blockchain platform; we are building a bridge – a bridge connecting the transformative power of Web3 to the urgent needs of the agricultural world and the imperative for global sustainability.
 
@@ -989,7 +990,7 @@ To provide a clear and actionable guide to participating in Dharitri DAO governa
 
 * **Proposal Submission Stage:** Step-by-step instructions on how to submit a governance proposal to the Dharitri DAO, including minimum REWA stake requirements, proposal formatting guidelines, and required information for proposal submissions.  
 * **Community Discussion and Feedback Period:** Explanation of the community discussion and feedback period following proposal submission, outlining how REWA holders can engage in proposal discussions, provide feedback, and contribute to shaping proposals before the voting stage.  
-* **Voting Period and Quadratic Voting Mechanism:** Detailed explanation of the voting process, including the voting timeframe, quadratic voting mechanism (1 REWA \= √votes), delegated voting options, and how to cast votes using the Dharitri governance platform.  
+* **Voting Period and Quadratic Voting Mechanism:** Detailed explanation of the voting process, including the voting timeframe, quadratic voting mechanism (1 REWA = √votes), delegated voting options, and how to cast votes using the Dharitri governance platform.  
 * **Vote Counting and Quorum Requirements:** Clear description of how votes are counted, how quorum is calculated for different proposal types, and the voting thresholds required for proposals to pass (simple majority, supermajority, etc.).  
 * **Proposal Implementation and Transparency:** Outline of the process for implementing approved governance proposals, including timelines for implementation, responsible parties, and mechanisms for tracking and reporting on the implementation progress, ensuring transparency and accountability in governance execution.
 
@@ -1002,4 +1003,6 @@ To provide transparency and build trust in the security of the Dharitri platform
 * **Summaries of Quarterly Audit Reports:** Brief summaries of key findings and recommendations from each quarterly security audit, highlighting the scope of the audit, identified vulnerabilities (if any), and remediation steps taken by the Dharitri development team, demonstrating a proactive and ongoing commitment to security.  
 * **Links to Full Audit Reports (If Publicly Available):** Where possible and with auditor permission, provide links to the full security audit reports, allowing technically inclined users and security researchers to review the complete audit findings and methodology in detail, further enhancing transparency and building trust.  
 * **Emphasis on Proactive Security Measures:** This appendix will emphasize Dharitri's proactive security measures, including quarterly audits, bug bounty programs, and a security-first development approach, demonstrating a commitment to maintaining a robust and secure platform for users and
+`;
 
+export default whitepaperContent;

@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import GithubSlugger from 'github-slugger';
+import whitepaperContent from '../../ui/PaperContent';
 
 const slugger = new GithubSlugger();
 
@@ -34,57 +35,33 @@ const TableOfContents = ({ headings }) => (
 );
 
 const Whitepaper = () => {
-  const [content, setContent] = useState('');
-  const [isLoading, setIsLoading] = useState(true);
   const [headings, setHeadings] = useState([]);
   const contentRef = useRef(null);
 
   useEffect(() => {
-    const fetchPaper = async () => {
-      try {
-        const response = await fetch('/Paper.md');
-        const text = await response.text();
-        setContent(text);
-        
-        const headingRegex = /^(#{1,6})\s+(.+)$/gm;
-        const extractedHeadings = [];
-        let match;
-        
-        slugger.reset();
-        
-        while ((match = headingRegex.exec(text)) !== null) {
-          extractedHeadings.push({
-            level: match[1].length,
-            text: match[2],
-            id: slugger.slug(match[2])
-          });
-        }
-        
-        setHeadings(extractedHeadings);
-      } catch (error) {
-        console.error('Error loading whitepaper:', error);
-        setContent('Error loading whitepaper. Please try again later.');
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    fetchPaper();
+    // Extract headings from the content
+    const headingRegex = /^(#{1,6})\s+(.+)$/gm;
+    const extractedHeadings = [];
+    let match;
+    
+    slugger.reset();
+    
+    while ((match = headingRegex.exec(whitepaperContent)) !== null) {
+      extractedHeadings.push({
+        level: match[1].length,
+        text: match[2],
+        id: slugger.slug(match[2])
+      });
+    }
+    
+    setHeadings(extractedHeadings);
   }, []);
-
-  if (isLoading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-50">
-        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-green-500"></div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-gray-50" style={{ paddingTop: "90px" }}>
       {/* Hero Section for Whitepaper */}
       <div className="text-center mb-12 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mt-6 mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 mt-6">
           Whitepaper
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -167,7 +144,7 @@ const Whitepaper = () => {
                 ),
               }}
             >
-              {content}
+              {whitepaperContent}
             </ReactMarkdown>
           </article>
           
