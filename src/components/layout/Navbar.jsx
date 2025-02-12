@@ -71,6 +71,7 @@ const Navbar = () => {
       Transformation: "/About/Transformation",
       Media: "/About/Media",
       Careers: "/About/Careers",
+      Whitepaper: "/About/WhitePaper"
     },
   };
 
@@ -328,22 +329,25 @@ const Navbar = () => {
       dropdownItems: [
         {
           title: "Dharitri",
-          description:
-            "The story of Dharitri",
+          description: "The story of Dharitri",
           icon: "🎯",
           path: routes.about.Transformation,
         },
         {
+          title: "White Paper",
+          description: "Read our detailed technical whitepaper",
+          icon: "📄",
+          path: routes.about.Whitepaper,
+        },
+        {
           title: "Media Kit",
-          description:
-            "Latest media appearances, access to your official media kit",
+          description: "Latest media appearances, access to your official media kit",
           icon: "👥",
           path: routes.about.Media,
         },
         {
           title: "Careers",
-          description:
-            "Join one of the most resourceful tech companies in the world",
+          description: "Join one of the most resourceful tech companies in the world",
           icon: "🗺️",
           path: routes.about.Careers,
         },

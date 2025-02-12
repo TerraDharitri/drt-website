@@ -50,6 +50,8 @@ import Program from "./components/pages/Community/Program";
 import Transformation from "./components/pages/About/Transformation";
 import Media from "./components/pages/About/Media";
 import Careers from "./components/pages/About/Careers";
+import Whitepaper from './components/pages/About/WhitePaper';
+
 
 const App = () => {
   return (
@@ -102,6 +104,7 @@ const App = () => {
         <Route path="/about/Transformation" element={<Transformation />} />
         <Route path="/about/Media" element={<Media />} />
         <Route path="/about/Careers" element={<Careers />} />
+        <Route path="/about/whitepaper" element={<Whitepaper />} />
 
         {/* Fallback Not Found Page */}
         <Route path="*" element={<NotFound/>} />
