@@ -5,9 +5,11 @@ import rehypeRaw from 'rehype-raw';
 import GithubSlugger from 'github-slugger';
 import whitepaperContent from '../../ui/PaperContent';
 
+// Initialize slugger
 const slugger = new GithubSlugger();
 
-const TableOfContents = ({ headings }) => (
+// Table of Contents Component
+const TableOfContents = ({ headings, onHeadingClick }) => (
   <div className="sticky top-32 h-[calc(100vh-8rem)] overflow-y-auto">
     <div className="bg-white shadow-lg rounded-xl p-6">
       <h2 className="text-xl font-bold mb-4 text-gray-900">
@@ -15,16 +17,17 @@ const TableOfContents = ({ headings }) => (
       </h2>
       <nav>
         <ul className="space-y-2">
-          {headings.map((heading) => (
+          {headings.map(({ id, level, text }) => (
             <li 
-              key={heading.id} 
-              style={{ marginLeft: `${(heading.level - 1) * 12}px` }}
+              key={id} 
+              style={{ marginLeft: `${(level - 1) * 12}px` }}
             >
               <a
-                href={`#${heading.id}`}
+                href={`#${id}`}
+                onClick={(e) => onHeadingClick(e, id)}
                 className="text-gray-600 hover:text-green-500 transition-colors duration-200 text-sm block py-1"
               >
-                {heading.text}
+                {text.replace(/^\*\*(.*?)\*\*$/, "$1")}
               </a>
             </li>
           ))}
@@ -33,6 +36,7 @@ const TableOfContents = ({ headings }) => (
     </div>
   </div>
 );
+
 
 const Whitepaper = () => {
   const [headings, setHeadings] = useState([]);
@@ -47,19 +51,34 @@ const Whitepaper = () => {
     slugger.reset();
     
     while ((match = headingRegex.exec(whitepaperContent)) !== null) {
+      const headingText = match[2];
       extractedHeadings.push({
         level: match[1].length,
-        text: match[2],
-        id: slugger.slug(match[2])
+        text: headingText,
+        id: slugger.slug(headingText)
       });
     }
     
     setHeadings(extractedHeadings);
   }, []);
 
+  const scrollToHeading = (e, headingId) => {
+    e.preventDefault();
+    const element = document.getElementById(headingId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+      // Update URL without page reload
+      window.history.pushState({}, '', `#${headingId}`);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50" style={{ paddingTop: "90px" }}>
-      {/* Hero Section for Whitepaper */}
+      {/* Hero Section */}
       <div className="text-center mb-12 px-4">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 mt-6">
           Whitepaper
@@ -69,8 +88,10 @@ const Whitepaper = () => {
         </p>
       </div>
 
+      {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 pb-12">
         <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_300px] gap-8">
+          {/* Article */}
           <article 
             ref={contentRef}
             className="prose prose-lg max-w-none bg-white p-8 rounded-xl shadow-lg
@@ -97,15 +118,15 @@ const Whitepaper = () => {
               rehypePlugins={[rehypeRaw]}
               components={{
                 h1: ({node, children, ...props}) => {
-                  const id = children[0] ? slugger.slug(children[0].toString()) : '';
+                  const id = slugger.slug(children[0]?.toString() || '');
                   return <h1 id={id} className="scroll-mt-32" {...props}>{children}</h1>;
                 },
                 h2: ({node, children, ...props}) => {
-                  const id = children[0] ? slugger.slug(children[0].toString()) : '';
+                  const id = slugger.slug(children[0]?.toString() || '');
                   return <h2 id={id} className="scroll-mt-32" {...props}>{children}</h2>;
                 },
                 h3: ({node, children, ...props}) => {
-                  const id = children[0] ? slugger.slug(children[0].toString()) : '';
+                  const id = slugger.slug(children[0]?.toString() || '');
                   return <h3 id={id} className="scroll-mt-32" {...props}>{children}</h3>;
                 },
                 table: ({node, ...props}) => (
@@ -148,8 +169,12 @@ const Whitepaper = () => {
             </ReactMarkdown>
           </article>
           
+          {/* Table of Contents Sidebar */}
           <aside className="order-1 xl:order-2">
-            <TableOfContents headings={headings} />
+            <TableOfContents 
+              headings={headings} 
+              onHeadingClick={scrollToHeading} 
+            />
           </aside>
         </div>
       </div>
