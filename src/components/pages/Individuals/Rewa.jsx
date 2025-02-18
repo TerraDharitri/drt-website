@@ -16,19 +16,19 @@ const Rewa = () => {
 
   const features = [
     {
-      icon: <CircleDollarSign size={48} />,
+      icon: <CircleDollarSign size={48} />, 
       title: "Low Transaction Costs",
       description:
         "Enjoy fast and affordable transactions across the Dharitri network.",
     },
     {
-      icon: <Rocket size={48} />,
+      icon: <Rocket size={48} />, 
       title: "High Performance",
       description:
         "Scalable blockchain infrastructure with thousands of transactions per second.",
     },
     {
-      icon: <Shield size={48} />,
+      icon: <Shield size={48} />, 
       title: "Secure Network",
       description:
         "Robust security protocols ensuring network integrity and user safety.",
@@ -37,13 +37,13 @@ const Rewa = () => {
 
   const useCases = [
     {
-      icon: <Globe size={48} />,
+      icon: <Globe size={48} />, 
       title: "Global Accessibility",
       description:
         "Seamless cross-border transactions and financial interactions.",
     },
     {
-      icon: <BarChart size={48} />,
+      icon: <BarChart size={48} />, 
       title: "DeFi Ecosystem",
       description:
         "Advanced decentralized finance applications and smart contract capabilities.",
@@ -51,10 +51,10 @@ const Rewa = () => {
   ];
 
   return (
-    <div className="bg-white text-black">
+    <div className="bg-gradient-to-b from-gray-50 to-white text-black">
       {/* Hero Section */}
       <section className="py-44 px-4 text-center">
-        <h1 className="text-5xl font-bold text-blue-900 mb-4">
+        <h1 className="text-6xl font-extrabold text-blue-900 mb-6 drop-shadow-lg">
           Dharitri (REWA)
         </h1>
         <p className="text-xl max-w-2xl mx-auto mb-8">
@@ -62,10 +62,10 @@ const Rewa = () => {
           scalability, security, and innovation.
         </p>
         <div className="flex justify-center space-x-4">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg">
             Buy REWA
           </button>
-          <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50">
+          <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-100 transition duration-300 shadow-lg">
             Learn More
           </button>
         </div>
@@ -95,7 +95,7 @@ const Rewa = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="text-center p-6 border rounded hover:shadow-lg transition"
+              className="text-center p-6 border rounded-lg hover:shadow-xl transition duration-300 bg-white"
             >
               <div className="flex justify-center mb-4 text-blue-600">
                 {feature.icon}
@@ -133,29 +133,24 @@ const Rewa = () => {
         </div>
       </section>
 
-      {/* Technology */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Advanced Blockchain Technology
-          </h2>
-          <p className="text-xl text-gray-600 mb-12">
-            Built on a sharded architecture with adaptive state sharding for
-            maximum scalability and performance.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-blue-50 p-6 rounded">
-              <h3 className="text-2xl font-semibold mb-3">Scalability</h3>
-              <p>Horizontally scalable blockchain infrastructure</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded">
-              <h3 className="text-2xl font-semibold mb-3">Security</h3>
-              <p>Robust consensus mechanism and smart contract safety</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded">
-              <h3 className="text-2xl font-semibold mb-3">Efficiency</h3>
-              <p>Low latency and minimal transaction costs</p>
-            </div>
+      {/* Advanced Blockchain Technology */}
+      <section className="py-16 px-4 text-center bg-white">
+        <h2 className="text-4xl font-bold mb-6">Advanced Blockchain Technology</h2>
+        <p className="text-xl text-gray-600 mb-12">
+          Built on a sharded architecture with adaptive state sharding for maximum scalability and performance.
+        </p>
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="bg-blue-50 p-6 rounded-lg">
+            <h3 className="text-2xl font-semibold mb-3">Scalability</h3>
+            <p>Horizontally scalable blockchain infrastructure</p>
+          </div>
+          <div className="bg-blue-50 p-6 rounded-lg">
+            <h3 className="text-2xl font-semibold mb-3">Security</h3>
+            <p>Robust consensus mechanism and smart contract safety</p>
+          </div>
+          <div className="bg-blue-50 p-6 rounded-lg">
+            <h3 className="text-2xl font-semibold mb-3">Efficiency</h3>
+            <p>Low latency and minimal transaction costs</p>
           </div>
         </div>
       </section>

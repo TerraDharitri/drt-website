@@ -32,11 +32,11 @@ const Sustainability = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section */}
-      <section className="py-36 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">
+      <section className="py-36 px-4 text-center">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-6xl font-extrabold text-gray-900 mb-6 drop-shadow-lg">
             The Most Environmentally-Friendly Blockchain
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
@@ -44,7 +44,7 @@ const Sustainability = () => {
             the blockchain industry through its revolutionary Rewa consensus
             mechanism.
           </p>
-          <button className="bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors flex items-center gap-2 mx-auto">
+          <button className="bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 transition flex items-center gap-2 mx-auto shadow-lg">
             Learn More <ArrowRight className="w-5 h-5" />
           </button>
         </div>
@@ -57,7 +57,7 @@ const Sustainability = () => {
             {stats.map((stat, index) => (
               <div
                 key={index}
-                className="text-center p-6 rounded-lg bg-gray-50"
+                className="text-center p-6 rounded-lg bg-gray-100 shadow-md"
               >
                 <div className="text-4xl font-bold text-green-600 mb-2">
                   {stat.value}
@@ -72,14 +72,14 @@ const Sustainability = () => {
       {/* Features Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
             Environmental Leadership Through Innovation
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {features.map((feature, index) => (
-              <div key={index} className="text-center">
+              <div key={index} className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
                 <div className="flex justify-center mb-6">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">
+                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600">{feature.description}</p>
@@ -94,7 +94,7 @@ const Sustainability = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Revolutionizing Blockchain Sustainability
               </h2>
               <p className="text-gray-600 mb-6">
@@ -105,7 +105,7 @@ const Sustainability = () => {
                 standards for environmental responsibility in the blockchain
                 space.
               </p>
-              <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center gap-2">
+              <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition flex items-center gap-2 shadow-lg">
                 Explore Technology <ArrowRight className="w-5 h-5" />
               </button>
             </div>
