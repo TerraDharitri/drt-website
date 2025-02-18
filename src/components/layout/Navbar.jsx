@@ -71,6 +71,7 @@ const Navbar = () => {
       Transformation: "/About/Transformation",
       Media: "/About/Media",
       Careers: "/About/Careers",
+      Whitepaper: "/About/WhitePaper"
     },
   };
 
@@ -154,93 +155,93 @@ const Navbar = () => {
         },
       ],
     },
-    {
-      title: "TheFarmer",
-      dropdownItems: [
-        {
-          title: "Resources",
-          description: "Farming tools & guides",
-          icon: "🌾",
-          path: routes.farmer.Resources,
-        },
-        {
-          title: "Programs",
-          description: "Support initiatives",
-          icon: "🌱",
-          path: routes.farmer.Programs,
-        },
-        {
-          title: "Training",
-          description: "Skill development",
-          icon: "📋",
-          path: routes.farmer.Training,
-        },
-        {
-          title: "Community",
-          description: "Connect with farmers",
-          icon: "👥",
-          path: routes.farmer.Community,
-        },
-      ],
-    },
-    {
-      title: "MotherEarth",
-      dropdownItems: [
-        {
-          title: "Sustainability",
-          description: "Environmental initiatives",
-          icon: "🌍",
-          path: routes.motherEarth.Sustainabilitys,
-        },
-        {
-          title: "Green Initiatives",
-          description: "Eco-friendly projects",
-          icon: "🌱",
-          path: routes.motherEarth.Initiatives,
-        },
-        {
-          title: "Impact",
-          description: "Environmental impact metrics",
-          icon: "📊",
-          path: routes.motherEarth.Impact,
-        },
-        {
-          title: "Projects",
-          description: "Conservation efforts",
-          icon: "🌿",
-          path: routes.motherEarth.Project,
-        },
-      ],
-    },
-    {
-      title: "Accountability",
-      dropdownItems: [
-        {
-          title: "Wallet",
-          description: "Secure digital wallet",
-          icon: "💼",
-          path: routes.products.Wallet,
-        },
-        {
-          title: "DEXchange",
-          description: "Trade assets",
-          icon: "💱",
-          path: routes.products.DExchange,
-        },
-        {
-          title: "Bridge",
-          description: "Cross-chain transfers",
-          icon: "🌉",
-          path: routes.products.Bridge,
-        },
-        {
-          title: "Explorer",
-          description: "Blockchain explorer",
-          icon: "🔍",
-          path: routes.products.Explorer,
-        },
-      ],
-    },
+    // {
+    //   title: "TheFarmer",
+    //   dropdownItems: [
+    //     {
+    //       title: "Resources",
+    //       description: "Farming tools & guides",
+    //       icon: "🌾",
+    //       path: routes.farmer.Resources,
+    //     },
+    //     {
+    //       title: "Programs",
+    //       description: "Support initiatives",
+    //       icon: "🌱",
+    //       path: routes.farmer.Programs,
+    //     },
+    //     {
+    //       title: "Training",
+    //       description: "Skill development",
+    //       icon: "📋",
+    //       path: routes.farmer.Training,
+    //     },
+    //     {
+    //       title: "Community",
+    //       description: "Connect with farmers",
+    //       icon: "👥",
+    //       path: routes.farmer.Community,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "MotherEarth",
+    //   dropdownItems: [
+    //     {
+    //       title: "Sustainability",
+    //       description: "Environmental initiatives",
+    //       icon: "🌍",
+    //       path: routes.motherEarth.Sustainabilitys,
+    //     },
+    //     {
+    //       title: "Green Initiatives",
+    //       description: "Eco-friendly projects",
+    //       icon: "🌱",
+    //       path: routes.motherEarth.Initiatives,
+    //     },
+    //     {
+    //       title: "Impact",
+    //       description: "Environmental impact metrics",
+    //       icon: "📊",
+    //       path: routes.motherEarth.Impact,
+    //     },
+    //     {
+    //       title: "Projects",
+    //       description: "Conservation efforts",
+    //       icon: "🌿",
+    //       path: routes.motherEarth.Project,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Accountability",
+    //   dropdownItems: [
+    //     {
+    //       title: "Wallet",
+    //       description: "Secure digital wallet",
+    //       icon: "💼",
+    //       path: routes.products.Wallet,
+    //     },
+    //     {
+    //       title: "DEXchange",
+    //       description: "Trade assets",
+    //       icon: "💱",
+    //       path: routes.products.DExchange,
+    //     },
+    //     {
+    //       title: "Bridge",
+    //       description: "Cross-chain transfers",
+    //       icon: "🌉",
+    //       path: routes.products.Bridge,
+    //     },
+    //     {
+    //       title: "Explorer",
+    //       description: "Blockchain explorer",
+    //       icon: "🔍",
+    //       path: routes.products.Explorer,
+    //     },
+    //   ],
+    // },
     {
       title: "Ecosystem",
       dropdownItems: [
@@ -301,26 +302,26 @@ const Navbar = () => {
           icon: "💭",
           path: routes.community.Governance,
         },
-        {
-          title: "Ambassador Program",
-          description:
-            "Seamlessly connect with leading platforms and protocols",
-          icon: "🌐",
-          path: routes.community.Program,
-        },
+        // {
+        //   title: "Ambassador Program",
+        //   description:
+        //     "Seamlessly connect with leading platforms and protocols",
+        //   icon: "🌐",
+        //   path: routes.community.Program,
+        // },
         {
           title: "FAQ",
           description: "The answers to the questions you most seek",
           icon: "💡",
           path: routes.community.Faq,
         },
-        {
-          title: "Blog",
-          description:
-            "Latest posts on ecosystem, research, technology, and more",
-          icon: "🎯",
-          path: routes.community.Blog,
-        },
+        // {
+        //   title: "Blog",
+        //   description:
+        //     "Latest posts on ecosystem, research, technology, and more",
+        //   icon: "🎯",
+        //   path: routes.community.Blog,
+        // },
       ],
     },
     {
@@ -328,22 +329,25 @@ const Navbar = () => {
       dropdownItems: [
         {
           title: "Dharitri",
-          description:
-            "The story of Dharitri",
+          description: "The story of Dharitri",
           icon: "🎯",
           path: routes.about.Transformation,
         },
         {
-          title: "Media Kit",
-          description:
-            "Latest media appearances, access to your official media kit",
-          icon: "👥",
-          path: routes.about.Media,
+          title: "White Paper",
+          description: "Read our detailed technical whitepaper",
+          icon: "📄",
+          path: routes.about.Whitepaper,
         },
+        // {
+        //   title: "Media Kit",
+        //   description: "Latest media appearances, access to your official media kit",
+        //   icon: "👥",
+        //   path: routes.about.Media,
+        // },
         {
           title: "Careers",
-          description:
-            "Join one of the most resourceful tech companies in the world",
+          description: "Join one of the most resourceful tech companies in the world",
           icon: "🗺️",
           path: routes.about.Careers,
         },

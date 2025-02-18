@@ -24,10 +24,10 @@ const Footer = () => {
             <h4>
               <b>Follow Us</b>
             </h4>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/dharitri_block?s=11" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faXTwitter} />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/1FcBi9D28q/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a href="/" target="_blank" rel="noopener noreferrer">
@@ -36,10 +36,10 @@ const Footer = () => {
             <a href="/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faDiscord} />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/+RnufS2rJnLgxNmVh" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTelegram} />
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dharitri_blockchain" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
