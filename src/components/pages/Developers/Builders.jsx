@@ -11,19 +11,19 @@ import {
 
 const BuildersHub = () => {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gradient-to-b from-white to-gray-50 min-h-screen">
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center mt-16">
-          <h1 className="text-5xl font-bold text-gray-800 mb-6">
+          <h1 className="text-5xl font-extrabold text-gray-800 mb-6 tracking-tight">
             Build the Future on Dharitri
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             Dharitri provides builders with powerful tools and resources to
             create innovative blockchain solutions. Join our ecosystem and
             transform your ideas into reality with Rewa.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 flex items-center gap-2 mx-auto">
+          <button className="bg-blue-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto transition-colors duration-300 hover:bg-blue-700 shadow-lg">
             Start Building <ArrowRight size={20} />
           </button>
         </div>
@@ -100,21 +100,21 @@ const BuildersHub = () => {
 };
 
 const FeatureCard = ({ icon, title, description }) => (
-  <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+  <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow hover:-translate-y-1 transform duration-300">
     <div className="mb-4">{icon}</div>
     <h3 className="text-xl font-semibold text-gray-800 mb-3">{title}</h3>
-    <p className="text-gray-600">{description}</p>
+    <p className="text-gray-600 leading-relaxed">{description}</p>
   </div>
 );
 
 const ResourceCard = ({ title, description, link }) => (
   <a
     href={link}
-    className="block p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors"
+    className="block p-6 bg-gray-50 rounded-xl shadow hover:bg-gray-100 transition duration-300 hover:shadow-md"
   >
     <h3 className="text-xl font-semibold text-gray-800 mb-3">{title}</h3>
-    <p className="text-gray-600 mb-4">{description}</p>
-    <div className="flex items-center text-blue-600">
+    <p className="text-gray-600 mb-4 leading-relaxed">{description}</p>
+    <div className="flex items-center text-blue-600 font-medium">
       Learn More <ArrowRight size={16} className="ml-2" />
     </div>
   </a>
