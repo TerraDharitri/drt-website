@@ -97,7 +97,7 @@ const CommunitySection = () => {
     <section className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 mt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-5xl">
+          <h2 className=" py-4 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-6xl">
             Join Our Community
           </h2>
           <p className="mt-4 text-xl text-gray-600">

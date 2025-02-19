@@ -132,14 +132,14 @@ const EcosystemSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 mt-32">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-5xl">
+        <div className="text-center mb-16">
+          <h2 className="py-4 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-6xl">
             Thriving Ecosystem
           </h2>
-          <p className="mt-4 text-xl text-gray-600">
+          <p className="mt-6 text-2xl text-gray-600 leading-relaxed">
             Explore the Diverse Range of Applications, Services, and
             Opportunities in Our Ecosystem
           </p>

@@ -132,10 +132,11 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 mt-32">
+    // The line below is adjusted to vertically center the heading
+    <section className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 mt-32 min-h-screen flex items-center justify-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-5xl">
+          <h2 className=" py-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 sm:text-5xl">
             Building the Future of Blockchain
           </h2>
           <p className="mt-4 text-xl text-gray-600">
@@ -184,9 +185,7 @@ const AboutSection = () => {
         {/* Contact Section */}
         <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl shadow-xl p-8 text-white">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Join the Dharitri Movement
-            </h3>
+            <h3 className="text-2xl font-bold mb-4">Join the Dharitri Movement</h3>
             <p className="text-white/80 mb-6">
               Be part of a sustainable ecosystem. Connect, engage, and grow with
               us.
