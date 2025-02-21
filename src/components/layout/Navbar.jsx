@@ -155,35 +155,35 @@ const Navbar = () => {
         },
       ],
     },
-    // {
-    //   title: "TheFarmer",
-    //   dropdownItems: [
-    //     {
-    //       title: "Resources",
-    //       description: "Farming tools & guides",
-    //       icon: "🌾",
-    //       path: routes.farmer.Resources,
-    //     },
-    //     {
-    //       title: "Programs",
-    //       description: "Support initiatives",
-    //       icon: "🌱",
-    //       path: routes.farmer.Programs,
-    //     },
-    //     {
-    //       title: "Training",
-    //       description: "Skill development",
-    //       icon: "📋",
-    //       path: routes.farmer.Training,
-    //     },
-    //     {
-    //       title: "Community",
-    //       description: "Connect with farmers",
-    //       icon: "👥",
-    //       path: routes.farmer.Community,
-    //     },
-    //   ],
-    // },
+    {
+      title: "TheFarmer",
+      dropdownItems: [
+        {
+          title: "Resources",
+          description: "Farming tools & guides",
+          icon: "🌾",
+          path: routes.farmer.Resources,
+        },
+        {
+          title: "Programs",
+          description: "Support initiatives",
+          icon: "🌱",
+          path: routes.farmer.Programs,
+        },
+        {
+          title: "Training",
+          description: "Skill development",
+          icon: "📋",
+          path: routes.farmer.Training,
+        },
+        {
+          title: "Community",
+          description: "Connect with farmers",
+          icon: "👥",
+          path: routes.farmer.Community,
+        },
+      ],
+    },
     // {
     //   title: "MotherEarth",
     //   dropdownItems: [
