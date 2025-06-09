@@ -12,7 +12,7 @@ export const navigationHeader = [
   {
     id: "2",
     title: "Solution",
-    url: "/solution",
+    url: "/solutions",
   },
   {
     id: "3",

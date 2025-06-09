@@ -1,19 +1,18 @@
 "use client";
 
 import Layout from "@/components/Layout";
-import Join from "@/components/Join";
-import Reviews from "@/components/Reviews";
-import Main from "./Main";
+import Join from "./Join";
+import Solutions from "./Solutions";
 import Revenue from "./Revenue";
-import Saving from "./Saving";
-
+import BuildSolutions from "./BuildSolutions";
+import DevelopmentStats from "./DevelopmentStats";
 const SolutionsPage = () => {
     return (
         <Layout darkHeader>
-            <Main />
+            <Solutions />
             <Revenue />
-            <Saving />
-            <Reviews />
+           <BuildSolutions />
+           <DevelopmentStats />
             <Join />
         </Layout>
     );

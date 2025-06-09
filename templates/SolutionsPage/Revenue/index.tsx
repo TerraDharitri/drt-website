@@ -4,21 +4,27 @@ import Icon from "@/components/Icon";
 
 const items = [
     {
-        title: "Accepting Payment",
+        title: "Scalability",
         content:
-            "Test your product idea by launching payments with little to no code.",
+            "Grows with community via blockchain sharding.",
         icon: "/images/content/icons/wallet.svg",
     },
     {
-        title: "Support Any Pricing",
+        title: "Efficiency",
         content:
-            "Test your product idea by launching payments with little to no code.",
+            "Fast, low fee blockchain transactions.",
         icon: "/images/content/icons/coins-stacked.svg",
     },
     {
-        title: "Custom Pricing",
+        title: "Flexibility",
         content:
-            "Test your product idea by launching payments with little to no code.",
+            "Supports WASM & Rust for agricultural tools.",
+        icon: "/images/content/icons/trophy.svg",
+    },
+    {
+        title: "Sustainable",
+        content:
+            "Proof-of-Stake design is energy efficient.",
         icon: "/images/content/icons/trophy.svg",
     },
 ];
@@ -28,36 +34,14 @@ type RevenueProps = {};
 const Revenue = ({}: RevenueProps) => (
     <div className="pt-30 pb-22 xl:pt-24 xl:pb-20 md:py-12">
         <div className="container">
-            <div className="flex items-center -mx-20 mb-14 xl:-mx-10 lg:flex-col-reverse lg:items-stretch lg:mx-0 md:mb-8">
-                <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
-                    <Image
-                        className="w-full"
-                        src="/images/content/revenue-pic.png"
-                        width={500}
-                        height={450}
-                        alt=""
-                    />
+            <div className="mb-15 text-center">
+                    <h2 className="text-h2 xl:text-h3 md:text-h4 font-semibold mb-6">
+                        Why We Choose This Blockchain
+                    </h2>
+                    <p className="mt-4 max-w-3xl mx-auto text-greyscale-400 text-lg md:text-base">
+                        Dharitri uses a fork of the MultiversX blockchain, a strategic choice for its powerful features:
+                    </p>
                 </div>
-                <div className="w-[calc(50%-5rem)] mx-20 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0 lg:mb-10 md:mb-8">
-                    <div className="stage">Capture More Revenue</div>
-                    <div className="mb-4 text-h2 xl:text-h3 md:text-h4">
-                        Support All Billing Models Easily
-                    </div>
-                    <div className="mb-12 text-greyscale-400 lg:mb-8 md:mb-6">
-                        Nunc in tortor lectus quis sagittis quisque. Eget eget
-                        mattis senectus risus faucibus ultrices sem tellus
-                        etiam. Consectetur dictum viverra sit ultrices at eros
-                        neque.
-                    </div>
-                    <Link
-                        className="btn-primary pr-5.5 md:w-full"
-                        href="/pricing"
-                    >
-                        <span>Learn More</span>
-                        <Icon className="w-5 h-5" name="arrow-right" />
-                    </Link>
-                </div>
-            </div>
             <div className="flex space-x-8 lg:block lg:space-x-0 lg:space-y-8 md:space-y-6">
                 {items.map((item, index) => (
                     <div
@@ -78,6 +62,7 @@ const Revenue = ({}: RevenueProps) => (
                     </div>
                 ))}
             </div>
+           
         </div>
     </div>
 );
