@@ -1,30 +1,30 @@
 import Dividers from "@/components/Dividers";
 import Image from "@/components/Image";
-
+import Icon from "@/components/Icon";
 const details = [
     {
         title: "Growing Farmers",
         content:
             "Secure IDs, knowledge access, fair markets, financial inclusion.",
-        image: "/images/content/details-pic-1.jpg",
+        icon: "/images/content/icons/wallet.svg",
     },
     {
         title: "Green Agriculture",
         content:
             "Sustainable practices, conservation methods, climate resilience.",
-        image: "/images/content/details-pic-2.jpg",
+        icon: "/images/content/icons/coins-stacked.svg",
     },
     {
         title: "Smart Financing",
         content:
             "Agricultural microfinance, environmental rewards, transparent aid.",
-        image: "/images/content/details-pic-3.jpg",
+        icon: "/images/content/icons/trophy.svg",
     },
     {
         title: "Blockchain Trust",
         content:
             " Blockchain verifiable data, immutable records, efficient systems.",
-        image: "/images/content/details-pic-3.jpg",
+        icon: "/images/content/icons/trophy.svg",
     },
 ];
 
@@ -40,27 +40,26 @@ const Details = ({}: DetailsProps) => (
                 </div>
 
             </div>
-            <div className="flex space-x-8 lg:block lg:space-x-0 lg:space-y-10 md:space-y-6">
-                {details.map((item, index) => (
-                    <div className="flex-1" key={index}>
-                        <div className="mb-8 p-2 bg-greyscale-0 border border-greyscale-100 shadow-2 lg:mb-6">
-                            <div className="border border-primary-50">
+             <div className="grid gap-8 grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+                    {details.map((item, index) => (
+                        <div
+                            className="p-6 bg-greyscale-0 border border-greyscale-100 shadow-2"
+                            key={index}
+                        >
+                            <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
                                 <Image
-                                    className="w-full"
-                                    src={item.image}
-                                    width={345}
-                                    height={230}
-                                    alt={item.title}
+                                    src={item.icon}
+                                    className="w-6"
+                                    width={24}
+                                    height={24}
+                                    alt=""
                                 />
                             </div>
+                            <div className="mb-3 text-h6">{item.title}</div>
+                            <div className="text-greyscale-400">{item.content}</div>
                         </div>
-                        <div className="mb-3 text-h5 xl:text-h6 lg:text-h5 md:text-h6">
-                            {item.title}
-                        </div>
-                        <div className="text-greyscale-400">{item.content}</div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
         </div>
     </Dividers>
 );

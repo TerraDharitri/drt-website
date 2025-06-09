@@ -12,10 +12,9 @@ const PREWAPage = () => {
             <Solutions />
             <Revenue />
            <PRewaHelp />
-           
             <Join />
         </Layout>
     );
-};
+};nvm use 
 
 export default PREWAPage;

@@ -17,7 +17,7 @@ export const navigationHeader = [
   {
     id: "3",
     title: "Platform",
-    url: "/platform",
+    url: "/ecosystem",
   },
   {
     id: "4",
