@@ -27,7 +27,7 @@ export const navigationHeader = [
   {
     id: "5",
     title: "Join Us",
-    url: "/join-us",
+    url: "/get-involved",
   },
 ];
 
