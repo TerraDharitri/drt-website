@@ -4,20 +4,18 @@ import Icon from "@/components/Icon";
 
 const solutions = [
     {
-        title: "The Impact on People & Planet",
+        title: "How We Help Farmers Build Better Lives",
         stage: "",
         content:
-            "When farming becomes difficult, families work hard but still experience low yields, poor income, and food insecurity. This limits their potential and slows economic growth in communities.\
-            Without sustainable agriculture methods, our environment suffers. Solutions are vital for stronger economies, communities, and a healthier planet.",
+            "Three-phase development bringing blockchain benefits to farmers.",
         image: "/images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
-        title: "Our Goal: Better Farmers & Earth",
+        title: "Technology Built for Farmers",
         stage: "",
         content:
-            "Our goal is clear: small farmers achieving economic stability and climate strength while restoring a healthier Earth.\
-            We build this with transparent regenerative agriculture and accessible technology. This farming change for sustainability and fairness is essential worldwide.",
+            "Dharitri's approach is farmer-focused. Blockchain provides trust and transparency where needed, supported by effective off-chain processing. Our mobile apps are designed for easy access to a useful and sustainable ecosystem.",
         image: "/images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
@@ -51,13 +49,13 @@ const Solutions = ({}: SolutionsProps) => (
                             <div className="mb-12 text-greyscale-400 md:mb-6 md:text-lg">
                                 {solution.content}
                             </div>
-                            <Link
+                            {/* <Link
                                 className="btn-primary pr-5 md:w-full"
                                 href={solution.url}
                             >
                                 <span>Learn More</span>
                                 <Icon className="w-5 h-5" name="arrow-right" />
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                             <Image

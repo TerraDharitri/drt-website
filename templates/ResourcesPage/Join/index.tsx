@@ -11,7 +11,7 @@ const Join = ({}: JoinProps) => (
            Additional Support & Contact
           </div>
           <div className="mb-10 text-white/70 md:mb-8 md:px-1">
-            Need more help with our digital solutions or agritech platform? We're here to support your sustainable agriculture journey.
+            Need more help with our digital solutions or agritech platform? We&#39;re here to support your sustainable agriculture journey.
           </div>
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link
