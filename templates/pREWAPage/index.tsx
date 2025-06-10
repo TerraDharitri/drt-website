@@ -15,6 +15,6 @@ const PREWAPage = () => {
             <Join />
         </Layout>
     );
-};nvm use 
+};
 
 export default PREWAPage;

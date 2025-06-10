@@ -107,7 +107,7 @@ const ConnectedFarmerPlatform = ({ }: ConnectedFarmersProps) => (
                         Technology & Infrastructure
                     </h2>
                     <p className="mt-4 max-w-3xl mx-auto text-greyscale-400 text-lg md:text-base">
-                        Dharitri`s ecosystem: Secure, usable core components designed for growth. Our mobile-first approach balances on-chain and off-chain efficiency.
+                        Dharitri&#39;s ecosystem: Secure, usable core components designed for growth. Our mobile-first approach balances on-chain and off-chain efficiency.
                     </p>
                 </div>
                 <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">

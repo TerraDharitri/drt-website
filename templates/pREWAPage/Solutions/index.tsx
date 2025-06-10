@@ -15,7 +15,7 @@ const solutions = [
         title: "What is pREWA: Token Guide",
         stage: "",
         content: [
-            "pREWA, a BSC BEP20 token, is central to Dharitri's fundraising and community building. It directly funds our platform development and farmer services launch.\
+            "pREWA, a BSC BEP20 token, is central to Dharitri&#39;s fundraising and community building. It directly funds our platform development and farmer services launch.\
 The token offers immediate crypto staking opportunities for rewards and ecosystem support. The token serves as an interim step, connecting early supporters to our future Proof-of-Stake platform."],
         image: "/images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
@@ -32,7 +32,7 @@ const solutions2 = [
             "Finalizing core blockchain launch infrastructure",
             "Deploying our first suite of farmer services",
             "Establishing operational user onboarding systems",
-            "Your participation supports Dharitri's development."],
+            "Your participation supports Dharitri&#39;s development."],
         image: "/images/content/solutions-pic-2.png",
         url: "/solutions#blockchain",
     },

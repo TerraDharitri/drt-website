@@ -50,12 +50,12 @@ const PRewaHelp = () => (
                             What is pREWA Staking?
                         </div>
                         <div className="mb-4 text xl:text md:text">
-                            Lock your pREWA tokens to support Dharitri`s early ecosystem. Earn additional pREWA as staking rewards while helping farmers.
+                            Lock your pREWA tokens to support Dharitri&#39;s early ecosystem. Earn additional pREWA as staking rewards while helping farmers.
                         </div>
                         <ul className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
                             Key Benefits:
                             <li>Earn pREWA rewards (APY details shared pre-launch)</li>
-                            <li>Support Dharitri`s stability and community growth</li>
+                            <li>Support Dharitri&#39;s stability and community growth</li>
                             <li>Show commitment to our agricultural mission</li>
                         </ul>
                     </div>
@@ -163,7 +163,7 @@ const PRewaHelp = () => (
                         pREWA Contract Address BSC
                     </div>
                     <div className="mb-4 text xl:text md:text">
-                        This is Dharitri`s only official pREWA token contract. Always verify before any transaction to protect your investment in farmer solutions.
+                        This is Dharitri&#39;s only official pREWA token contract. Always verify before any transaction to protect your investment in farmer solutions.
                     </div>
                 </div>
                 <div className="flex items-center -mx-20 odd:flex-row-reverse 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0">

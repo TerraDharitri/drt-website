@@ -10,11 +10,9 @@ const Team = ({}: TeamProps) => (
         <div className="container">
             <div className="mb-20 xl:mb-16 md:mb-8">
                 <div className="stage">Team</div>
-                <div className="mb-4 text-h2">Meet The Dharitri Team</div>
+                <div className="mb-4 text-h2">Our Dedicated Team & Expertise</div>
                 <div className="max-w-[46.63rem] text-greyscale-400">
-                    Optimized checkout suite delivers a frictionless customer
-                    experience. Increase revenue and save thousands of
-                    engineering hours with prebuilt payment
+                    The technology and farming team combines technical expertise with authentic farming experience. We understand farming challenges because we`ve lived them.
                 </div>
             </div>
             <div className="flex flex-wrap -mt-8 -mx-4 md:-mt-6 md:mx-0">

@@ -2,7 +2,7 @@ export const navigationHeader = [
   {
     id: "0",
     title: "About Us",
-    url: "/about",
+    url: "/about-us",
   },
   {
     id: "1",
@@ -28,11 +28,6 @@ export const navigationHeader = [
     id: "5",
     title: "Join Us",
     url: "/join-us",
-  },
-  {
-    id: "6",
-    title: "Get pREWA Tokens",
-    url: "/tokens",
   },
 ];
 

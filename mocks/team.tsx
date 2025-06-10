@@ -1,38 +1,38 @@
 export const team = [
     {
         id: "0",
-        name: "John Jonas",
-        position: "CEO & Co-Founder",
+        name: "Kasi Viswanath Aurangabad",
+        position: "Founder",
         description:
-            "Vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum",
+            "Farmer's son who helped family farming until graduation. Blockchain expert with 15+ years SAP consulting at IBM and EY.",
         avatar: "/images/content/avatar-4.jpg",
-        social: "john_jonas",
+        social: "kasi_vishwanath_aurangabad",
     },
     {
         id: "1",
-        name: "Kristin Watson",
-        position: "CDO & Co-Founder",
+        name: "Mayank Patel",
+        position: "Co-Founder",
         description:
-            "Vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum",
-        avatar: "/images/content/avatar-5.jpg",
-        social: "kristionwatson",
+            "Business Analyst and Enterprise Program Manager at Caterpillar and Merck. Agile methodologies and ERP specialist.",
+        avatar: "/images/content/avatar-7.jpg",
+        social: "mayank_patel",
     },
     {
         id: "2",
-        name: "Annette Black",
-        position: "CTO & Co-Founder",
+        name: "Anil K Patel",
+        position: "Co-Founder",
         description:
-            "Vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum",
-        avatar: "/images/content/avatar-6.jpg",
-        social: "annetteblack",
+            "Farming family background before moving to USA. SAP Financial Consultant and technical analyst with rural finance expertise.",
+        avatar: "/images/content/avatar-7.jpg",
+        social: "anil_k_patel",
     },
     {
         id: "3",
-        name: "Ralph Edwards",
-        position: "Business & Co-Founder",
+        name: "Maureen Wanjiru",
+        position: "Kenya Operations Lead",
         description:
-            "Vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum",
-        avatar: "/images/content/avatar-7.jpg",
-        social: "ralpedward001",
+            "Active farmer and Ematrio Organic Farms founder. Regenerative agriculture trainer with 8+ years Kenya farming experience.",
+        avatar: "/images/content/avatar-6.jpg",
+        social: "maureen_wanjiru",
     },
 ];

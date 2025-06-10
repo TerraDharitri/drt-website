@@ -72,7 +72,7 @@ const Header = ({ className, dark }: HeaderProps) => {
                         ))}
                     </nav>
                     <div className="flex items-center ml-auto space-x-3 lg:mt-auto lg:ml-0">
-                        <Link
+                        {/* <Link
                             className={`btn-secondary bg-transparent btn-sm ${
                                 dark
                                     ? "text-greyscale-0 hover:border-primary-300 hover:bg-primary-300 hover:text-greyscale-900"
@@ -81,9 +81,9 @@ const Header = ({ className, dark }: HeaderProps) => {
                             href="/sign-in"
                         >
                             Sign In
-                        </Link>
+                        </Link> */}
                         <Link className="btn-primary btn-sm" href="/sign-up">
-                            Open an Account
+                            Get pREWA Tokens
                         </Link>
                     </div>
                 </div>
