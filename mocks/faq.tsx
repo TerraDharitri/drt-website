@@ -1,37 +1,44 @@
 export const faqPricing = [
     {
         id: "0",
-        title: "How and when do I get paid?",
+        title: "Who benefits from Dharitri's platform?",
         content:
-            "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+            "Smallholder farmers gain livelihood tools. Partners, investors, and regenerative farming communities receive platform value.",
         defaultOpen: true,
     },
     {
         id: "1",
-        title: "Are you the merchant of record?",
+        title: "Which blockchain technology does Dharitri use?",
         content:
-            "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+            "MultiversX fork provides efficient, scalable foundation. This energy efficient blockchain supports our agricultural solutions perfectly.",
         defaultOpen: false,
     },
     {
         id: "2",
-        title: "Can I sell in other countries?",
+        title: "How is Dharitri's development progressing?",
         content:
-            "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+            "Currently developing MultiversX blockchain fork and mobile apps for farmers. Platform launch preparation underway.",
         defaultOpen: false,
     },
     {
         id: "3",
-        title: "What if I already have a website?",
+        title: "How is development funded?",
         content:
-            "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+            "pREWA token sale provides crypto project funding for platform development and farmer services launch.",
         defaultOpen: false,
     },
     {
         id: "4",
-        title: "How does my email plan work?",
+        title: "What utility does pREWA offer?",
         content:
-            "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+            "Crypto staking rewards from launch plus fundraising for our farmer-focused platform development work.",
+        defaultOpen: false,
+    },
+    {
+        id: "5",
+        title: "Where is Dharitri working initially?",
+        content:
+            "Kenya pilot tests concepts with farming communities. Ensures our agritech kenya solutions work for farmers.",
         defaultOpen: false,
     },
 ];
@@ -43,39 +50,45 @@ export const faq = [
         items: [
             {
                 id: "0",
-                title: "Are you the merchant of record?",
+                title: "Who benefits from Dharitri's platform?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "Smallholder farmers gain livelihood tools. Partners, investors, and regenerative farming communities receive platform value.",
+                defaultOpen: true,
             },
             {
                 id: "1",
-                title: "Can I sell in other countries?",
+                title: "Which blockchain technology does Dharitri use?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "MultiversX fork provides efficient, scalable foundation. This energy efficient blockchain supports our agricultural solutions perfectly.",
+                defaultOpen: false,
             },
             {
                 id: "2",
-                title: "What if I already have a website?",
+                title: "How is Dharitri's development progressing?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "Currently developing MultiversX blockchain fork and mobile apps for farmers. Platform launch preparation underway.",
+                defaultOpen: false,
             },
             {
                 id: "3",
-                title: "How does my email plan work?",
+                title: "How is development funded?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "pREWA token sale provides crypto project funding for platform development and farmer services launch.",
+                defaultOpen: false,
             },
             {
                 id: "4",
-                title: "Can I send emails?",
+                title: "What utility does pREWA offer?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "Crypto staking rewards from launch plus fundraising for our farmer-focused platform development work.",
+                defaultOpen: false,
             },
             {
                 id: "5",
-                title: "Link for the Card Element",
+                title: "Where is Dharitri working initially?",
                 content:
-                    "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices. Scelerisque amet id diam netus at a ac euismod. Eros non quis pellentesque odio neque ullamcorper fusce.",
+                    "Kenya pilot tests concepts with farming communities. Ensures our agritech kenya solutions work for farmers.",
+                defaultOpen: false,
             },
         ],
     },

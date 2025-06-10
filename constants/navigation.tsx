@@ -37,7 +37,7 @@ export const navigationFooter = [
     title: "Platform",
     url: "/Platform",
     links: [
-      { id: "0", title: "Home", url: "/solution#digital-ids" },
+      { id: "0", title: "Home", url: "/" },
       { id: "1", title: "Problem & Vision", url: "/problemsAndVision" },
       { id: "2", title: "Our Solution", url: "/our-solution" },
       { id: "3", title: "Ecosystem", url: "/ecosystem" },
@@ -46,7 +46,7 @@ export const navigationFooter = [
   {
     id: "1",
     title: "Token & Community",
-    url: "/token-community",
+    url: "/pREWA",
     links: [
       { id: "0", title: "pREWA Token", url: "/pREWA" },
       { id: "1", title: "Get Involved", url: "/get-involved" },

@@ -3,21 +3,15 @@ import Dividers from "@/components/Dividers";
 type MainProps = {};
 
 const Main = ({}: MainProps) => (
-    <Dividers className="bg-secondary-300 text-greyscale-0" hero light>
-        <div className="py-20 text-center md:py-12">
-            <div className="container">
-                <div className="label bg-white/[0.08] text-greyscale-100 mb-4">
-                    FAQ
-                </div>
-                <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
-                    Frequently Asked Question
-                </div>
-                <div className="max-w-[48rem] mx-auto text-white/70">
-                    Odio risus nec sit semper massa tellus congue vulputate
-                    cursus. In mattis sem tortor blandit sagittis. Ultricies
-                    urna odio tempus eget ut. Leo massa mauris ut elementum
-                    suspendisse id.
-                </div>
+    <Dividers className="bg-white text-bold" hero light>
+        <div className="py-10 text-center md:py-12">
+            <div className="mb-15 text-center">
+                <h2 className="text-h2 xl:text-h3 md:text-h4 font-semibold mb-6">
+                    Project FAQs & Key Questions
+                </h2>
+                <p className="mt-4 max-w-3xl mx-auto text-greyscale-400 text-lg md:text-base">
+                    Common questions about Dharitri platform fundamentals, blockchain technology, development progress, and regenerative farming solutions.
+                </p>
             </div>
         </div>
     </Dividers>
