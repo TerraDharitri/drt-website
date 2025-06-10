@@ -40,7 +40,7 @@ const KenyaLearningInitiative = ({ }: KenyaLearningInitiativeProps) => (
                             <div className="mb-4 text-h2 xl:text-h3 md:text-h4">
                                 {solution.title}
                             </div>
-<ul className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
+                            <ul className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
                                 {(() => {
                                     const items = [];
                                     for (let i = 0; i < solution.content.length; i++) {
