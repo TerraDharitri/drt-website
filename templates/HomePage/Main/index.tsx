@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Dividers from "@/components/Dividers";
-import Icon from "@/components/Icon";
 import Image from "@/components/Image";
-import Companies from "@/components/Companies";
 
-import { companiesHero } from "@/mocks/companies";
 
 type MainProps = {};
 
@@ -14,13 +11,7 @@ const Main = ({}: MainProps) => (
             <div className="container">
                 <div className="flex items-center mb-22 lg:block md:mb-6">
                     <div className="grow pr-10 lg:pr-0">
-                        {/* <div className="label mb-4 bg-white/[.04] border border-[#FFC091]/50 text-sm text-[#FFC091]">
-                            🎉 Announcing Dharitri Beta 2.0
-                            <Icon
-                                className="w-4 h-4 ml-2 fill-[#FFC091]"
-                                name="arrow-right"
-                            />
-                        </div> */}
+                       
                         <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
                            Dharitri: Blockchain<br />
                             Solutions for Farmers
@@ -35,12 +26,6 @@ const Main = ({}: MainProps) => (
                             >
                                 Get pRewa Tokens
                             </Link>
-                            {/* <Link
-                                className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
-                                href="/contact-us"
-                            >
-                                Contact Sales
-                            </Link> */}
                         </div>
                     </div>
                     <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8">
@@ -62,11 +47,7 @@ const Main = ({}: MainProps) => (
                         </div> */}
                     </div>
                 </div>
-                {/* <Companies
-                    title="Trusted by thousand companies in the world"
-                    images={companiesHero}
-                    light
-                /> */}
+            
             </div>
         </div>
     </Dividers>
