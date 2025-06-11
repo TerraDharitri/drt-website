@@ -5,7 +5,7 @@ export const team = [
         position: "Founder",
         description:
             "Farmer's son who helped family farming until graduation. Blockchain expert with 15+ years SAP consulting at IBM and EY.",
-        avatar: "pRewa_website/images/content/avatar-4.jpg",
+        avatar: "images/content/avatar-4.jpg",
         social: "kasi_vishwanath_aurangabad",
     },
     {
@@ -14,7 +14,7 @@ export const team = [
         position: "Co-Founder",
         description:
             "Business Analyst and Enterprise Program Manager at Caterpillar and Merck. Agile methodologies and ERP specialist.",
-        avatar: "pRewa_website/images/content/avatar-7.jpg",
+        avatar: "images/content/avatar-7.jpg",
         social: "mayank_patel",
     },
     {
@@ -23,7 +23,7 @@ export const team = [
         position: "Co-Founder",
         description:
             "Farming family background before moving to USA. SAP Financial Consultant and technical analyst with rural finance expertise.",
-        avatar: "pRewa_website/images/content/avatar-7.jpg",
+        avatar: "images/content/avatar-7.jpg",
         social: "anil_k_patel",
     },
     {
@@ -32,7 +32,7 @@ export const team = [
         position: "Kenya Operations Lead",
         description:
             "Active farmer and Ematrio Organic Farms founder. Regenerative agriculture trainer with 8+ years Kenya farming experience.",
-        avatar: "pRewa_website/images/content/avatar-6.jpg",
+        avatar: "images/content/avatar-6.jpg",
         social: "maureen_wanjiru",
     },
 ];

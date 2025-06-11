@@ -5,7 +5,7 @@ export const customers = [
         title: "Accenture on the future of payments and financial automation",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/shopify-1.svg",
+        logo: "images/content/shopify-1.svg",
     },
     {
         id: "1",
@@ -13,7 +13,7 @@ export const customers = [
         title: "Danish startup Monzo expands into 19 new territories with Benefiq",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/mailchimp-1.svg",
+        logo: "images/content/mailchimp-1.svg",
     },
     {
         id: "2",
@@ -21,7 +21,7 @@ export const customers = [
         title: "Canva on growing small businesses using the power of data",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/canva.svg",
+        logo: "images/content/canva.svg",
     },
     {
         id: "3",
@@ -29,7 +29,7 @@ export const customers = [
         title: "Twitch on adapting to new payment methods to maintain customer",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/twitch.svg",
+        logo: "images/content/twitch.svg",
     },
     {
         id: "4",
@@ -37,7 +37,7 @@ export const customers = [
         title: "Netflix CEO Brent Bellm on what's next in ecommerce",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/netflix.svg",
+        logo: "images/content/netflix.svg",
     },
     {
         id: "5",
@@ -45,6 +45,6 @@ export const customers = [
         title: "Gumroad achieves 10x growth in global expansion with Benefiq",
         content:
             "Delivering a good user experience without compromising the authoring experience required us to develop an authoring format that enables writers to express interactivity and simple page logic without mixing code and content.",
-        logo: "pRewa_website/images/content/gumroad-1.svg",
+        logo: "images/content/gumroad-1.svg",
     },
 ];

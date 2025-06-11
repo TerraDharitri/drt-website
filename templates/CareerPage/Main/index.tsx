@@ -38,7 +38,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                     <div className="mb-16 md:mb-6">
                         <Image
                             className="w-full lg:aspect-[1.3] lg:object-cover"
-                            src="pRewa_website/images/content/career-pic.jpg"
+                            src="images/content/career-pic.jpg"
                             width={1160}
                             height={620}
                             alt=""

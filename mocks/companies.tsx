@@ -4,84 +4,84 @@ export const companies = [
         title: "Mailchimp",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/mailchimp.png",
+        image: "images/content/companies/mailchimp.png",
     },
     {
         id: "1",
         title: "CovertKit",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/covert-kit.png",
+        image: "images/content/companies/covert-kit.png",
     },
     {
         id: "2",
         title: "Zapier",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/zapier.png",
+        image: "images/content/companies/zapier.png",
     },
     {
         id: "3",
         title: "AirDev",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/air-dev.png",
+        image: "images/content/companies/air-dev.png",
     },
     {
         id: "4",
         title: "Booking Autopilot",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/booking-autopilot.png",
+        image: "images/content/companies/booking-autopilot.png",
     },
     {
         id: "5",
         title: "Amazon Web Service",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/amazon-web-service.png",
+        image: "images/content/companies/amazon-web-service.png",
     },
     {
         id: "6",
         title: "Dropbox",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/dropbox.png",
+        image: "images/content/companies/dropbox.png",
     },
     {
         id: "7",
         title: "Intercomm",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/intercomm.png",
+        image: "images/content/companies/intercomm.png",
     },
     {
         id: "8",
         title: "Google",
         content:
             "Test your product idea by launching payments with little to no code.",
-        image: "pRewa_website/images/content/companies/google.png",
+        image: "images/content/companies/google.png",
     },
 ];
 
 export const companiesHero = [
     {
-        src: "pRewa_website/images/content/mailchimp.svg",
+        src: "images/content/mailchimp.svg",
         width: 140,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/airtable.svg",
+        src: "images/content/airtable.svg",
         width: 128,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/gumroad.svg",
+        src: "images/content/gumroad.svg",
         width: 123,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/notion.svg",
+        src: "images/content/notion.svg",
         width: 107,
         height: 40,
     },
@@ -89,22 +89,22 @@ export const companiesHero = [
 
 export const companiesHeroDark = [
     {
-        src: "pRewa_website/images/content/mailchimp-dark.svg",
+        src: "images/content/mailchimp-dark.svg",
         width: 140,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/airtable-dark.svg",
+        src: "images/content/airtable-dark.svg",
         width: 128,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/gumroad-dark.svg",
+        src: "images/content/gumroad-dark.svg",
         width: 123,
         height: 40,
     },
     {
-        src: "pRewa_website/images/content/notion-dark.svg",
+        src: "images/content/notion-dark.svg",
         width: 107,
         height: 40,
     },
@@ -112,32 +112,32 @@ export const companiesHeroDark = [
 
 export const companiesCustomer = [
     {
-        src: "pRewa_website/images/content/mailchimp.svg",
+        src: "images/content/mailchimp.svg",
         width: 126,
         height: 36,
     },
     {
-        src: "pRewa_website/images/content/airtable.svg",
+        src: "images/content/airtable.svg",
         width: 115,
         height: 36,
     },
     {
-        src: "pRewa_website/images/content/gumroad.svg",
+        src: "images/content/gumroad.svg",
         width: 111,
         height: 36,
     },
     {
-        src: "pRewa_website/images/content/notion.svg",
+        src: "images/content/notion.svg",
         width: 96,
         height: 36,
     },
     {
-        src: "pRewa_website/images/content/amazon.svg",
+        src: "images/content/amazon.svg",
         width: 83,
         height: 36,
     },
     {
-        src: "pRewa_website/images/content/shopify.svg",
+        src: "images/content/shopify.svg",
         width: 96,
         height: 36,
     },

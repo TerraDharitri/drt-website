@@ -8,28 +8,28 @@ const items = [
         content:
             "Small farmers worldwide lack funds due to a $150 billion financing gap. Banks charge high fees for small loans, and most farmers lack land titles or collateral.\
             Lenders see agricultural finance as risky because credit for farmers is hard to assess without formal records. Women deal with greater barriers, limiting financial inclusion in agriculture.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Market Connection Problems",
         content:
             "Selling crops is a major challenge that limits market access for farmers. Buyers have strict standards that are hard to meet, and cheap imports drive down local prices.\
             High transport costs eat into profits, while individual farmers have little power to negotiate better deals. Poor storage and lack of cold transport cause them to lose crops and money.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Climate Change Threats",
         content:
             "Agricultural producers face many threats like pests and water shortages. Livestock losses also hurt farms. Climate change worsens this with droughts, floods, and erratic weather.\
             These mounting problems create income uncertainty and food shortages, making climate resilient agriculture essential for survival.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Infrastructure Gaps",
         content:
             "Farmers often lack business skills and access to agricultural knowledge about available resources. Poor roads, storage, and irrigation make farming much harder than necessary.\
             Bad internet and limited technology access create a digital divide, while unclear policies and weak support systems add more barriers.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 ];
 
@@ -61,7 +61,7 @@ const Revenue = ({ }: RevenueProps) => (
                 <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
                     <Image
                         className="w-full"
-                        src="pRewa_website/images/content/revenue-pic.png"
+                        src="images/content/revenue-pic.png"
                         width={500}
                         height={450}
                         alt=""

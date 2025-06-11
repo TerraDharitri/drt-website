@@ -14,7 +14,7 @@ const Main = ({}: MainProps) => (
                     <div className="label mb-4">
                         <Image
                             className="w-4.5 mr-2 opacity-100"
-                            src="pRewa_website/images/content/icons/wallet.svg"
+                            src="images/content/icons/wallet.svg"
                             width={18}
                             height={18}
                             alt=""
@@ -48,7 +48,7 @@ const Main = ({}: MainProps) => (
                 <div className="relative shrink-0 w-[31.25rem] p-10 bg-greyscale-25 lg:w-full md:p-6">
                     <Image
                         className="w-full border border-greyscale-100 shadow-3"
-                        src="pRewa_website/images/content/features-pic.jpg"
+                        src="images/content/features-pic.jpg"
                         width={420}
                         height={420}
                         alt=""

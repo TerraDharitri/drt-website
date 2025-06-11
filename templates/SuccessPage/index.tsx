@@ -36,7 +36,7 @@ const SuccessPage = () => {
                     <div className="mb-10 md:mb-4">
                         <Image
                             className="w-[9.25rem] md:w-30"
-                            src="pRewa_website/images/content/check.png"
+                            src="images/content/check.png"
                             width={148}
                             height={148}
                             alt=""

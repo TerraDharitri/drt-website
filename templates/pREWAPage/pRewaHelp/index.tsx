@@ -6,25 +6,25 @@ const items = [
         title: "Investment risks",
         content:
             "Value fluctuates, no guarantees",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Development risks",
         content:
             "Platform under active development",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Regulatory risks",
         content:
             "Crypto laws vary by jurisdiction",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Research responsibility",
         content:
             "Not financial or legal advice",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 
 ];
@@ -62,7 +62,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""
@@ -104,7 +104,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""
@@ -148,7 +148,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""
@@ -196,7 +196,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""
@@ -232,7 +232,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""
@@ -304,7 +304,7 @@ const PRewaHelp = () => (
                     <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/solutions-pic-1.png"
+                            src="images/content/solutions-pic-1.png"
                             width={500}
                             height={450}
                             alt=""

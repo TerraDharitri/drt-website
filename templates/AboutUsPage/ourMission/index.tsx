@@ -5,37 +5,37 @@ const items = [
         title: "Farmer-Centricity",
         content:
             "Smallholder farmers guide all our design choices and daily decisions.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Transparency & Trust",
         content:
             "Technology creates verifiable data and trustworthy farmer processes.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Sustainability",
         content:
             "Regenerative farming methods that heal ecosystems and address climate.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Inclusivity",
         content:
             "Accessible solutions for women, youth, and all farming communities.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Collaboration",
         content:
             "Building partnerships with NGOs, cooperatives, and agritech groups.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Innovation & Pragmatism",
         content:
             "Agritech solutions delivering real benefits for actual farmer challenges.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 ];
 

@@ -7,7 +7,7 @@ const solutions = [
         title: "Join Dharitri's Mission: Create Real Impact for Farmers",
         stage: "",
         content: "",
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -18,7 +18,7 @@ const solutions = [
             "Three key ways to contribute exist. Investors can fund our mission, partners can collaborate on solutions, and community members can spread our regenerative farming message.",
             "Join us in building tools that make farming communities stronger worldwide.",
         ],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
     {
@@ -29,7 +29,7 @@ const solutions = [
             "We welcome investors of all sizes who want to create real change. Your investment directly supports agricultural innovation technology and financial inclusion for farming communities.",
             "Learn more through our project documentation or connect directly with our team.",
         ],
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/solutions#investors",
     },
     {
@@ -40,7 +40,7 @@ const solutions = [
             "We welcome NGOs, financial institutions, and technology organizations. Each partnership strengthens our agritech platform while expanding your impact with farming communities.",
             "Ready to explore collaboration? Share your organization's goals and discover partnership opportunities.",
         ],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#partners",
     },
     {
@@ -51,7 +51,7 @@ const solutions = [
             "Follow us on Telegram, Discord, and X for project updates and discussions.",
             "For general questions, feedback, or if you're unsure where to start, reach out directly.",
         ],
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/solutions#community",
     },
 

@@ -7,31 +7,31 @@ const items = [
         title: "Dharitri Farmer ID",
         content:
             "Create secure digital identity for agriculture to easily access platform services and build trusted reputation.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Dharitri Knowledge",
         content:
             "Access practical, local farming advice and helpful agricultural knowledge for better farm management decisions.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Dharitri Reward Hub",
         content:
             "Earn REWA tokens when completing sustainable farming activities and adopting improved agricultural practices.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Dharitri Green Badge",
         content:
             "Get trusted digital recognition for adopting sustainable farming methods and environmental practices.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Conservation Records",
         content:
             "Track clear, verified records of environmental care work and conservation efforts for future benefits.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 ];
 
@@ -40,31 +40,31 @@ const items2 = [
         title: "Dharitri Farm Records",
         content:
             "Build trusted reputation by creating reliable digital logs of farm activities, enhancing farm data management.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Sustainable Logger",
         content:
             "Document detailed sustainable practices, preparing for future benefits and carbon farming initiatives.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Dharitri Origin Track",
         content:
             "Provide simple, reliable information showing farm produce origins, supporting traceability in agriculture.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Dharitri Marketplace",
         content:
             "Connect farmers directly with buyers, improving market access and creating new sales channels for producers.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Farm Data for Loans",
         content:
             "Share farm records securely with full consent for agricultural microfinance and lender assessments.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 ];
 
@@ -73,25 +73,25 @@ const items3 = [
         title: "Dharitri Land Records",
         content:
             "Facilitate community-validated digital land records, offering stronger tenure security for farmers.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Dharitri Aid Platform",
         content:
             "Ensure efficient aid distribution using secure, blockchain-verified digital vouchers reaching farmers.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Dharitri Green Payments",
         content:
             "Enable organizations to send direct digital payments to farmers for verified green actions and conservation work.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Dharitri Finance Access",
         content:
             "Connect farmers with broader environmental finance, like carbon credits, using blockchain-verified data.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
    
 ];
@@ -128,7 +128,7 @@ const BuildSolutions = ({ }: BuildSolutionsProps) => (
                 <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
                     <Image
                         className="w-full"
-                        src="pRewa_website/images/content/revenue-pic.png"
+                        src="images/content/revenue-pic.png"
                         width={500}
                         height={450}
                         alt=""

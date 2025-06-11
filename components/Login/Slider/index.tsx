@@ -8,25 +8,25 @@ const items = [
         title: "Take Your Business Faster",
         content:
             "Ullamcorper urna fringilla lorem scelerisque nunc. Amet odio cras amet adipiscing ut adipiscing urpis donec vel",
-        image: "pRewa_website/images/content/slider-pic-1.png",
+        image: "images/content/slider-pic-1.png",
     },
     {
         title: "Create Custom Cards",
         content:
             "Ullamcorper urna fringilla lorem scelerisque nunc. Amet odio cras amet adipiscing ut adipiscing urpis donec vel",
-        image: "pRewa_website/images/content/slider-pic-2.png",
+        image: "images/content/slider-pic-2.png",
     },
     {
         title: "Take Your Business Faster",
         content:
             "Ullamcorper urna fringilla lorem scelerisque nunc. Amet odio cras amet adipiscing ut adipiscing urpis donec vel",
-        image: "pRewa_website/images/content/slider-pic-1.png",
+        image: "images/content/slider-pic-1.png",
     },
     {
         title: "Create Custom Cards",
         content:
             "Ullamcorper urna fringilla lorem scelerisque nunc. Amet odio cras amet adipiscing ut adipiscing urpis donec vel",
-        image: "pRewa_website/images/content/slider-pic-2.png",
+        image: "images/content/slider-pic-2.png",
     },
 ];
 

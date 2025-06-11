@@ -43,8 +43,8 @@ const Header = ({ className, dark }: HeaderProps) => {
                         className="w-full opacity-100"
                         src={
                             dark
-                                ? "pRewa_website/images/logo-light.svg"
-                                : "pRewa_website/images/logo-dark.svg"
+                                ? "images/logo-light.svg"
+                                : "images/logo-dark.svg"
                         }
                         width={103}
                         height={38}

@@ -6,19 +6,19 @@ const items = [
         title: "Build Trust",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "pRewa_website/images/content/icons/heart-hand.svg",
+        icon: "images/content/icons/heart-hand.svg",
     },
     {
         title: "Drive Client Joy",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "pRewa_website/images/content/icons/server.svg",
+        icon: "images/content/icons/server.svg",
     },
     {
         title: "Move with Urgency",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "pRewa_website/images/content/icons/speedometer.svg",
+        icon: "images/content/icons/speedometer.svg",
     },
 ];
 
@@ -63,7 +63,7 @@ const Perks = ({}: PerksProps) => (
                 </div>
                 <div className="shrink-0 w-[31.25rem] bg-greyscale-25 border border-greyscale-100 lg:w-full">
                     <Image
-                        src="pRewa_website/images/content/career-pic-1.jpg"
+                        src="images/content/career-pic-1.jpg"
                         className="w-full lg:aspect-[1.3] lg:object-cover"
                         width={500}
                         height={450}

@@ -8,7 +8,7 @@ const solutions = [
         stage: "",
         content:
             ["Fund farmer solutions with pREWA. Earn immediate crypto staking rewards."],
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -17,7 +17,7 @@ const solutions = [
         content: [
             "pREWA, a BSC BEP20 token, is central to Dharitri's fundraising and community building. It directly funds our platform development and farmer services launch.\
 The token offers immediate crypto staking opportunities for rewards and ecosystem support. The token serves as an interim step, connecting early supporters to our future Proof-of-Stake platform."],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
 ];
@@ -33,7 +33,7 @@ const solutions2 = [
             "Deploying our first suite of farmer services",
             "Establishing operational user onboarding systems",
             "Your participation supports Dharitri's development."],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#blockchain",
     },
 ];

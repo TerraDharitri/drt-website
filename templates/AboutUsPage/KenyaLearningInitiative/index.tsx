@@ -9,7 +9,7 @@ const solutions = [
         content: [
             "We're starting our journey in Kenya, working directly with farming communities. This hands-on approach helps us test agritech solutions and gather real smallholder farmers feedback.",
             "Local partnerships guide our sustainable farming development. We ensure every tool works for actual farming challenges before expanding our agritech platform."],
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -18,7 +18,7 @@ const solutions = [
         content: [
             "We build real solutions for smallholder farmers, not just technology for technology's sake. This approach prioritizes practical value and honest farming communication.",
             "Every decision reflects our commitment to sustainable farming and ethical producer support. This authentic foundation builds trust with farming communities worldwide."],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
 ];

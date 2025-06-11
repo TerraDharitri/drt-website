@@ -6,25 +6,25 @@ const payments = [
         title: "Prebuilt Payments",
         content:
             "Mollis morbi tellus etiam leo pretium varius. Duis ac id sed in. Convallis mauris eget orci volutpat. Ac auctor massa risus vitae eu lectus quam nulla tortor.",
-        image: "pRewa_website/images/content/payments-pic-1.png",
+        image: "images/content/payments-pic-1.png",
     },
     {
         title: "Payment Links",
         content:
             "Dictumst tristique proin mauris mattis. Dui in id in arcu viverra condimentum posuere. Sit etiam diam duis",
-        image: "pRewa_website/images/content/payments-pic-2.png",
+        image: "images/content/payments-pic-2.png",
     },
     {
         title: "UI Components",
         content:
             "Tristique nulla pellentesque ipsum mi pellentesque. Tellus viverra urna amet tortor purus erat etiam vitae",
-        image: "pRewa_website/images/content/payments-pic-3.png",
+        image: "images/content/payments-pic-3.png",
     },
     {
         title: "One Click Checkout",
         content:
             "Tristique lacus donec vestibulum dolor mauris. Adipiscing arcu urna amet amet lacus imperdiet aliquam aliquet rutrum. Tortor scelerisque id ut congue",
-        image: "pRewa_website/images/content/payments-pic-4.png",
+        image: "images/content/payments-pic-4.png",
     },
 ];
 

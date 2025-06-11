@@ -90,7 +90,7 @@ const Main = ({}: MainProps) => {
                     <div className="w-[calc(50%-4rem)] mx-8 lg:hidden">
                         <Image
                             className="w-full"
-                            src="pRewa_website/images/content/contact-pic.jpg"
+                            src="images/content/contact-pic.jpg"
                             width={608}
                             height={800}
                             alt=""

@@ -12,7 +12,7 @@ const solutions = [
             "Investors: Support impactful sustainable projects, earning staking rewards while funding vital agricultural solutions.",
             "Platform: Our system ensures deep trust and secure digital interactions using reliable blockchain verification methods."
         ],
-        image: "pRewa_website/images/content/solutions-pic-1.png",
+        image: "images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -25,7 +25,7 @@ const solutions = [
             "Secure Land: Aims for greater land tenure security through community-validated digital land records for agricultural producers.",
             "Enhanced Knowledge: Supports better farm management decisions through shared information and verified learning resources."
         ],
-        image: "pRewa_website/images/content/solutions-pic-2.png",
+        image: "images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
 
