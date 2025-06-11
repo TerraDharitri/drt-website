@@ -2,6 +2,7 @@
   "name": "pRewa_website",
   "version": "0.0.1",
   "private": true,
+  "repository": "https://github.com/TerraDharitri/pRewa_website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
