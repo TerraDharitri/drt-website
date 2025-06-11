@@ -5,25 +5,25 @@ const items = [
         title: "Powered by People",
         content:
             "Tortor pulvinar vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum aliquam pharetra ac.",
-        icon: "/images/content/icons/user-circle.svg",
+        icon: "pRewa_website/images/content/icons/user-circle.svg",
     },
     {
         title: "Inspire and Provoke",
         content:
             "Tortor pulvinar vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum aliquam pharetra ac.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Make it Right",
         content:
             "Tortor pulvinar vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum aliquam pharetra ac.",
-        icon: "/images/content/icons/award.svg",
+        icon: "pRewa_website/images/content/icons/award.svg",
     },
     {
         title: "Be Transparent",
         content:
             "Tortor pulvinar vestibulum eget aliquet penatibus interdum pellentesque. Diam ultrices in risus ac nunc imperdiet ultricies. Viverra est nunc condimentum aliquam pharetra ac.",
-        icon: "/images/content/icons/face-happy.svg",
+        icon: "pRewa_website/images/content/icons/face-happy.svg",
     },
 ];
 

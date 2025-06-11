@@ -14,7 +14,7 @@ const Footer = ({}: FooterProps) => (
                 <Link className="block w-23 mr-auto lg:mb-12 md:mb-8" href="/">
                     <Image
                         className="w-full opacity-100"
-                        src="/images/logo-dark.svg"
+                        src="pRewa_website/images/logo-dark.svg"
                         width={92}
                         height={29}
                         alt=""

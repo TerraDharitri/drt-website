@@ -7,25 +7,25 @@ const items = [
         title: "Scalability",
         content:
             "Grows with community via blockchain sharding.",
-        icon: "/images/content/icons/wallet.svg",
+        icon: "pRewa_website/images/content/icons/wallet.svg",
     },
     {
         title: "Efficiency",
         content:
             "Fast, low fee blockchain transactions.",
-        icon: "/images/content/icons/coins-stacked.svg",
+        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
     },
     {
         title: "Flexibility",
         content:
             "Supports WASM & Rust for agricultural tools.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Sustainable",
         content:
             "Proof-of-Stake design is energy efficient.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
 ];
 

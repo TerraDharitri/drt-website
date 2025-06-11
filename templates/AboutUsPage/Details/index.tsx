@@ -6,13 +6,13 @@ const items = [
         title: "Mission Statement",
         content:
             "We provide smallholder farmers with transparent digital solutions. This ecosystem supports regenerative farming and sustainable finance access.",
-        image: "/images/content/icons/layers.svg",
+        image: "pRewa_website/images/content/icons/layers.svg",
     },
     {
         title: "Vision Statement",
         content:
             "Every farmer gains tools for economic growth, climate resilience, and planet health. We build a future where farming communities succeed.",
-        image: "/images/content/icons/zap.svg",
+        image: "pRewa_website/images/content/icons/zap.svg",
     },
 ];
 
@@ -29,7 +29,7 @@ const Details = ({}: DetailsProps) => (
                 <div className="flex items-end flex-1 border border-primary-300 bg-primary-50">
                     <Image
                         className="w-full"
-                        src="/images/content/screenshot-4.png"
+                        src="pRewa_website/images/content/screenshot-4.png"
                         width={560}
                         height={624}
                         alt=""

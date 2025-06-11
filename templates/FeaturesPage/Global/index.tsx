@@ -7,19 +7,19 @@ const items = [
         title: "100+ Payment Method",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "/images/content/icons/credit-card.svg",
+        icon: "pRewa_website/images/content/icons/credit-card.svg",
     },
     {
         title: "Convert Automatically",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "/images/content/icons/credit-card-refresh.svg",
+        icon: "pRewa_website/images/content/icons/credit-card-refresh.svg",
     },
     {
         title: "Manage Funds",
         content:
             "Test your product idea by launching payments with little to no code.",
-        icon: "/images/content/icons/coins-hand.svg",
+        icon: "pRewa_website/images/content/icons/coins-hand.svg",
     },
 ];
 
@@ -52,7 +52,7 @@ const Global = ({}: GlobalProps) => (
                 </div>
                 <div className="shrink-0 w-[31.25rem] bg-greyscale-25 border border-greyscale-100 lg:w-full">
                     <Image
-                        src="/images/content/global-1.png"
+                        src="pRewa_website/images/content/global-1.png"
                         className="w-full"
                         width={500}
                         height={450}

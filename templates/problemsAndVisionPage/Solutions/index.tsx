@@ -9,7 +9,7 @@ const solutions = [
         content:
             "When farming becomes difficult, families work hard but still experience low yields, poor income, and food insecurity. This limits their potential and slows economic growth in communities.\
             Without sustainable agriculture methods, our environment suffers. Solutions are vital for stronger economies, communities, and a healthier planet.",
-        image: "/images/content/solutions-pic-1.png",
+        image: "pRewa_website/images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -18,7 +18,7 @@ const solutions = [
         content:
             "Our goal is clear: small farmers achieving economic stability and climate strength while restoring a healthier Earth.\
             We build this with transparent regenerative agriculture and accessible technology. This farming change for sustainability and fairness is essential worldwide.",
-        image: "/images/content/solutions-pic-2.png",
+        image: "pRewa_website/images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
     // {
@@ -26,7 +26,7 @@ const solutions = [
     //     stage: "Blockchain Trust",
     //     content:
     //         "Use blockchain to build verifiable trust. Farmers earn digital IDs, get transparent records, and unlock access to fair markets and sustainable finance.",
-    //     image: "/images/content/solutions-pic-3.png",
+    //     image: "pRewa_website/images/content/solutions-pic-3.png",
     //     url: "/solutions#blockchain",
     // },
 ];

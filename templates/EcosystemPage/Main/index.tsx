@@ -32,7 +32,7 @@ const Main = ({}: MainProps) => (
                     <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8">
                         <Image
                             className="w-full border border-white/[.15] shadow-1"
-                            src="/images/content/contact-pic.jpg"
+                            src="pRewa_website/images/content/contact-pic.jpg"
                             width={574}
                             height={520}
                             alt=""

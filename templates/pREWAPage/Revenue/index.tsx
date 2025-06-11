@@ -7,31 +7,31 @@ const items = [
         title: "Platform & Service Systems",
         content:
             "Core blockchain development and testing.",
-        icon: "/images/content/icons/wallet.svg",
+        icon: "pRewa_website/images/content/icons/wallet.svg",
     },
     {
         title: "Operations & Team Support",
         content:
             "Team support for development and launch.",
-        icon: "/images/content/icons/coins-stacked.svg",
+        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
     },
     {
         title: "Ecosystem & Community Growth",
         content:
             " Community building and global outreach.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Building Strong Foundations",
         content:
             "Operational foundations and governance.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Kenya Learning & Partnerships",
         content:
             "Kenya agritech partnerships and learning.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
 ];
 

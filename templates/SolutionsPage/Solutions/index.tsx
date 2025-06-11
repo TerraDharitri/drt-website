@@ -8,7 +8,7 @@ const solutions = [
         stage: "",
         content:
             "Three-phase development bringing blockchain benefits to farmers.",
-        image: "/images/content/solutions-pic-1.png",
+        image: "pRewa_website/images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
     {
@@ -16,7 +16,7 @@ const solutions = [
         stage: "",
         content:
             "Dharitri's approach is farmer-focused. Blockchain provides trust and transparency where needed, supported by effective off-chain processing. Our mobile apps are designed for easy access to a useful and sustainable ecosystem.",
-        image: "/images/content/solutions-pic-2.png",
+        image: "pRewa_website/images/content/solutions-pic-2.png",
         url: "/solutions#microfinance",
     },
     // {
@@ -24,7 +24,7 @@ const solutions = [
     //     stage: "Blockchain Trust",
     //     content:
     //         "Use blockchain to build verifiable trust. Farmers earn digital IDs, get transparent records, and unlock access to fair markets and sustainable finance.",
-    //     image: "/images/content/solutions-pic-3.png",
+    //     image: "pRewa_website/images/content/solutions-pic-3.png",
     //     url: "/solutions#blockchain",
     // },
 ];

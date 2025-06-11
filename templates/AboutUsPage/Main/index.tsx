@@ -8,7 +8,7 @@ const solutions = [
         stage: "",
         content:
             "Our farming backgrounds, technical expertise, and farmer-first mission.",
-        image: "/images/content/solutions-pic-1.png",
+        image: "pRewa_website/images/content/solutions-pic-1.png",
         url: "/problemsAndVision#b2b",
     },
    

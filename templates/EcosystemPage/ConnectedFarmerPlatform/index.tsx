@@ -7,49 +7,49 @@ const items = [
         title: "Dharitri Blockchain",
         content:
             "Our secure, scalable Proof-of-Stake foundation enabling farmer identities and REWA tokens.",
-        icon: "/images/content/icons/wallet.svg",
+        icon: "pRewa_website/images/content/icons/wallet.svg",
     },
     {
         title: "Blockchain Explorer",
         content:
             "Public web tool providing transparent visibility into blockchain transactions and activity.",
-        icon: "/images/content/icons/coins-stacked.svg",
+        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
     },
     {
         title: "Dharitri Wallet App",
         content:
             "ntegrated mobile wallet for agricultural producers to securely manage REWA tokens and digital assets.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Backend API System",
         content:
             "Central engine connecting platform applications and managing essential farm information flows.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Mobile Applications",
         content:
             "Intuitive Farmer and Agent apps for easy interactions and farm record management tools.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Web Access Portals",
         content:
             "Secure interfaces for MFI partners, NGOs, system administration, and marketplace buyers.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Smart Contract Core",
         content:
             "Rust smart contracts built for advanced automation and agricultural platform capabilities.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Dharitri DEX Platform",
         content:
             "Native decentralized exchange providing important liquidity for our ecosystem tokens.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
 
 ];
@@ -58,13 +58,13 @@ const items2 = [
         title: "REWA Network",
         content:
             "REWA will be the native token powering our Proof-of-Stake blockchain. Its main roles: secure the network via staking and cover transaction fees. REWA also rewards agricultural producers for engagement.",
-        icon: "/images/content/icons/wallet.svg",
+        icon: "pRewa_website/images/content/icons/wallet.svg",
     },
     {
         title: "COME Currency",
         content:
             "Our future vision includes the COME stablecoin, planned as a reliable store of value. It will be pegged to gold and a currency basket. This provides stable value for aid and environmental payments.",
-        icon: "/images/content/icons/coins-stacked.svg",
+        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
     },
 
 ];
@@ -93,7 +93,7 @@ const ConnectedFarmerPlatform = ({ }: ConnectedFarmersProps) => (
                 <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
                     <Image
                         className="w-full"
-                        src="/images/content/revenue-pic.png"
+                        src="pRewa_website/images/content/revenue-pic.png"
                         width={500}
                         height={450}
                         alt=""

@@ -61,7 +61,7 @@ const Main = ({ id }: MainProps) => {
                         <div className="w-10 h-10 mr-4">
                             <Image
                                 className="w-full h-full object-cover rounded-full"
-                                src="/images/content/avatar-1.jpg"
+                                src="pRewa_website/images/content/avatar-1.jpg"
                                 width={40}
                                 height={40}
                                 alt=""

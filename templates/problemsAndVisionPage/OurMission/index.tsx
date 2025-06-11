@@ -7,37 +7,37 @@ const items = [
         title: "Farmer-Centricity",
         content:
             "We put farmer needs and progress at the heart of all our decisions.",
-        icon: "/images/content/icons/wallet.svg",
+        icon: "pRewa_website/images/content/icons/wallet.svg",
     },
     {
         title: "Clear & Trusted",
         content:
             "Blockchain technology creates verifiable data and clear processes.",
-        icon: "/images/content/icons/coins-stacked.svg",
+        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
     },
     {
         title: "Sustainable Focus",
         content:
             "Promoting farming methods that help climate change and communities.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Inclusive Systems",
         content:
             "Solutions accessible to all, especially women and youth farmers.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Partnership Focus",
         content:
             "Building partnerships with NGOs, cooperatives, and institutions.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
     {
         title: "Smart Innovation",
         content:
             "Using new technology for practical, real-world farming solutions.",
-        icon: "/images/content/icons/trophy.svg",
+        icon: "pRewa_website/images/content/icons/trophy.svg",
     },
 ];
 
