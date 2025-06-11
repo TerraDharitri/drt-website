@@ -17,7 +17,7 @@ const SuccessPage = () => {
                     <Link className="w-26 mr-auto" href="/">
                         <Image
                             className="w-full opacity-100"
-                            src="/images/logo-light.svg"
+                            src="pRewa_website/images/logo-light.svg"
                             width={103}
                             height={38}
                             alt=""
@@ -36,7 +36,7 @@ const SuccessPage = () => {
                     <div className="mb-10 md:mb-4">
                         <Image
                             className="w-[9.25rem] md:w-30"
-                            src="/images/content/check.png"
+                            src="pRewa_website/images/content/check.png"
                             width={148}
                             height={148}
                             alt=""

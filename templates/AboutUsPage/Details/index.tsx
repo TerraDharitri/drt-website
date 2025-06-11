@@ -29,7 +29,7 @@ const Details = ({}: DetailsProps) => (
                 <div className="flex items-end flex-1 border border-primary-300 bg-primary-50">
                     <Image
                         className="w-full"
-                        src="/images/content/screenshot-4.png"
+                        src="pRewa_website/images/content/screenshot-4.png"
                         width={560}
                         height={624}
                         alt=""
