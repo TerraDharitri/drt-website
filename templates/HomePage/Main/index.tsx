@@ -24,7 +24,7 @@ const Main = ({}: MainProps) => (
                                 className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
                                 href="/sign-up"
                             >
-                                Get pRewa Tokens
+                                Get pREWA Tokens
                             </Link>
                         </div>
                     </div>

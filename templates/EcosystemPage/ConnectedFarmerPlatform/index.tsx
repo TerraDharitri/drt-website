@@ -61,7 +61,7 @@ const items2 = [
         icon: "images/content/icons/wallet.svg",
     },
     {
-        title: "COME Currency",
+        title: "COME stablecoin",
         content:
             "Our future vision includes the COME stablecoin, planned as a reliable store of value. It will be pegged to gold and a currency basket. This provides stable value for aid and environmental payments.",
         icon: "images/content/icons/coins-stacked.svg",
