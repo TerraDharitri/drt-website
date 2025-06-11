@@ -1,6 +1,6 @@
 1:HL["/pREWA-website/_next/static/media/103fc5fac08dcb15-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/pREWA-website/_next/static/css/78c9abdc1f32028f.css","style",{"crossOrigin":""}]
-0:["RTrkNifbw_kY6CmU0GgXD",[[["",{"children":["privacy",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pREWA-website/_next/static/css/78c9abdc1f32028f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["f4cpMUK1rTVBpM4Jjoo7P",[[["",{"children":["privacy",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/pREWA-website/_next/static/css/78c9abdc1f32028f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:I[6954,[],""]
 6:I[7264,[],""]
 8:I[8188,["326","static/chunks/326-165112ee0b661805.js","33","static/chunks/33-dac26debfcdef61f.js","675","static/chunks/675-5586c433ec281a5c.js","260","static/chunks/260-01a7806f7d470790.js","385","static/chunks/app/privacy/page-e86d91589c72a00e.js"],""]
