@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
-
 const nextConfig = {
-  output: 'export',
+  output: 'export',            // required for static export
   images: {
     unoptimized: true          // disables _next/image for static hosting
   },
-  basePath: isGithubPages ? '/pRewa_website' : '',
-  assetPrefix: isGithubPages ? '/pRewa_website/' : '',
+  basePath: '/pRewa_website',  // important for GitHub Pages
+  assetPrefix: '/pRewa_website', // ensures correct URL resolution
 };
 
 module.exports = nextConfig;
