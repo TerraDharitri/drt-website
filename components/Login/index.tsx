@@ -23,7 +23,7 @@ const Login = ({ signUp }: LoginProps) => (
                     <button className="btn-secondary btn-md flex-1 rounded-lg md:w-full">
                         <Image
                             className="w-5 opacity-100"
-                            src="pRewa_website/images/content/google.svg"
+                            src="/images/content/google.svg"
                             width={22}
                             height={22}
                             alt=""
@@ -33,7 +33,7 @@ const Login = ({ signUp }: LoginProps) => (
                     <button className="btn-secondary btn-md flex-1 rounded-lg md:w-full">
                         <Image
                             className="w-5 opacity-100"
-                            src="pRewa_website/images/content/apple.svg"
+                            src="/images/content/apple.svg"
                             width={22}
                             height={20}
                             alt=""
