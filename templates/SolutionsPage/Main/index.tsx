@@ -43,7 +43,7 @@ const Main = ({}: MainProps) => (
                     <div className="relative shrink-0 w-[49.48%] xl:w-[52%] lg:w-full md:pr-5">
                         <Image
                             className="w-full border border-white/[.15] shadow-1"
-                            src="/images/content/screenshot-2.jpg"
+                            src="pRewa_website/images/content/screenshot-2.jpg"
                             width={574}
                             height={520}
                             alt=""
@@ -51,7 +51,7 @@ const Main = ({}: MainProps) => (
                         <div className="absolute top-[9%] -right-[10.45%] w-[73.17%] 2xl:-right-[4%] md:top-[7%] md:right-0">
                             <Image
                                 className="w-full border border-greyscale-100 shadow-[-0.625rem_1.25rem_5rem_0_rgba(10,10,10,0.20)]"
-                                src="/images/content/screenshot-3.jpg"
+                                src="pRewa_website/images/content/screenshot-3.jpg"
                                 width={420}
                                 height={420}
                                 alt=""

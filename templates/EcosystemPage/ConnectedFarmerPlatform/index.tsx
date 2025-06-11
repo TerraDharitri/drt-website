@@ -93,7 +93,7 @@ const ConnectedFarmerPlatform = ({ }: ConnectedFarmersProps) => (
                 <div className="w-[calc(50%-5rem)] mx-20 bg-greyscale-25 border border-greyscale-100 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
                     <Image
                         className="w-full"
-                        src="/images/content/revenue-pic.png"
+                        src="pRewa_website/images/content/revenue-pic.png"
                         width={500}
                         height={450}
                         alt=""

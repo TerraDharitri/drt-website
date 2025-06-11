@@ -63,7 +63,7 @@ const Perks = ({}: PerksProps) => (
                 </div>
                 <div className="shrink-0 w-[31.25rem] bg-greyscale-25 border border-greyscale-100 lg:w-full">
                     <Image
-                        src="/images/content/career-pic-1.jpg"
+                        src="pRewa_website/images/content/career-pic-1.jpg"
                         className="w-full lg:aspect-[1.3] lg:object-cover"
                         width={500}
                         height={450}
