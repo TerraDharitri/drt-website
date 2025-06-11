@@ -11,7 +11,7 @@ const Main = ({}: MainProps) => (
                 <div className="label mb-4">
                     <Image
                         className="w-4.5 h-4.5 mr-2 opacity-100"
-                        src="pRewa_website/images/content/icons/grid.svg"
+                        src="/images/content/icons/grid.svg"
                         width={18}
                         height={18}
                         alt=""
