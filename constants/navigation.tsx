@@ -50,7 +50,7 @@ export const navigationFooter = [
     links: [
       { id: "0", title: "pREWA Token", url: "/pREWA" },
       { id: "1", title: "Get Involved", url: "/get-involved" },
-      { id: "2", title: "About Us", url: "/about" },
+      { id: "2", title: "About Us", url: "/about-us" },
     ],
   },
   {
