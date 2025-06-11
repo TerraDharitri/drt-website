@@ -6,25 +6,25 @@ const details = [
         title: "Growing Farmers",
         content:
             "Secure IDs, knowledge access, fair markets, financial inclusion.",
-        icon: "pRewa_website/images/content/icons/wallet.svg",
+        icon: "images/content/icons/wallet.svg",
     },
     {
         title: "Green Agriculture",
         content:
             "Sustainable practices, conservation methods, climate resilience.",
-        icon: "pRewa_website/images/content/icons/coins-stacked.svg",
+        icon: "images/content/icons/coins-stacked.svg",
     },
     {
         title: "Smart Financing",
         content:
             "Agricultural microfinance, environmental rewards, transparent aid.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
     {
         title: "Blockchain Trust",
         content:
             " Blockchain verifiable data, immutable records, efficient systems.",
-        icon: "pRewa_website/images/content/icons/trophy.svg",
+        icon: "images/content/icons/trophy.svg",
     },
 ];
 
