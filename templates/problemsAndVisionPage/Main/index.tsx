@@ -8,25 +8,35 @@ import { companiesHero } from "@/mocks/companies";
 type MainProps = {};
 
 const Main = ({}: MainProps) => (
-    <Dividers className="bg-secondary-300 text-greyscale-0" hero light>
-        <div className="py-22 md:pt-12 md:pb-6">
-            <div className="container">
-                <div className="flex flex-col items-left justify-left text-left ml-20 mb-22 md:mb-6">
-                    <div className="max-w-[40rem]">
-
-                        <div className="mb-4 text-h1 xl:text-h1 md:text-h3">
-                            Why Farmers Struggle & How We Plan to Help
-                        </div>
-                        <div className="mb-10 text-white/70 md:text-lg">
-                            Understanding the barriers keeping farming families in poverty.
-                        </div>
-                      
-                    </div>
-                </div>
+  <Dividers className="bg-secondary-300 text-greyscale-0" hero light>
+    <div className="py-22 md:pt-12 md:pb-6">
+      <div className="container">
+        <div className="flex items-center mb-22 lg:block md:mb-6">
+          <div className="grow pr-10 lg:pr-0">
+            <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
+              Why Farmers Struggle
+              <br />
+              & How We Plan to
+              <br />
+              Help
             </div>
+            <div className="mb-10 text-white/70 md:text-lg">
+              Understanding the barriers keeping farming families in poverty.
+            </div>
+          </div>
+          <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8 flex justify-center">
+            <Image
+              className="w-full max-w-[400px] h-auto"
+              src="/images/graphics/the problem/problem-farmer.webp"
+              width={400}
+              height={400}
+              alt="Hands protecting a growing plant - supporting farmers"
+            />
+          </div>
         </div>
-    </Dividers>
+      </div>
+    </div>
+  </Dividers>
 );
-
 
 export default Main;

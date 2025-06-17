@@ -10,8 +10,8 @@ const Team = ({}: TeamProps) => (
         <div className="container">
             <div className="mb-20 xl:mb-16 md:mb-8">
                 <div className="stage">Team</div>
-                <div className="mb-4 text-h2">Our Dedicated Team & Expertise</div>
-                <div className="max-w-[46.63rem] text-greyscale-400">
+                <div className="mb-4 text-h2 dark:text-dark-text-primary">Our Dedicated Team & Expertise</div>
+                <div className="max-w-[46.63rem] text-greyscale-400 dark:text-dark-text-secondary">
                     The technology and farming team combines technical expertise with authentic farming experience. We understand farming challenges because we`ve lived them.
                 </div>
             </div>
@@ -30,13 +30,13 @@ const Team = ({}: TeamProps) => (
                                 alt=""
                             />
                         </div>
-                        <div className="mb-4 text-h5 xl:text-h6 md:text-h5">
+                        <div className="mb-4 text-h5 dark:text-dark-text-primary xl:text-h6 md:text-h5 dark:text-dark-text-primary">
                             {person.name}
                         </div>
-                        <div className="mb-8 text-greyscale-400 md:mb-6">
+                        <div className="mb-8 text-greyscale-400 dark:text-dark-text-secondary md:mb-6">
                             {person.position}
                         </div>
-                        <div className="mb-8 text-greyscale-400 md:mb-6">
+                        <div className="mb-8 text-greyscale-400 dark:text-dark-text-secondary md:mb-6">
                             {person.description}
                         </div>
                         <a
