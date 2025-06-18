@@ -6,24 +6,24 @@ const details = [
   {
     title: "Growing Farmers",
     content: "Secure IDs, knowledge access, fair markets, financial inclusion.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/users-bold.svg",
   },
   {
     title: "Green Agriculture",
     content: "Sustainable practices, conservation methods, climate resilience.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/leaf-bold.svg",
   },
   {
     title: "Smart Financing",
     content:
       "Agricultural microfinance, environmental rewards, transparent aid.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/credit-card-bold.svg",
   },
   {
     title: "Blockchain Trust",
     content:
       " Blockchain verifiable data, immutable records, efficient systems.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/shield-check-bold.svg",
   },
 ];
 
@@ -46,7 +46,7 @@ const Details = ({}: DetailsProps) => (
             className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg text-center"
             key={index}
           >
-            <div className="flex justify-center items-center w-12 h-12 mb-6 mx-auto rounded-full bg-secondary-0">
+            <div className="flex justify-center items-center w-12 h-12 mb-6  rounded-full bg-[#9FE870]">
               <Image
                 src={item.icon}
                 className="w-6"
@@ -55,10 +55,10 @@ const Details = ({}: DetailsProps) => (
                 alt=""
               />
             </div>
-            <div className="mb-3 text-h6 dark:text-dark-text-primary">
+            <div className="mb-3 text-left text-h6 dark:text-dark-text-primary">
               {item.title}
             </div>
-            <div className="text-greyscale-400 dark:text-dark-text-secondary">
+            <div className=" text-left text-greyscale-400 dark:text-dark-text-secondary">
               {item.content}
             </div>
           </div>

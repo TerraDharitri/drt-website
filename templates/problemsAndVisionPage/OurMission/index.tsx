@@ -7,35 +7,35 @@ const items = [
     title: "Farmer-Centricity",
     content:
       "We put farmer needs and progress at the heart of all our decisions.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/heart-bold.svg",
   },
   {
     title: "Clear & Trusted",
     content:
       "Blockchain technology creates verifiable data and clear processes.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/shield-check-bold.svg",
   },
   {
     title: "Sustainable Focus",
     content:
       "Promoting farming methods that help climate change and communities.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/leaf-bold.svg",
   },
   {
     title: "Inclusive Systems",
     content: "Solutions accessible to all, especially women and youth farmers.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/users-bold.svg",
   },
   {
     title: "Partnership Focus",
     content: "Building partnerships with NGOs, cooperatives, and institutions.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/handshake-bold.svg",
   },
   {
     title: "Smart Innovation",
     content:
       "Using new technology for practical, real-world farming solutions.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/cpu-bold.svg",
   },
 ];
 
@@ -68,7 +68,7 @@ const OurMission = ({}: RevenueProps) => (
               className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2"
               key={index}
             >
-              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
+              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-[#9FE870]">
                 <Image
                   src={item.icon}
                   className="w-6"

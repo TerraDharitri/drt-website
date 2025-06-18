@@ -12,19 +12,17 @@ const Main = ({}: MainProps) => (
     <div className="py-22 md:pt-12 md:pb-6">
       <div className="container">
         <div className="flex items-center mb-22 lg:block md:mb-6">
-          <div className="grow pr-10 lg:pr-0">
+          <div className="basis-[70%] pr-10 lg:pr-0">
             <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
               Why Farmers Struggle
-              <br />
-              & How We Plan to
-              <br />
+              & How We Plan to 
               Help
             </div>
             <div className="mb-10 text-white/70 md:text-lg">
               Understanding the barriers keeping farming families in poverty.
             </div>
           </div>
-          <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8 flex justify-center">
+          <div className="basis-[30%] flex justify-center lg:mt-16 md:mt-8">
             <Image
               className="w-full max-w-[400px] h-auto"
               src="/images/graphics/the problem/problem-farmer.webp"

@@ -16,83 +16,79 @@ const risks = [
     content: "Crypto laws vary by jurisdiction",
     icon: "/images/content/icons/trophy.svg",
   },
-  {
-    title: "Research responsibility",
-    content: "Not financial or legal advice",
-    icon: "/images/content/icons/award.svg",
-  },
 ];
 
 const KeyRisksWarnings = () => (
-  <div className="section bg-greyscale-25 dark:bg-dark-surface">
+  <div className="section bg-greyscale-25 dark:bg-dark-surface py-24">
     <div className="container">
-      <div className="text-center mb-16">
+      <div className="text-center mb-20">
         <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
           Key Risks & Token Warnings
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl mx-auto">
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl mx-auto leading-relaxed">
           Please understand these important risks before participating in our
           token sale. Cryptocurrency investments carry inherent uncertainties.
         </div>
       </div>
 
-      <div className="flex items-center -mx-20 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0">
-        <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10 flex justify-center">
+      <div className="flex items-center justify-center gap-24 xl:gap-20 lg:flex-col lg:gap-16 mb-20">
+        {/* Left side - Shield Icon */}
+        <div className="flex-shrink-0 w-[500px] xl:w-[450px] lg:w-full lg:max-w-[450px] lg:mx-auto">
           <Image
-            className="w-full h-auto object-contain max-w-[400px] max-h-[300px]"
+            className="w-full h-auto object-contain"
             src="/images/graphics/pREWA/pREWA/risk warning.webp"
-            width={400}
-            height={300}
+            width={500}
+            height={500}
             alt="Risk warning illustration"
           />
         </div>
-        <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
-          <div className="grid gap-6 grid-cols-1">
-            {risks.map((risk, index) => (
-              <div
-                className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg"
-                key={index}
-              >
-                <div className="flex items-center">
-                  <div className="flex justify-center items-center w-12 h-12 mr-4 rounded-full bg-red-100 dark:bg-red-900">
-                    <Image
-                      src={risk.icon}
-                      className="w-6"
-                      width={24}
-                      height={24}
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <div className="mb-2 text-h6 dark:text-dark-text-primary font-semibold">
-                      {risk.title}
-                    </div>
-                    <div className="text-greyscale-400 dark:text-dark-text-secondary">
-                      {risk.content}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
 
-          <div className="mt-8 p-6 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
-            <div className="flex items-start">
-              <span className="mr-3 text-amber-600 text-2xl">⚠️</span>
-              <div>
-                <div className="mb-2 text-h6 text-amber-800 dark:text-amber-200 font-semibold">
-                  Important Disclaimer
-                </div>
-                <div className="text-amber-700 dark:text-amber-300 text-sm">
-                  pREWA tokens are utility tokens, not securities or investment
-                  contracts. Past performance does not guarantee future results.
-                  Please conduct your own research and consult with financial
-                  advisors before making any investment decisions.
-                </div>
+        {/* Right side - Content */}
+        <div className="flex-1 min-w-0 max-w-2xl">
+          <div className="mb-8 text-h4 xl:text-h5 dark:text-dark-text-primary font-semibold">
+            Crypto investments like pREWA carry high risks, including potential
+            total loss. pREWA is an interim utility token with volatile value,
+            funding our farmer solutions.
+          </div>
+          <div className="mb-6 text-greyscale-500 dark:text-dark-text-secondary">
+            Consult independent advisors before making any investment decisions.
+            Review our full Terms & Conditions for complete risk details.
+          </div>
+          <div className="mb-8 text-greyscale-500 dark:text-dark-text-secondary">
+            By participating, you acknowledge and accept these token sale risks.
+          </div>
+          <button className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors">
+            View Full T&Cs
+          </button>
+        </div>
+      </div>
+
+      {/* Risk Cards - Horizontal Layout */}
+      <div className="grid grid-cols-3 gap-8 lg:grid-cols-1 lg:gap-6">
+        {risks.map((risk, index) => (
+          <div
+            className="p-8 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border rounded-lg"
+            key={index}
+          >
+            <div className="text-center">
+              <div className="flex justify-center items-center w-20 h-20 mx-auto mb-6 rounded-full bg-primary-100 dark:bg-primary-900/30">
+                <Image
+                  src={risk.icon}
+                  className="w-10 h-10"
+                  width={40}
+                  height={40}
+                  alt=""
+                />
+              </div>
+              <div className="mb-3 text-xl font-bold dark:text-dark-text-primary">
+                {risk.title}
+              </div>
+              <div className="text-greyscale-500 dark:text-dark-text-secondary leading-relaxed">
+                {risk.content}
               </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   </div>

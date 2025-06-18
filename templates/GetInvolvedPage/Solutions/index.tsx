@@ -7,7 +7,7 @@ const solutions = [
     title: "Join Dharitri's Mission: Create Real Impact for Farmers",
     stage: "",
     content: "",
-    image: "/images/graphics/Get Involved/Get Involved/join us.webp",
+    image: "images/graphics/Get Involved/Get Involved/join us.webp",
     url: "/problemsAndVision#b2b",
   },
   {
@@ -18,7 +18,7 @@ const solutions = [
       "Three key ways to contribute exist. Investors can fund our mission, partners can collaborate on solutions, and community members can spread our regenerative farming message.",
       "Join us in building tools that make farming communities stronger worldwide.",
     ],
-    image: "/images/graphics/Get Involved/Get Involved/farmer focus.svg",
+    image: "images/graphics/Get Involved/Get Involved/tractor.webp",
     url: "/solutions#microfinance",
   },
   {

@@ -7,12 +7,11 @@ const Join = ({}: JoinProps) => (
     <div className="container-md">
       <div className="p-20 bg-secondary-300 rounded-lg lg:px-12 md:px-4 md:py-12">
         <div className="max-w-[50rem] mx-auto text-center xl:max-w-[46rem]">
-          <div className="mb-4 text-h1 text-white xl:text-h2 md:text-h4">
+          <div className="mb-4 text-h2 text-start text-white xl:text-h2 md:text-h4">
             From Our Vision to Real
-            <br />
             Action
           </div>
-          <div className="mb-10 text-white/70 md:mb-8 md:px-1">
+          <div className="mb-10 text-start text-white/70 md:mb-8 md:px-1">
             Our vision for strong smallholder farmers and a healthier Earth
             needs real action starting now. We're developing practical
             blockchain solutions to make this vision reality for farming
@@ -34,7 +33,7 @@ const Join = ({}: JoinProps) => (
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
               href="/contact-us"
             >
-              Contact Sales
+              Learn How We Help
             </Link>
           </div>
         </div>

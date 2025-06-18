@@ -11,6 +11,7 @@ import HowToBuyPREWA from "./HowToBuyPREWA";
 import ContractAddress from "./ContractAddress";
 import KeyRisksWarnings from "./KeyRisksWarnings";
 import JoinCommunity from "./JoinCommunity";
+import ReadyToHelp from "./ReadyToHelp";
 
 const pREWAPage = () => {
   return (
@@ -25,6 +26,7 @@ const pREWAPage = () => {
       <ContractAddress />
       <KeyRisksWarnings />
       <JoinCommunity />
+      <ReadyToHelp />
     </Layout>
   );
 };

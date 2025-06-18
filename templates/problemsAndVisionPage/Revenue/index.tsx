@@ -7,25 +7,25 @@ const items = [
     title: "Financial Access Issues",
     content:
       "Small farmers worldwide lack funds due to a $150 billion financing gap. Banks charge high fees for small loans, and most farmers lack land titles or collateral. Lenders see agricultural finance as risky because credit for farmers is hard to assess without formal records. Women deal with greater barriers, limiting financial inclusion in agriculture.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/currency-dollar-bold.svg",
   },
   {
     title: "Market Connection Problems",
     content:
       "Selling crops is a major challenge that limits market access for farmers. Buyers have strict standards that are hard to meet, and cheap imports drive down local prices. High transport costs eat into profits, while individual farmers have little power to negotiate better deals. Poor storage and lack of cold transport cause them to lose crops and money.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/trend-down-bold.svg",
   },
   {
     title: "Climate Change Threats",
     content:
       "Agricultural producers face many threats like pests and water shortages. Livestock losses also hurt farms. Climate change worsens this with droughts, floods, and erratic weather. These mounting problems create income uncertainty and food shortages, making climate resilient agriculture essential for survival.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/cloud-lightning-bold.svg",
   },
   {
     title: "Infrastructure Gaps",
     content:
       "Farmers often lack business skills and access to agricultural knowledge about available resources. Poor roads, storage, and irrigation make farming much harder than necessary. Bad internet and limited technology access create a digital divide, while unclear policies and weak support systems add more barriers.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/wifi-slash-bold.svg",
   },
 ];
 
@@ -80,7 +80,7 @@ const Revenue = ({}: RevenueProps) => (
               className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg"
               key={index}
             >
-              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
+              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-[#9FE870]">
                 <Image
                   src={item.icon}
                   className="w-6"
