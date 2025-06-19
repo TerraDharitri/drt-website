@@ -23,11 +23,8 @@ const Main = ({}: MainProps) => (
                         </div> */}
             <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
               The Complete
-              <br />
               Dharitri
-              <br />
               Ecosystem for
-              <br />
               Farmers
             </div>
             <div className="mb-10 text-white/70 md:text-lg">

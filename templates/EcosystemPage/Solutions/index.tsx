@@ -13,6 +13,7 @@ const solutions = [
       "Platform: Our system ensures deep trust and secure digital interactions using reliable blockchain verification methods.",
     ],
     image: "/images/graphics/Ecosystem/Ecosystem/ecosystem value.svg",
+    icon: "/images/content/icons/check-bold.svg",
     url: "/problemsAndVision#b2b",
   },
   {
@@ -26,6 +27,7 @@ const solutions = [
       "Enhanced Knowledge: Supports better farm management decisions through shared information and verified learning resources.",
     ],
     image: "/images/graphics/Ecosystem/Ecosystem/ecosystem impact.webp",
+    icon: "/images/content/icons/check-bold.svg",
     url: "/solutions#microfinance",
   },
 ];
@@ -49,14 +51,27 @@ const Solutions = ({}: SolutionsProps) => (
           >
             <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
               <div className="stage">{solution.stage}</div>
-              <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
+              <div className="mb-4 text-h3 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
                 {solution.title}
               </div>
-              <ul className="mb-12 list-disc list-inside text-greyscale-400 dark:text-dark-text-secondary md:mb-6 md:text-lg space-y-2">
+              <div className="mb-12 space-y-4 text-greyscale-400 dark:text-dark-text-secondary md:mb-6 md:text-lg">
                 {solution.content.map((item, itemIndex) => (
-                  <li key={itemIndex}>{item}</li>
+                  <div key={itemIndex} className="flex items-start gap-3">
+                    <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={solution.icon}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                    <p className="text-greyscale-400 dark:text-dark-text-secondary">
+                      {item}
+                    </p>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
             <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 flex justify-center">
               <Image

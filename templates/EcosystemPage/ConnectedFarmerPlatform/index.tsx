@@ -7,49 +7,49 @@ const items = [
     title: "Dharitri Blockchain",
     content:
       "Our secure, scalable Proof-of-Stake foundation enabling farmer identities and REWA tokens.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/link-simple-horizontal-bold.svg",
   },
   {
     title: "Blockchain Explorer",
     content:
       "Public web tool providing transparent visibility into blockchain transactions and activity.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/magnifying-glass-bold.svg",
   },
   {
     title: "Dharitri Wallet App",
     content:
       "Integrated mobile wallet for agricultural producers to securely manage REWA tokens and digital assets.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/wallet-bold.svg",
   },
   {
     title: "Backend API System",
     content:
       "Central engine connecting platform applications and managing essential farm information flows.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/hard-drives-bold.svg",
   },
   {
     title: "Mobile Applications",
     content:
       "Intuitive Farmer and Agent apps for easy interactions and farm record management tools.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/device-mobile-speaker-bold.svg",
   },
   {
     title: "Web Access Portals",
     content:
       "Secure interfaces for MFI partners, NGOs, system administration, and marketplace buyers.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/globe-bold.svg",
   },
   {
     title: "Smart Contract Core",
     content:
       "Rust smart contracts built for advanced automation and agricultural platform capabilities.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/file-text-bold.svg",
   },
   {
     title: "Dharitri DEX Platform",
     content:
       "Native decentralized exchange providing important liquidity for our ecosystem tokens.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/repeat-bold.svg",
   },
 ];
 
@@ -61,7 +61,7 @@ const items2 = [
     icon: "/images/content/icons/wallet.svg",
   },
   {
-    title: "COME Currency",
+    title: "COME Stable coin",
     content:
       "Our future vision includes the COME stablecoin, planned as a reliable store of value. It will be pegged to gold and a currency basket. This provides stable value for aid and environmental payments.",
     icon: "/images/content/icons/coins-stacked.svg",
@@ -121,7 +121,7 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
               className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg text-center"
               key={index}
             >
-              <div className="flex justify-center items-center w-12 h-12 mb-6 mx-auto rounded-full bg-secondary-0">
+              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-[#9FE870]">
                 <Image
                   src={item.icon}
                   className="w-6"
@@ -130,10 +130,10 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
                   alt=""
                 />
               </div>
-              <div className="mb-3 text-h6 font-semibold dark:text-dark-text-primary">
+              <div className="mb-3 text-h6 font-semibold text-start dark:text-dark-text-primary">
                 {item.title}
               </div>
-              <div className="text-greyscale-400 dark:text-dark-text-secondary">
+              <div className="text-greyscale-400 text-start dark:text-dark-text-secondary">
                 {item.content}
               </div>
             </div>
@@ -169,7 +169,7 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
               className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg"
               key={index}
             >
-              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
+              {/* <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
                 <Image
                   src={item.icon}
                   className="w-6"
@@ -177,7 +177,7 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
                   height={24}
                   alt=""
                 />
-              </div>
+              </div> */}
               <div className="mb-3 text-h6 font-semibold dark:text-dark-text-primary">
                 {item.title}
               </div>

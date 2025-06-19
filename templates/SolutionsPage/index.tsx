@@ -7,15 +7,15 @@ import Revenue from "./Revenue";
 import BuildSolutions from "./BuildSolutions";
 import DevelopmentStats from "./DevelopmentStats";
 const SolutionsPage = () => {
-    return (
-        <Layout darkHeader>
-            <Solutions />
-            <Revenue />
-           <BuildSolutions />
-           <DevelopmentStats />
-            <Join />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <Solutions />
+      <Revenue />
+      <BuildSolutions />
+      <DevelopmentStats />
+      <Join />
+    </Layout>
+  );
 };
 
 export default SolutionsPage;

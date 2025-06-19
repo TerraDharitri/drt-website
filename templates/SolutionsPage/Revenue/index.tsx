@@ -6,22 +6,22 @@ const items = [
   {
     title: "Scalability",
     content: "Grows with community via blockchain sharding.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/trend-up-bold.svg",
   },
   {
     title: "Efficiency",
     content: "Fast, low fee blockchain transactions.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/lightning-bold.svg",
   },
   {
     title: "Flexibility",
     content: "Supports WASM & Rust for agricultural tools.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/gear-bold.svg",
   },
   {
     title: "Sustainable",
     content: "Proof-of-Stake design is energy efficient.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "/images/content/icons/leaf-bold.svg",
   },
 ];
 
@@ -45,7 +45,7 @@ const Revenue = ({}: RevenueProps) => (
             className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg text-center"
             key={index}
           >
-            <div className="flex justify-center items-center w-12 h-12 mb-6 mx-auto rounded-full bg-secondary-0">
+            <div className="flex justify-center items-center w-12 h-12 mb-6  rounded-full bg-[#9FE870]">
               <Image
                 src={item.icon}
                 className="w-6"
@@ -54,10 +54,10 @@ const Revenue = ({}: RevenueProps) => (
                 alt=""
               />
             </div>
-            <div className="mb-3 text-h6 font-semibold dark:text-dark-text-primary">
+            <div className="mb-3 text-h6 font-semibold text-start dark:text-dark-text-primary">
               {item.title}
             </div>
-            <div className="text-greyscale-400 dark:text-dark-text-secondary">
+            <div className="text-greyscale-400 text-start dark:text-dark-text-secondary">
               {item.content}
             </div>
           </div>
