@@ -6,7 +6,7 @@ const PlatformLaunchFund = () => (
   <div className="section bg-greyscale-25 dark:bg-dark-surface">
     <div className="container">
       <div className="flex items-center -mx-20 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0">
-        <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
+        <div className="w-[60%] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
           <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
             pREWA: Platform Launch Fund
           </div>
@@ -24,20 +24,44 @@ const PlatformLaunchFund = () => (
           </div>
           <ul className="mb-8 list-none space-y-2">
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">✅</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">
                 Finalizing core blockchain launch infrastructure
               </span>
             </li>
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">✅</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">
                 Deploying our first suite of farmer services
               </span>
             </li>
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">✅</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">
                 Establishing operational user onboarding systems
               </span>
             </li>

@@ -6,7 +6,7 @@ import Solutions from "./Solutions";
 
 const GetInvolvedPage = () => {
     return (
-        <Layout darkHeader>
+        <Layout>
             <Solutions />
             <Join />
         </Layout>

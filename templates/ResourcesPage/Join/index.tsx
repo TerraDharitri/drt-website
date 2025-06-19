@@ -7,11 +7,11 @@ const Join = ({}: JoinProps) => (
     <div className="container-md">
       <div className="p-20 bg-secondary-300 lg:px-12 md:px-4 md:py-12">
         <div className="max-w-[50rem] mx-auto text-center xl:max-w-[46rem]">
-          <div className="mb-4 text-h1 text-white xl:text-h2 md:text-h4">
+          <div className="mb-4 text-h2 text-white xl:text-h2 md:text-h4">
            Additional Support & Contact
           </div>
           <div className="mb-10 text-white/70 md:mb-8 md:px-1">
-            Need more help with our digital solutions or agritech platform? We&#39;re here to support your sustainable agriculture journey.
+            Need more help with our digital solutions or agritech platform? <br/>We&#39;re here to support your sustainable agriculture journey.
           </div>
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link

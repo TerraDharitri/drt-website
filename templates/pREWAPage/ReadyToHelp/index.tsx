@@ -5,7 +5,7 @@ const ReadyToHelp = () => (
   <div className="section bg-secondary-300 text-greyscale-0">
     <div className="container">
       <div className="text-center">
-        <div className="mb-6 text-h1 xl:text-h2 md:text-h3 text-white">
+        <div className="mb-6 text-h2 xl:text-h2 md:text-h3 text-white">
           Ready to Help Farmers?
         </div>
         <div className="mb-10 text-white/70 text-lg md:text-base max-w-2xl mx-auto">

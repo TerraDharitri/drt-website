@@ -6,54 +6,85 @@ const ContractAddress = () => (
   <div className="section bg-white dark:bg-dark-bg">
     <div className="container">
       <div className="text-center mb-16">
-        <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
+        <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary text-start">
           pREWA Contract Address
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl mx-auto">
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl text-start">
           This is Dharitri's only official pREWA token contract. Always verify
+          <br />
           before any transaction to protect your investment in farmer solutions.
         </div>
       </div>
 
-      <div className="flex items-center -mx-20 flex-row-reverse 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0">
+      <div className="flex items-center -mx-20  2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0">
         <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
-          <div className="mb-6 text-h3 xl:text-h4 md:text-h5 dark:text-dark-text-primary">
-            Token Specifications
+          <div className="mb-8 lg:mb-6">
+            {" "}
+            <div className="mb-6 text-h3 xl:text-h4 md:text-h5 dark:text-dark-text-primary">
+              Token Specifications
+            </div>
+            <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl text-start">
+              Rewa is our native token for utility, governance, and crypto
+              staking
+              <br />
+              Our L1 blockchain depends on pREWA for three key functions:
+            </div>
           </div>
           <ul className="mb-8 space-y-3">
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">•</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
-                <span className="font-semibold">Network:</span> Binance Smart
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">Network:Binance Smart
                 Chain BSC
               </span>
             </li>
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">•</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
-                <span className="font-semibold">Standard:</span> BEP20 for
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">Standard:BEP20 for
                 wallet support
               </span>
             </li>
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">•</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
-                <span className="font-semibold">Symbol:</span> pREWA for
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">Symbol:pREWA for
                 identification
               </span>
             </li>
             <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">•</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
-                <span className="font-semibold">Supply:</span> Approximately
-                500M tokens
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-secondary-500">•</span>
-              <span className="text-greyscale-400 dark:text-dark-text-secondary">
-                <span className="font-semibold">Decimals:</span> 18 standard
-                crypto format
+            <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
+                      <Image
+                        src={"/images/content/icons/check-bold.svg"}
+                        className="w-3 h-3"
+                        width={12}
+                        height={12}
+                        alt=""
+                      />
+                    </div>
+                <span className="ml-2  dark:text-dark-text-primary">Supply:
+                500 million tokens
               </span>
             </li>
           </ul>
@@ -62,7 +93,7 @@ const ContractAddress = () => (
             Security Warning
           </div>
           <div className="mb-6 text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
-            Fake addresses exist targeting investors. Use only addresses from
+            Fake addresses exist targeting investors. Use only addresses from<br/>
             our official website and verified agritech channels.
           </div>
           <Link className="btn-primary pr-5 md:w-full" href="/solution">

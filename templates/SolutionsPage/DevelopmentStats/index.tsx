@@ -20,7 +20,7 @@ const DevelopmentStats = ({}: DevelopmentStatsProps) => (
         <div className="w-[calc(50%-5rem)] mx-20 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0">
           <div className="stage"></div>
           <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
-            Our Development Approach
+            Our Current Development Status
           </div>
 
           <div className="mb-12 text-greyscale-400 dark:text-dark-text-secondary lg:mb-8 md:mb-6">
