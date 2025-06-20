@@ -66,11 +66,29 @@ export const navigationFooter = [
   {
     id: "3",
     title: "Legal & Compliance",
-    url: "/about",
+    url: "/legal-compliance",
     links: [
-      { id: "0", title: "Privacy Policy", url: "/about#our-story" },
-      { id: "1", title: "Terms of Service", url: "/about#team" },
-      { id: "2", title: "Disclaimers", url: "/careers" },
+      {
+        id: "0",
+        title: "Privacy Policy",
+        url: "/legal-compliance/privacy-policy",
+      },
+      {
+        id: "1",
+        title: "Terms of Service",
+        url: "/legal-compliance/terms-of-service",
+      },
+      { id: "2", title: "Disclaimers", url: "/legal-compliance/disclaimers" },
+      {
+        id: "3",
+        title: "Cookie Policy",
+        url: "/legal-compliance/cookie-policy",
+      },
+      {
+        id: "4",
+        title: "pREWA Staking Terms",
+        url: "/legal-compliance/prewa-staking-terms",
+      },
     ],
   },
 ];
