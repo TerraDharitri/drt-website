@@ -9,7 +9,7 @@ import OurMission from "./ourMission";
 import KenyaLearningInitiative from "./KenyaLearningInitiative";
 const AboutUsPage = () => {
     return (
-        <Layout darkHeader>
+        <Layout>
             <Main />
             <Details />
             <OurMission />

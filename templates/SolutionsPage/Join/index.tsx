@@ -11,7 +11,9 @@ const Join = ({}: JoinProps) => (
             Ready to Support Our Mission?
           </div>
           <div className="mb-10 text-white/70 md:mb-8 md:px-1">
-            Dive deeper into how our full ecosystem functions, or directly support<br/> Dharitri&#39;s development through the pREWA token:
+            Dive deeper into how our full ecosystem functions, or directly
+            support
+            <br /> Dharitri&#39;s development through the pREWA token:
           </div>
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link

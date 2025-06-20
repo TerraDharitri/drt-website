@@ -41,18 +41,27 @@ const Header = ({ className, dark }: HeaderProps) => {
       }`}
     >
       <div className="container-md flex items-center h-22 md:h-18">
-        <Link className="shrink-0 w-26 mr-12 lg:mr-auto" href="/">
+        <Link className="shrink-0 flex items-center mr-12 lg:mr-auto" href="/">
           <Image
-            className="w-full opacity-100"
+            className="w-7 opacity-100"
             src={
               dark
-                ? "/images/graphics/Logo/Logo/Dharitri Light.svg"
-                : "/images/graphics/Logo/Logo/Dharitri Dark.svg"
+                ? "/images/graphics/Logo/Logo/Dharitri Logo Light.svg"
+                : "/images/graphics/Logo/Logo/Dharitri Logo dark.svg"
             }
-            width={103}
+            width={38}
             height={38}
             alt="Dharitri"
           />
+          <span
+            className={`ml-2 text-2xl font-bold transition-colors ${
+              dark
+                ? "text-greyscale-0"
+                : "text-greyscale-900 dark:text-dark-text-primary"
+            }`}
+          >
+            Dharitri
+          </span>
         </Link>
         <div
           className={`flex items-center grow lg:fixed lg:top-0 lg:right-0 lg:bottom-0 lg:z-10 lg:w-80 lg:flex-col lg:items-stretch lg:py-20 lg:px-8 lg:pb-8 lg:transition-transform lg:translate-x-full ${
@@ -90,7 +99,7 @@ const Header = ({ className, dark }: HeaderProps) => {
                         >
                             Sign In
                         </Link> */}
-            <Link className="btn-primary btn-sm" href="/sign-up">
+            <Link className="btn-primary btn-sm" href="/pREWA">
               Get pREWA Tokens
             </Link>
           </div>
