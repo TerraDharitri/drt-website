@@ -11,11 +11,11 @@ const Hero = () => (
           <div className="grow pr-10 lg:pr-0">
             <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
               pREWA Token:
-              <br />
+            
               Fund Farmers,
-              <br />
+      
               Earn Staking
-              <br />
+  
               Rewards
             </div>
             <div className="mb-10 text-white/70 md:text-lg">

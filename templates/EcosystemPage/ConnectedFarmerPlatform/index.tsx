@@ -58,13 +58,13 @@ const items2 = [
     title: "REWA Network",
     content:
       "REWA will be the native token powering our Proof-of-Stake blockchain. Its main roles: secure the network via staking and cover transaction fees. REWA also rewards agricultural producers for engagement.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "/images/content/icons/share-network-bold.svg",
   },
   {
     title: "COME Stable coin",
     content:
       "Our future vision includes the COME stablecoin, planned as a reliable store of value. It will be pegged to gold and a currency basket. This provides stable value for aid and environmental payments.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "/images/content/icons/coin-bold.svg",
   },
 ];
 
@@ -169,7 +169,7 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
               className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2 rounded-lg"
               key={index}
             >
-              {/* <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-secondary-0">
+              <div className="flex justify-center items-center w-12 h-12 mb-6 rounded-full bg-[#9FE870]">
                 <Image
                   src={item.icon}
                   className="w-6"
@@ -177,7 +177,7 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
                   height={24}
                   alt=""
                 />
-              </div> */}
+              </div>
               <div className="mb-3 text-h6 font-semibold dark:text-dark-text-primary">
                 {item.title}
               </div>

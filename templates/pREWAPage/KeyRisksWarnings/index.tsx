@@ -67,19 +67,19 @@ const KeyRisksWarnings = () => (
             key={index}
           >
             <div className="text-center">
-              <div className="flex justify-center items-center w-20 h-20 mx-auto mb-6 rounded-full bg-[#9FE870] dark:bg-primary-900/30">
+              <div className="flex justify-center items-center w-12 h-12  mb-6 rounded-full bg-[#9FE870] dark:bg-primary-900/30">
                 <Image
                   src={risk.icon}
-                  className="w-10 h-10"
-                  width={40}
-                  height={40}
+                  className="w-6 h-6"
+                  width={24}
+                  height={24}
                   alt=""
                 />
               </div>
-              <div className="mb-3 text-xl font-bold dark:text-dark-text-primary">
+              <div className="mb-3 text-xl font-bold text-start dark:text-dark-text-primary">
                 {risk.title}
               </div>
-              <div className="text-greyscale-500 dark:text-dark-text-secondary leading-relaxed">
+              <div className="text-greyscale-500 text-start dark:text-dark-text-secondary leading-relaxed">
                 {risk.content}
               </div>
             </div>

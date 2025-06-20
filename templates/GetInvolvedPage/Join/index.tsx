@@ -11,7 +11,8 @@ const Join = ({}: JoinProps) => (
             Choose Your Path to Impact
           </div>
           <div className="mb-10 text-white/70 md:mb-8 md:px-1">
-          Fund farmer solutions or explore patnership <br/> oppurtunities - both paths create real change.
+            Fund farmer solutions or explore patnership <br /> oppurtunities -
+            both paths create real change.
           </div>
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link

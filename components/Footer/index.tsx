@@ -13,14 +13,20 @@ const Footer = ({}: FooterProps) => (
   <div className="mt-auto py-16 md:pt-12 md:pb-6 bg-white dark:bg-dark-bg">
     <div className="container">
       <div className="flex mb-18 lg:block lg:mb-14 md:mb-8">
-        <Link className="block w-23 mr-auto lg:mb-12 md:mb-8" href="/">
+        <Link
+          className="shrink-0 flex items-center mr-auto lg:mb-12 md:mb-8"
+          href="/"
+        >
           <Image
-            className="w-full opacity-100"
-            src="/images/logo-dark.svg"
-            width={92}
-            height={29}
-            alt=""
+            className="w-7 opacity-100"
+            src="/images/graphics/Logo/Logo/Dharitri Logo dark.svg"
+            width={38}
+            height={38}
+            alt="Dharitri"
           />
+          <span className="ml-2 text-2xl font-bold transition-colors text-greyscale-900 dark:text-dark-text-primary">
+            Dharitri
+          </span>
         </Link>
         <div className="flex w-full max-w-[50rem] 3xl:max-w-[45.625rem] lg:max-w-full md:flex-wrap md:-mt-5">
           {navigationFooter.map((group) => (

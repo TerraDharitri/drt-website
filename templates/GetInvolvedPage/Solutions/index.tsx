@@ -29,7 +29,7 @@ const solutions = [
       "We welcome investors of all sizes who want to create real change. Your investment directly supports agricultural innovation technology and financial inclusion for farming communities.",
       "Learn more through our project documentation or connect directly with our team.",
     ],
-    image: "/images/graphics/Get Involved/Get Involved/investors.svg",
+    image: "/images/graphics/Get Involved/Get Involved/balance.svg",
     url: "/solutions#investors",
   },
   {
@@ -85,6 +85,20 @@ const Solutions = ({}: SolutionsProps) => (
                   return items;
                 })()}
               </ul>
+              {/* Add buttons for the last three sections */}
+              {index >= 2 && (
+                <Link
+                  className="btn-primary pr-5 md:w-full"
+                  href={solution.url}
+                >
+                  <span>
+                    {index === 2 && "Investor Form"}
+                    {index === 3 && "Partnership Form"}
+                    {index === 4 && "Contact Form"}
+                  </span>
+                  <Icon className="w-5 h-5" name="arrow-right" />
+                </Link>
+              )}
             </div>
             <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
               <Image

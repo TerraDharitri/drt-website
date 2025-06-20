@@ -10,7 +10,7 @@ const solutions = [
       "Millions of smallholder farmers feed our world yet face rural poverty and poor harvests.\
 The problems are urgent: a $150 billion gap blocks credit access. Climate change makes farming harder. Buyers pay very little.\
 Without help, they can't afford sustainable agriculture methods.",
-    image: "/images/graphics/homepage/farmer-support.svg",
+    image: "/images/graphics/homepage/faucet@0.75x.webp",
     url: "/problemsAndVision#b2b",
   },
   {
