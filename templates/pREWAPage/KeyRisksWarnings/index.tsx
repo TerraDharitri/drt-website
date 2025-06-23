@@ -6,17 +6,17 @@ const risks = [
   {
     title: "Investment risks",
     content: "Value fluctuates, no guarantees",
-    icon: "/images/content/icons/trend-down-bold.svg",
+    icon: "images/content/icons/trend-down-bold.svg",
   },
   {
     title: "Development risks",
     content: "Platform under active development",
-    icon: "/images/content/icons/wrench-bold.svg",
+    icon: "images/content/icons/wrench-bold.svg",
   },
   {
     title: "Regulatory risks",
     content: "Crypto laws vary by jurisdiction",
-    icon: "/images/content/icons/scales-bold.svg",
+    icon: "images/content/icons/scales-bold.svg",
   },
 ];
 
@@ -28,7 +28,7 @@ const KeyRisksWarnings = () => (
         <div className=" basis-[45%] flex-shrink-0 w-[500px] xl:w-[450px] lg:w-full lg:max-w-[450px] lg:mx-auto mb-8">
           <Image
             className="object-contain"
-            src="/images/graphics/pREWA/pREWA/risk warning.webp"
+            src="images/graphics/pREWA/pREWA/risk warning.webp"
             width={300}
             height={300}
             alt="Risk warning illustration"
@@ -37,10 +37,10 @@ const KeyRisksWarnings = () => (
 
         {/* Right side - Content */}
         <div className=" flex-1 min-w-0 max-w-2xl">
-        <div className="mb-4 text-h2 text-start xl:text-h3 md:text-h4 dark:text-dark-text-primary">
-          Key Risks & Token Warnings
-        </div>
-        <div className="mb-6 text-greyscale-500 dark:text-dark-text-secondary">
+          <div className="mb-4 text-h2 text-start xl:text-h3 md:text-h4 dark:text-dark-text-primary">
+            Key Risks & Token Warnings
+          </div>
+          <div className="mb-6 text-greyscale-500 dark:text-dark-text-secondary">
             Crypto investments like pREWA carry high risks, including potential
             total loss. pREWA is an interim utility token with volatile value,
             funding our farmer solutions.

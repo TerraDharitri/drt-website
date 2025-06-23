@@ -5,37 +5,37 @@ const items = [
     title: "Regenerative Finance (ReFi)",
     content:
       "Sustainable finance using blockchain technology to fund projects that restore natural systems and communities.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "images/content/icons/coins-stacked.svg",
   },
   {
     title: "Blockchain Sharding",
     content:
       "Scalable blockchain technique dividing network processing into smaller parts. Core MultiversX foundation feature.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "images/content/icons/trophy.svg",
   },
   {
     title: "Carbon Credits for Farmers",
     content:
       " Financial payments for farming practices removing greenhouse gases. Regenerative agriculture can generate these valuable credits.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "images/content/icons/trophy.svg",
   },
   {
     title: "Climate Smart Agriculture",
     content:
       " Farming methods boosting productivity while building climate resilience and reducing harmful environmental impacts.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "images/content/icons/trophy.svg",
   },
   {
     title: "Regenerative Agriculture",
     content:
       "Farming practices healing soil health, increasing biodiversity, and improving ecosystem function for sustainability.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "images/content/icons/trophy.svg",
   },
   {
     title: "Smallholder Farmers",
     content:
       "Farmers cultivating small plots under 2 hectares using family labor. Dharitri's core solution focus.",
-    icon: "/images/content/icons/trophy.svg",
+    icon: "images/content/icons/trophy.svg",
   },
 ];
 

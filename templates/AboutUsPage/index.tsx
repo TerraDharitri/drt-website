@@ -5,7 +5,7 @@ import Join from "./Join";
 import Main from "./Main";
 import Details from "./Details";
 import Team from "./Team";
-import OurMission from "./ourMission";
+import OurMission from "./OurMission";
 import KenyaLearningInitiative from "./KenyaLearningInitiative";
 const AboutUsPage = () => {
     return (

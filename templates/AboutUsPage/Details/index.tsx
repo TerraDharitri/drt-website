@@ -6,13 +6,13 @@ const items = [
     title: "Mission Statement",
     content:
       "We provide smallholder farmers with transparent digital solutions. This ecosystem supports regenerative farming and sustainable finance access.",
-    image: "/images/content/icons/compass-bold.svg",
+    image: "images/content/icons/compass-bold.svg",
   },
   {
     title: "Vision Statement",
     content:
       "Every farmer gains tools for economic growth, climate resilience, and planet health. We build a future where farming communities succeed.",
-    image: "/images/content/icons/sun-horizon-bold.svg",
+    image: "images/content/icons/sun-horizon-bold.svg",
   },
 ];
 
@@ -28,7 +28,7 @@ const Details = ({}: DetailsProps) => (
       <div className="flex space-x-10 lg:block lg:space-x-0">
         <div className="flex items-end flex-1">
           <Image
-            src="/images/graphics/About/About/vision.webp"
+            src="images/graphics/About/About/vision.webp"
             width={500}
             height={500}
             alt=""

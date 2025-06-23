@@ -5,37 +5,37 @@ const items = [
     title: "Farmer-Centricity",
     content:
       "Smallholder farmers guide all our design choices and daily decisions.",
-    icon: "/images/content/icons/heart-bold.svg",
+    icon: "images/content/icons/heart-bold.svg",
   },
   {
     title: "Transparency & Trust",
     content:
       "Technology creates verifiable data and trustworthy farmer processes.",
-    icon: "/images/content/icons/eye-bold.svg",
+    icon: "images/content/icons/eye-bold.svg",
   },
   {
     title: "Sustainability",
     content:
       "Regenerative farming methods that heal ecosystems and address climate.",
-    icon: "/images/content/icons/leaf-bold.svg",
+    icon: "images/content/icons/leaf-bold.svg",
   },
   {
     title: "Inclusivity",
     content:
       "Accessible solutions for women, youth, and all farming communities.",
-    icon: "/images/content/icons/users-bold.svg",
+    icon: "images/content/icons/users-bold.svg",
   },
   {
     title: "Collaboration",
     content:
       "Building partnerships with NGOs, cooperatives, and agritech groups.",
-    icon: "/images/content/icons/link-simple-horizontal-bold.svg",
+    icon: "images/content/icons/link-simple-horizontal-bold.svg",
   },
   {
     title: "Innovation & Pragmatism",
     content:
       "Agritech solutions delivering real benefits for actual farmer challenges.",
-    icon: "/images/content/icons/lightning-bold.svg",
+    icon: "images/content/icons/lightning-bold.svg",
   },
 ];
 

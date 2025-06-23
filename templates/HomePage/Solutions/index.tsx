@@ -10,7 +10,7 @@ const solutions = [
       "Millions of smallholder farmers feed our world yet face rural poverty and poor harvests.\
 The problems are urgent: a $150 billion gap blocks credit access. Climate change makes farming harder. Buyers pay very little.\
 Without help, they can't afford sustainable agriculture methods.",
-    image: "/images/graphics/homepage/faucet@0.75x.webp",
+    image: "images/graphics/homepage/faucet@0.75x.webp",
     url: "/problemsAndVision#b2b",
   },
   {
@@ -21,7 +21,7 @@ Without help, they can't afford sustainable agriculture methods.",
 Dharitri uses scalable blockchain technology to support regenerative agriculture and sustainable finance for farmers.\
 Farmers get digital IDs and proven agricultural knowledge. They earn real rewards for adopting better sustainable farming practices. Our platform tracks their conservation agriculture work too.\
 ",
-    image: "/images/graphics/homepage/farmer-solution.webp",
+    image: "images/graphics/homepage/farmer-solution.webp",
     url: "/solutions#microfinance",
   },
   // {
@@ -29,7 +29,7 @@ Farmers get digital IDs and proven agricultural knowledge. They earn real reward
   //     stage: "Blockchain Trust",
   //     content:
   //         "Use blockchain to build verifiable trust. Farmers earn digital IDs, get transparent records, and unlock access to fair markets and sustainable finance.",
-  //     image: "/images/content/solutions-pic-3.png",
+  //     image: "images/content/solutions-pic-3.png",
   //     url: "/solutions#blockchain",
   // },
 ];

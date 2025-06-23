@@ -8,7 +8,7 @@ const solutions = [
     stage: "",
     content:
       "When farming becomes difficult, families work hard but still experience low yields, poor income, and food insecurity. This limits their potential and slows economic growth in communities. Without sustainable agriculture methods, our environment suffers. Solutions are vital for stronger economies, communities, and a healthier planet.",
-    image: "/images/graphics/the problem/impact-planet.svg",
+    image: "images/graphics/the problem/impact-planet.svg",
     url: "/problemsAndVision#b2b",
   },
   {
@@ -16,7 +16,7 @@ const solutions = [
     stage: "",
     content:
       "Our goal is clear: small farmers achieving economic stability and climate strength while restoring a healthier Earth. We build this with transparent regenerative agriculture and accessible technology. This farming change for sustainability and fairness is essential worldwide.",
-    image: "/images/graphics/the problem/our-goal.svg",
+    image: "images/graphics/the problem/our-goal.svg",
     url: "/solutions#microfinance",
   },
   // {
@@ -24,7 +24,7 @@ const solutions = [
   //     stage: "Blockchain Trust",
   //     content:
   //         "Use blockchain to build verifiable trust. Farmers earn digital IDs, get transparent records, and unlock access to fair markets and sustainable finance.",
-  //     image: "/images/content/solutions-pic-3.png",
+  //     image: "images/content/solutions-pic-3.png",
   //     url: "/solutions#blockchain",
   // },
 ];

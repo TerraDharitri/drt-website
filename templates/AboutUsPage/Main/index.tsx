@@ -8,7 +8,7 @@ const solutions = [
     stage: "",
     content:
       "Our farming backgrounds, technical expertise, and farmer-first mission.",
-    image: "/images/graphics/About/About/dharitri mission.webp",
+    image: "images/graphics/About/About/dharitri mission.webp",
     url: "/problemsAndVision#b2b",
   },
 ];

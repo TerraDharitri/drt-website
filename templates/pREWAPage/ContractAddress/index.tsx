@@ -32,7 +32,7 @@ const ContractAddress = () => (
             <li className="flex items-start">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"/images/content/icons/check-bold.svg"}
+                  src={"images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -46,7 +46,7 @@ const ContractAddress = () => (
             <li className="flex items-start">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"/images/content/icons/check-bold.svg"}
+                  src={"images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -60,7 +60,7 @@ const ContractAddress = () => (
             <li className="flex items-start">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"/images/content/icons/check-bold.svg"}
+                  src={"images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -74,7 +74,7 @@ const ContractAddress = () => (
             <li className="flex items-start">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"/images/content/icons/check-bold.svg"}
+                  src={"images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -102,7 +102,7 @@ const ContractAddress = () => (
         <div className="flex-1 flex justify-center items-center">
           <Image
             className="w-full h-auto object-contain max-w-[400px] max-h-[300px]"
-            src="/images/graphics/pREWA/pREWA/contract address.svg"
+            src="images/graphics/pREWA/pREWA/contract address.svg"
             width={400}
             height={300}
             alt="pREWA contract address visualization"

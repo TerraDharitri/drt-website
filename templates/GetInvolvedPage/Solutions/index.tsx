@@ -29,7 +29,7 @@ const solutions = [
       "We welcome investors of all sizes who want to create real change. Your investment directly supports agricultural innovation technology and financial inclusion for farming communities.",
       "Learn more through our project documentation or connect directly with our team.",
     ],
-    image: "/images/graphics/Get Involved/Get Involved/balance.svg",
+    image: "images/graphics/Get Involved/Get Involved/balance.svg",
     url: "/solutions#investors",
   },
   {
@@ -40,7 +40,7 @@ const solutions = [
       "We welcome NGOs, financial institutions, and technology organizations. Each partnership strengthens our agritech platform while expanding your impact with farming communities.",
       "Ready to explore collaboration? Share your organization's goals and discover partnership opportunities.",
     ],
-    image: "/images/graphics/Get Involved/Get Involved/partner.svg",
+    image: "images/graphics/Get Involved/Get Involved/partner.svg",
     url: "/solutions#partners",
   },
   {
@@ -51,7 +51,7 @@ const solutions = [
       "Follow us on Telegram, Discord, and X for project updates and discussions.",
       "For general questions, feedback, or if you're unsure where to start, reach out directly.",
     ],
-    image: "/images/graphics/Get Involved/Get Involved/join community.svg",
+    image: "images/graphics/Get Involved/Get Involved/join community.svg",
     url: "/solutions#community",
   },
 ];

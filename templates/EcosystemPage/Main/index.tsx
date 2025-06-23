@@ -22,10 +22,7 @@ const Main = ({}: MainProps) => (
                             />
                         </div> */}
             <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
-              The Complete
-              Dharitri
-              Ecosystem for
-              Farmers
+              The Complete Dharitri Ecosystem for Farmers
             </div>
             <div className="mb-10 text-white/70 md:text-lg">
               Blockchain, tokens, and tools working together for farmer success.
@@ -34,7 +31,7 @@ const Main = ({}: MainProps) => (
           <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8 flex justify-center">
             <Image
               className="w-full max-w-[500px] h-auto"
-              src="/images/graphics/Ecosystem/Ecosystem/ecosystem.webp"
+              src="images/graphics/Ecosystem/Ecosystem/ecosystem.webp"
               width={500}
               height={400}
               alt="Complete Dharitri ecosystem network diagram"

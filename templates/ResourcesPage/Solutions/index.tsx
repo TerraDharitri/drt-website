@@ -7,14 +7,14 @@ const items = [
     title: "Dharitri Project Roadmap",
     content:
       "Complete regenerative farming vision with development phases, blockchain technology foundation, and smallholder farmers support goals.",
-    icon: "/images/content/icons/wallet.svg",
+    icon: "images/content/icons/wallet.svg",
     spanText: "View Our Roadmap",
   },
   {
     title: "Transparency & Trust",
     content:
       "Technical agricultural blockchain architecture, pREWA and REWA tokenomics, ecosystem model, and financial inclusion approach details.",
-    icon: "/images/content/icons/coins-stacked.svg",
+    icon: "images/content/icons/coins-stacked.svg",
     spanText: "Download White Paper",
   },
 ];

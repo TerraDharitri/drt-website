@@ -23,7 +23,7 @@ const JoinCommunity = () => (
               <div className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1 mr-2">
                   <Image
-                    src={"/images/content/icons/check-bold.svg"}
+                    src={"images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -42,7 +42,7 @@ const JoinCommunity = () => (
               <div className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1 mr-2">
                   <Image
-                    src={"/images/content/icons/check-bold.svg"}
+                    src={"images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -61,7 +61,7 @@ const JoinCommunity = () => (
               <div className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1 mr-2">
                   <Image
-                    src={"/images/content/icons/check-bold.svg"}
+                    src={"images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -197,7 +197,7 @@ const JoinCommunity = () => (
         <div className="flex-1 lg:w-full flex justify-center items-center">
           <Image
             className="w-full h-auto object-contain max-w-[500px] max-h-[400px]"
-            src="/images/graphics/pREWA/pREWA/community.svg"
+            src="images/graphics/pREWA/pREWA/community.svg"
             width={500}
             height={400}
             alt="Community illustration"

@@ -10,13 +10,7 @@ const Hero = () => (
         <div className="flex items-center mb-22 lg:block md:mb-6">
           <div className="grow pr-10 lg:pr-0">
             <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
-              pREWA Token:
-            
-              Fund Farmers,
-      
-              Earn Staking
-  
-              Rewards
+              pREWA Token: Fund Farmers, Earn Staking Rewards
             </div>
             <div className="mb-10 text-white/70 md:text-lg">
               Fund farmer solutions with pREWA. Earn immediate crypto staking
@@ -30,7 +24,7 @@ const Hero = () => (
           <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8 flex justify-center">
             <Image
               className="w-full h-auto object-contain max-h-[400px]"
-              src="/images/graphics/pREWA/pREWA/staking rewards.svg"
+              src="images/graphics/pREWA/pREWA/staking rewards.svg"
               width={400}
               height={300}
               alt="pREWA staking rewards illustration"
