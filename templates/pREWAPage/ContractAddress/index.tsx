@@ -9,9 +9,8 @@ const ContractAddress = () => (
         <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
           pREWA Contract Address
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl">
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
           This is Dharitri's only official pREWA token contract. Always verify
-          <br />
           before any transaction to protect your investment in farmer solutions.
         </div>
       </div>
@@ -23,11 +22,10 @@ const ContractAddress = () => (
             <div className="mb-6 text-h3 xl:text-h4 md:text-h5 dark:text-dark-text-primary">
               Token Specifications
             </div>
-            <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl">
+            <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
               Rewa is our native token for utility, governance, and crypto
-              staking
-              <br />
-              Our L1 blockchain depends on pREWA for three key functions:
+              staking. Our L1 blockchain depends on pREWA for three key
+              functions:
             </div>
           </div>
           <ul className="mb-8 space-y-3">
@@ -94,7 +92,6 @@ const ContractAddress = () => (
           </div>
           <div className="mb-6 text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
             Fake addresses exist targeting investors. Use only addresses from
-            <br />
             our official website and verified agritech channels.
           </div>
           <Link className="btn-primary pr-5 md:w-full" href="/solution">

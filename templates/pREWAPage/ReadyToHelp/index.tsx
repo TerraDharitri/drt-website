@@ -8,7 +8,7 @@ const ReadyToHelp = () => (
         <div className="mb-6 text-h2 xl:text-h2 md:text-h3 text-white">
           Ready to Help Farmers?
         </div>
-        <div className="mb-10 text-white/70 text-lg md:text-base max-w-2xl mx-auto">
+        <div className="mb-10 text-white/70 text-lg md:text-base mx-auto">
           Your support helps us build real solutions for farming communities
           worldwide.
         </div>

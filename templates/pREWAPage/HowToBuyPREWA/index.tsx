@@ -7,9 +7,9 @@ const HowToBuyPREWA = () => (
         <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
           How to Buy pREWA
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl">
-          Buy pREWA with USDT on PancakeSwap to support farmer
-          <br /> solutions. Here's your step-by-step participation guide.
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
+          Buy pREWA with USDT on PancakeSwap to support farmer solutions. Here's
+          your step-by-step participation guide.
         </div>
       </div>
 

@@ -22,7 +22,7 @@ const Hero = () => (
               Fund farmer solutions with pREWA. Earn immediate crypto staking
               rewards.
             </div>
-            <Link className="btn-primary mb-6" href="/problemsAndVision#b2b">
+            <Link className="btn-primary mb-6" href="/pREWA">
               <span>Get pREWA Tokens</span>
               <Icon className="w-5 h-5 ml-2" name="arrow-right" />
             </Link>

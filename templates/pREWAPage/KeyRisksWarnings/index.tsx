@@ -25,18 +25,18 @@ const KeyRisksWarnings = () => (
     <div className="container">
       <div className="flex items-center justify-center gap-24 xl:gap-20 lg:flex-col lg:gap-16 mb-20">
         {/* Left side - Shield Icon */}
-        <div className=" basis-[60%] flex-shrink-0 w-[500px] xl:w-[450px] lg:w-full lg:max-w-[450px] lg:mx-auto mb-8">
+        <div className=" basis-[45%] flex-shrink-0 w-[500px] xl:w-[450px] lg:w-full lg:max-w-[450px] lg:mx-auto mb-8">
           <Image
             className="object-contain"
             src="/images/graphics/pREWA/pREWA/risk warning.webp"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             alt="Risk warning illustration"
           />
         </div>
 
         {/* Right side - Content */}
-        <div className="basis-[40%] flex-1 min-w-0 max-w-2xl">
+        <div className=" flex-1 min-w-0 max-w-2xl">
         <div className="mb-4 text-h2 text-start xl:text-h3 md:text-h4 dark:text-dark-text-primary">
           Key Risks & Token Warnings
         </div>

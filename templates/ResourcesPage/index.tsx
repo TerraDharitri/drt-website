@@ -12,7 +12,7 @@ const ResourcesPage = () => {
         <Layout darkHeader>
             <Main />
             <Solutions />
-            {/* <FaqPage /> */}
+            <FaqPage />
             <TermsAndConditions />
             <Join />
         </Layout>

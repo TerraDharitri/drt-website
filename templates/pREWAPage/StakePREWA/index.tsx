@@ -7,9 +7,8 @@ const StakePREWA = () => (
         <div className="mb-6 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
           Stake pREWA: Earn Rewards
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base max-w-3xl">
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
           pREWA offers immediate crypto staking utility from launch. This
-          <br />
           provides early value beyond its funding role for our mission.
         </div>
       </div>

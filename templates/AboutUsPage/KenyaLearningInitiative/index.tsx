@@ -53,10 +53,10 @@ const KenyaLearningInitiative = ({}: KenyaLearningInitiativeProps) => (
             </div>
             <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
               <Image
-                className="w-full"
+                className=""
                 src={solution.image}
                 width={500}
-                height={450}
+                height={400}
                 alt=""
               />
             </div>

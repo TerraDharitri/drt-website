@@ -28,10 +28,9 @@ const Details = ({}: DetailsProps) => (
       <div className="flex space-x-10 lg:block lg:space-x-0">
         <div className="flex items-end flex-1">
           <Image
-            className="w-full"
             src="/images/graphics/About/About/vision.webp"
-            width={560}
-            height={624}
+            width={500}
+            height={500}
             alt=""
           />
         </div>

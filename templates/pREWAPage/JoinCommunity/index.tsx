@@ -9,8 +9,8 @@ const JoinCommunity = () => (
         Join Our Community & Learn More
       </div>
       <div className="mb-8 text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
-        Keep up with pREWA news on our Telegram. Want to know more
-        <br /> about Dharitri? Check out the links below.
+        Keep up with pREWA news on our Telegram. Want to know more about
+        Dharitri? Check out the links below.
       </div>
       <div className="flex items-center gap-20 xl:gap-12 lg:block lg:gap-0">
         {/* Left Content */}
@@ -82,7 +82,6 @@ const JoinCommunity = () => (
 
           <div className="mb-8 text-greyscale-400 dark:text-dark-text-secondary">
             Follow us on social media to see our progress and join the
-            <br />
             conversation.
           </div>
 
@@ -201,7 +200,7 @@ const JoinCommunity = () => (
             src="/images/graphics/pREWA/pREWA/community.svg"
             width={500}
             height={400}
-            alt="Join Dharitri community network illustration"
+            alt="Community illustration"
           />
         </div>
       </div>

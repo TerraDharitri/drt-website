@@ -7,7 +7,7 @@ const BridgeToNativeREWA = () => (
         <div className="mb-6 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary font-semibold">
           Bridge to Native REWA Token
         </div>
-        <div className="text-greyscale-400 dark:text-dark-text-secondary text-xl lg:text-lg md:text-base max-w-4xl leading-relaxed">
+        <div className="text-greyscale-400 dark:text-dark-text-secondary text-xl lg:text-lg md:text-base leading-relaxed">
           We plan a seamless token bridge crypto from pREWA to native REWA. This
           transition happens after our Proof-of-Stake L1 network launches
           successfully.
@@ -78,9 +78,7 @@ const BridgeToNativeREWA = () => (
             </div>
             <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base leading-relaxed">
               pREWA holders can easily transition to REWA PoS staking. Early
-              <br />
               supporters become key participants in securing our agricultural
-              <br />
               blockchain system.
             </div>
           </div>
