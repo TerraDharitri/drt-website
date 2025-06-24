@@ -31,7 +31,7 @@ const Join = ({}: JoinProps) => (
             </Link>
             <Link
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/contact-us"
+              href="/solutions"
             >
               Learn How We Help
             </Link>

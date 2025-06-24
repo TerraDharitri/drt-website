@@ -36,7 +36,7 @@ const Solutions = ({}: SolutionsProps) => (
                 How We Help Farmers
                 <br /> Build Better Lives
               </div>
-              <div className="mb-10 text-greyscale-600 md:text-lg">
+              <div className="mb-12 text-greyscale-400 dark:text-dark-text-secondary md:mb-6 md:text-lg">
                 Three-phase development bringing blockchain benefits to farmers.
               </div>
             </div>

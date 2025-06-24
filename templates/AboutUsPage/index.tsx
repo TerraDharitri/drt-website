@@ -13,7 +13,7 @@ const AboutUsPage = () => {
             <Main />
             <Details />
             <OurMission />
-            {/* <Team /> */}
+            <Team />
             <KenyaLearningInitiative />
             <Join />
         </Layout>

@@ -24,7 +24,7 @@ const Join = ({}: JoinProps) => (
             </Link>
             <Link
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/contact-us"
+              href="/ecosystem"
             >
               See Our Ecosystem
             </Link>
