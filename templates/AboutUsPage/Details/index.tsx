@@ -19,7 +19,7 @@ const items = [
 type DetailsProps = {};
 
 const Details = ({}: DetailsProps) => (
-  <Dividers className="section bg-greyscale-25">
+  <Dividers className="section">
     <div className="container">
       <div className="stage"></div>
       <div className="mb-20 text-h3 xl:mb-16 xl:text-h4 lg:mb-12 md:mb-8">

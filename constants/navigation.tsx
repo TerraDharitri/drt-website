@@ -1,5 +1,4 @@
 export const navigationHeader = [
-  
   {
     id: "0",
     title: "Problems",
@@ -35,7 +34,6 @@ export const navigationHeader = [
     title: "Join Us",
     url: "/get-involved",
   },
- 
 ];
 
 export const navigationFooter = [
@@ -65,15 +63,15 @@ export const navigationFooter = [
     title: "Resources",
     url: "/resources",
     links: [
-      { id: "0", title: "Resources", url: "/ResourcesPage" },
-      { id: "1", title: "White Paper", url: "" },
+      { id: "0", title: "Resources", url: "/resources" },
+      { id: "1", title: "White Paper", url: "/resources#whitepaper" },
       { id: "2", title: "Contact Us", url: "/get-involved" },
     ],
   },
   {
     id: "3",
     title: "Legal & Compliance",
-    url: "",
+    url: "/legal-compliance",
     links: [
       {
         id: "0",

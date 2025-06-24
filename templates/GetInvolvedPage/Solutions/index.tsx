@@ -64,7 +64,7 @@ type SolutionsProps = {};
 const Solutions = ({}: SolutionsProps) => (
   <div>
     {/* Hero Section */}
-    <Dividers className="bg-white text-greyscale-900" hero>
+    <Dividers hero>
       <div className="py-22 md:pt-12 md:pb-6">
         <div className="container">
           <div className="flex items-center mb-22 lg:block md:mb-6">

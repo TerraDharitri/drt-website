@@ -23,13 +23,13 @@
     @apply space-y-3;
   }
   .content ul li {
-    @apply relative pl-5 text-xl text-greyscale-400 before:absolute before:top-2.5 before:left-0 before:w-2 before:h-2 before:rounded-full before:bg-greyscale-300;
+    @apply relative pl-5 text-xl text-greyscale-400 dark:text-dark-text-secondary before:absolute before:top-2.5 before:left-0 before:w-2 before:h-2 before:rounded-full before:bg-greyscale-300 dark:before:bg-dark-border;
   }
   .content p {
-    @apply text-xl text-greyscale-400;
+    @apply text-xl text-greyscale-400 dark:text-dark-text-secondary;
   }
   .content figure {
-    @apply border border-greyscale-100;
+    @apply border border-greyscale-100 dark:border-dark-border;
   }
   .content figure:not(:first-child) {
     @apply mt-12 md:mt-8;

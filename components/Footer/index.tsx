@@ -9,6 +9,46 @@ import { socials } from "@/constants/socials";
 
 type FooterProps = {};
 
+type LinkProps = {
+  title: string;
+  url: string;
+  id: string;
+};
+
+const ComingSoonLink = ({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) => (
+  <button
+    className="text-greyscale-400 dark:text-dark-text-secondary hover:text-greyscale-600 dark:hover:text-dark-text-primary transition-colors cursor-not-allowed relative group"
+    title={`${title} - Coming Soon`}
+    disabled
+  >
+    {children}
+    <span className="absolute bottom-full left-0 mb-2 px-2 py-1 text-xs bg-greyscale-900 dark:bg-dark-card text-greyscale-0 dark:text-dark-text-primary rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+      Coming Soon
+    </span>
+  </button>
+);
+
+const FooterLink = ({ title, url }: LinkProps) => {
+  if (!url || url === "") {
+    return <ComingSoonLink title={title}>{title}</ComingSoonLink>;
+  }
+
+  return (
+    <Link
+      className="text-greyscale-400 dark:text-dark-text-secondary hover:text-greyscale-600 dark:hover:text-dark-text-primary transition-colors"
+      href={url}
+    >
+      {title}
+    </Link>
+  );
+};
+
 const Footer = ({}: FooterProps) => (
   <div className="mt-auto py-16 md:pt-12 md:pb-6 bg-white dark:bg-dark-bg">
     <div className="container">
@@ -42,13 +82,12 @@ const Footer = ({}: FooterProps) => (
               </Link>
               <div className="flex flex-col items-start space-y-3">
                 {group.links.map((link) => (
-                  <Link
-                    className="transition-colors hover:text-primary-100 dark:hover:text-primary-300 dark:text-dark-text-primary md:text-base"
-                    href={link.url}
+                  <FooterLink
                     key={link.id}
-                  >
-                    {link.title}
-                  </Link>
+                    title={link.title}
+                    url={link.url}
+                    id={link.id}
+                  />
                 ))}
               </div>
             </div>
