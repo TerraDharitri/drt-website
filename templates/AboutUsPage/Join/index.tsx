@@ -22,7 +22,7 @@ const Join = ({}: JoinProps) => (
             </Link>
             <Link
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/contact-us"
+              href="/get-involved"
             >
               How to Contribute
             </Link>

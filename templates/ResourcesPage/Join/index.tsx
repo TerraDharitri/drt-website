@@ -16,15 +16,15 @@ const Join = ({}: JoinProps) => (
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link
               className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/sign-up"
+              href="/get-involved"
             >
-              Contact Our Team
+              Contact Us Now
             </Link>
             <Link
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/contact-us"
+              href="/get-involved"
             >
-              Share Your Feedback
+              Join Community
             </Link>
           </div>
         </div>
