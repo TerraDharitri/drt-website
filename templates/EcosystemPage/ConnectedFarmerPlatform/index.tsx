@@ -157,9 +157,9 @@ const ConnectedFarmerPlatform = ({}: ConnectedFarmersProps) => (
 
           <Link
             className="btn-primary inline-flex items-center mt-6 px-6 py-3 pr-5 md:w-full"
-            href="/problemsAndVision#b2b"
+            href="/pREWA"
           >
-            <span>Learn More</span>
+            <span>Start With pREWA</span>
             <Icon className="w-5 h-5" name="arrow-right" />
           </Link>
         </div>

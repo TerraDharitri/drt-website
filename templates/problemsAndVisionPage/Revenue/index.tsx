@@ -47,10 +47,7 @@ const Revenue = ({}: RevenueProps) => (
             There are over 475M smallholder farmers who own less than 2 hectares
             but feed much of the world. They're the backbone of our food system.
           </div>
-          <Link className="btn-primary pr-5.5 md:w-full" href="/resources">
-            <span>Learn More</span>
-            <Icon className="w-5 h-5" name="arrow-right" />
-          </Link>
+      
         </div>
 
         {/* IMAGE block on the right */}

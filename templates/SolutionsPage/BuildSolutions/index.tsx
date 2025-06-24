@@ -123,10 +123,7 @@ const BuildSolutions = ({}: BuildSolutionsProps) => (
             partnerships responsibly. Each step improves the Dharitri system for
             the long term.
           </div>
-          <Link className="btn-primary pr-5.5 md:w-full" href="/pricing">
-            <span>Learn More</span>
-            <Icon className="w-5 h-5" name="arrow-right" />
-          </Link>
+        
         </div>
 
         {/* IMAGE block on the right */}

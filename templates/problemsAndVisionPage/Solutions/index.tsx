@@ -57,10 +57,7 @@ const Solutions = ({}: SolutionsProps) => (
               <div className="mb-12 text-greyscale-400 dark:text-dark-text-secondary md:mb-6 md:text-lg">
                 {solution.content}
               </div>
-              <Link className="btn-primary pr-5 md:w-full" href={solution.url}>
-                <span>Learn More</span>
-                <Icon className="w-5 h-5" name="arrow-right" />
-              </Link>
+            
             </div>
             <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 flex justify-center">
               <Image

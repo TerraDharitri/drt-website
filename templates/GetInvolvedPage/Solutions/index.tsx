@@ -72,7 +72,7 @@ const Solutions = ({}: SolutionsProps) => (
               <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
                 {solutions[0].title}
               </div>
-              <div className="mb-10 text-greyscale-600 md:text-lg">
+              <div className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
                 {solutions[0].subtitle}
               </div>
             </div>
