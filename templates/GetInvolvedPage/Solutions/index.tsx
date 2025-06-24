@@ -1,12 +1,15 @@
 import Link from "next/link";
 import Image from "@/components/Image";
 import Icon from "@/components/Icon";
+import Dividers from "@/components/Dividers";
 
 const solutions = [
   {
     title: "Join Dharitri's Mission: Create Real Impact for Farmers",
     stage: "",
     content: "",
+    subtitle:
+      "Together, we can transform agriculture through blockchain technology and create lasting change for farming communities worldwide.",
     image: "images/graphics/Get Involved/Get Involved/join us.webp",
     url: "/problemsAndVision#b2b",
   },
@@ -59,58 +62,88 @@ const solutions = [
 type SolutionsProps = {};
 
 const Solutions = ({}: SolutionsProps) => (
-  <div className="section">
-    <div className="container">
-      <div className="space-y-20 xl:space-y-24 lg:space-y-20 md:space-y-12 pt-20">
-        {solutions.map((solution, index) => (
-          <div
-            className="flex items-center -mx-20 even:flex-row-reverse 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0"
-            key={index}
-          >
-            <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
-              <div className="stage">{solution.stage}</div>
-              <div className="mb-4 text-h2 xl:text-h3 md:text-h4">
-                {solution.title}
+  <div>
+    {/* Hero Section */}
+    <Dividers className="bg-white text-greyscale-900" hero>
+      <div className="py-22 md:pt-12 md:pb-6">
+        <div className="container">
+          <div className="flex items-center mb-22 lg:block md:mb-6">
+            <div className="basis-[70%] pr-10 lg:pr-0">
+              <div className="mb-4 text-h1 xl:text-h2 md:text-h3">
+                {solutions[0].title}
               </div>
-              <ul className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
-                {(() => {
-                  const items = [];
-                  for (let i = 0; i < solution.content.length; i++) {
-                    items.push(
-                      <p className="pb-4" key={i}>
-                        {solution.content[i]}
-                      </p>
-                    );
-                  }
-                  return items;
-                })()}
-              </ul>
-              {/* Add buttons for the last three sections */}
-              {index >= 2 && (
-                <Link
-                  className="btn-primary pr-5 md:w-full"
-                  href={solution.url}
-                >
-                  <span>
-                    {index === 2 && "Investor Form"}
-                    {index === 3 && "Partnership Form"}
-                    {index === 4 && "Contact Form"}
-                  </span>
-                  <Icon className="w-5 h-5" name="arrow-right" />
-                </Link>
-              )}
+              <div className="mb-10 text-greyscale-600 md:text-lg">
+                {solutions[0].subtitle}
+              </div>
             </div>
-            <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
+            <div className="basis-[30%] flex justify-center lg:mt-16 md:mt-8">
               <Image
-                className="w-[70%] h-[70%]"
-                src={solution.image}
-                width={500}
-                height={450}
-                alt=""
+                className="w-full max-w-[400px] h-auto"
+                src={solutions[0].image}
+                width={400}
+                height={400}
+                alt="Join Dharitri's mission to help farmers"
               />
             </div>
           </div>
-        ))}
+        </div>
+      </div>
+    </Dividers>
+
+    {/* Regular Sections */}
+    <div className="section">
+      <div className="container">
+        <div className="space-y-20 xl:space-y-24 lg:space-y-20 md:space-y-12 pt-20">
+          {solutions.slice(1).map((solution, index) => (
+            <div
+              className="flex items-center -mx-20 even:flex-row-reverse 2xl:-mx-10 xl:-mx-5 lg:block lg:mx-0"
+              key={index + 1}
+            >
+              <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:mb-10">
+                <div className="stage">{solution.stage}</div>
+                <div className="mb-4 text-h2 xl:text-h3 md:text-h4">
+                  {solution.title}
+                </div>
+                <ul className="mb-12 list-disc list-inside text-greyscale-400 md:mb-6 md:text-lg space-y-2">
+                  {(() => {
+                    const items = [];
+                    for (let i = 0; i < solution.content.length; i++) {
+                      items.push(
+                        <p className="pb-4" key={i}>
+                          {solution.content[i]}
+                        </p>
+                      );
+                    }
+                    return items;
+                  })()}
+                </ul>
+                {/* Add buttons for the last three sections */}
+                {index >= 1 && (
+                  <Link
+                    className="btn-primary pr-5 md:w-full"
+                    href={solution.url}
+                  >
+                    <span>
+                      {index === 1 && "Investor Form"}
+                      {index === 2 && "Partnership Form"}
+                      {index === 3 && "Contact Form"}
+                    </span>
+                    <Icon className="w-5 h-5" name="arrow-right" />
+                  </Link>
+                )}
+              </div>
+              <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
+                <Image
+                  className="w-[70%] h-[70%]"
+                  src={solution.image}
+                  width={500}
+                  height={450}
+                  alt=""
+                />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   </div>
