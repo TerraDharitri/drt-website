@@ -1,7 +1,7 @@
 export const navigationHeader = [
   {
     id: "0",
-    title: "Problems",
+    title: "Problem",
     url: "/problemsAndVision",
   },
   {

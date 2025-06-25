@@ -104,7 +104,10 @@ const items3 = [
 type BuildSolutionsProps = {};
 
 const BuildSolutions = ({}: BuildSolutionsProps) => (
-  <div className="pt-30 pb-22 xl:pt-24 xl:pb-20 md:py-12 bg-white dark:bg-dark-bg">
+  <div
+    id="build-solutions"
+    className="pt-30 pb-22 xl:pt-24 xl:pb-20 md:py-12 bg-white dark:bg-dark-bg"
+  >
     <div className="container">
       <div className="flex items-center gap-20 xl:gap-10 mb-14 lg:flex-col lg:items-stretch md:mb-8 pt-20 pb-20">
         {/* TEXT block on the left */}
@@ -123,7 +126,6 @@ const BuildSolutions = ({}: BuildSolutionsProps) => (
             partnerships responsibly. Each step improves the Dharitri system for
             the long term.
           </div>
-        
         </div>
 
         {/* IMAGE block on the right */}

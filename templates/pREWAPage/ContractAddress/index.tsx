@@ -94,10 +94,17 @@ const ContractAddress = () => (
             Fake addresses exist targeting investors. Use only addresses from
             our official website and verified agritech channels.
           </div>
-          <Link className="btn-primary pr-5 md:w-full" href="/solution">
+          <button
+            className="btn-primary pr-5 md:w-full cursor-not-allowed opacity-75 relative group"
+            disabled
+            title="pREWA Contract- Coming Soon"
+          >
             <span>Copy pREWA Contract</span>
             <Icon className="w-5 h-5" name="arrow-right" />
-          </Link>
+            <span className="absolute top-full left-0 mt-2 px-2 py-1 text-xs bg-greyscale-900 dark:bg-dark-card text-greyscale-0 dark:text-dark-text-primary rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+              Coming Soon
+            </span>
+          </button>
         </div>
         <div className="flex-1 flex justify-center items-center">
           <Image

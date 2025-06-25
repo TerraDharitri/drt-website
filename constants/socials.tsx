@@ -7,7 +7,7 @@ export const socials = [
   {
     id: "1",
     icon: "twitter",
-    url: "https://twitter.com/dharitri",
+    url: "https://x.com/Dharitri_Block",
   },
   {
     id: "2",

@@ -131,7 +131,7 @@ const JoinCommunity = () => (
             </Link>
 
             <Link
-              href="https://twitter.com/dharitri"
+              href="https://x.com/Dharitri_Block"
               className="w-10 h-10 rounded-full flex items-center justify-center"
               target="_blank"
             >
