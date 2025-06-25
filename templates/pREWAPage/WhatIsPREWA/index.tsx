@@ -3,8 +3,8 @@ import Image from "@/components/Image";
 const WhatIsPREWA = () => (
   <div className="section bg-white dark:bg-dark-bg">
     <div className="container">
-      <div className="flex items-center gap-20 xl:gap-12 lg:block lg:gap-0">
-        <div className="flex-1 lg:mb-10 flex justify-center">
+      <div className="flex items-center gap-20 xl:gap-12 xl:flex-row sm:flex-col-reverse xl:items-center ">
+        <div className="flex-1 flex justify-center xl:mb-0 mb-0">
           <Image
             className="w-full h-auto object-contain max-w-[300px] max-h-[300px]"
             src="images/graphics/pREWA/pREWA/pREWA token.svg"
@@ -13,7 +13,7 @@ const WhatIsPREWA = () => (
             alt="pREWA token illustration"
           />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 mb-8 xl:mb-0">
           <div className="mb-4 text-h2 xl:text-h3 md:text-h4 dark:text-dark-text-primary">
             What is pREWA
           </div>

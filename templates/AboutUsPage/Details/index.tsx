@@ -25,7 +25,7 @@ const Details = ({}: DetailsProps) => (
       <div className="mb-20 text-h3 xl:mb-16 xl:text-h4 lg:mb-12 md:mb-8">
         Our Mission & Vision Statement
       </div>
-      <div className="flex space-x-10 lg:block lg:space-x-0">
+      <div className="flex space-x-10 sm:flex-col-reverse lg:space-x-0">
         <div className="flex items-end flex-1">
           <Image
             src="images/graphics/About/About/vision.webp"

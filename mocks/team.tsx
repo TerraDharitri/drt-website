@@ -8,23 +8,24 @@ export const team = [
     avatar: "images/content/kasi.webp",
     social: "kasi_vishwanath_aurangabad",
   },
+ 
   {
     id: "1",
-    name: "Mayank Patel",
-    position: "Co-Founder",
-    description:
-      "Business Analyst and Enterprise Program Manager at Caterpillar and Merck. Agile methodologies and ERP specialist.",
-    avatar: "images/content/mayank.webp",
-    social: "mayank_patel",
-  },
-  {
-    id: "2",
     name: "Anil K Patel",
     position: "Co-Founder",
     description:
       "Farming family background before moving to USA. SAP Financial Consultant and technical analyst with rural finance expertise.",
     avatar: "images/content/anil.webp",
     social: "anil_k_patel",
+  },
+  {
+    id: "2",
+    name: "Mayank Patel",
+    position: "Co-Founder",
+    description:
+      "Business Analyst and Enterprise Program Manager at Caterpillar and Merck. Agile methodologies and ERP specialist.",
+    avatar: "images/content/mayank.webp",
+    social: "mayank_patel",
   },
   {
     id: "3",

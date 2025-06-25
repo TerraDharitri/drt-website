@@ -13,7 +13,7 @@ const StakePREWA = () => (
         </div>
       </div>
 
-      <div className="flex items-center gap-20 xl:gap-12 lg:flex-col lg:gap-12">
+      <div className="flex items-center sm:flex-col-reverse gap-20 xl:gap-12 lg:flex-col lg:gap-12">
         <div className="flex-1 lg:w-full flex justify-center">
           <Image
             className="w-full h-auto object-contain max-w-[400px] max-h-[300px]"

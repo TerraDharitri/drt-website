@@ -88,7 +88,7 @@ const JoinCommunity = () => (
           {/* Social Media Icons */}
           <div className="flex">
             <Link
-              href="https://t.me/Dharitricommunitychat"
+              href="https://t.me/DharitriCommunity"
               target="_blank"
               className="w-10 h-10 rounded-full flex items-center justify-center "
             >

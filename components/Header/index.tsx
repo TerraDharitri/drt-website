@@ -112,14 +112,16 @@ const Header = ({ className, dark }: HeaderProps) => {
           } ${
             dark
               ? "before:bg-greyscale-0 after:bg-greyscale-0"
-              : "before:bg-greyscale-900 after:bg-greyscale-900"
+              : "before:bg-greyscale-900 after:bg-greyscale-900 dark:before:bg-greyscale-0 dark:after:bg-greyscale-0"
           }`}
           onClick={toggleMenu}
         >
           <span
             className={`w-5 h-0.5 my-1 rounded-full transition-all ${
               visible ? "w-0 opacity-0" : ""
-            } ${dark ? "bg-greyscale-0" : "bg-greyscale-900"}`}
+            } ${
+              dark ? "bg-greyscale-0" : "bg-greyscale-900 dark:bg-greyscale-0"
+            }`}
           ></span>
         </button>
       </div>

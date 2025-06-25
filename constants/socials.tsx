@@ -2,7 +2,7 @@ export const socials = [
   {
     id: "0",
     icon: "telegram",
-    url: "https://t.me/Dharitricommunitychat",
+    url: "https://t.me/DharitriCommunity",
   },
   {
     id: "1",

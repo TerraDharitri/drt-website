@@ -54,7 +54,7 @@ const solutions = [
       "Follow us on Telegram, Discord, and X for project updates and discussions.",
       <div className="flex">
         <Link
-          href="https://t.me/Dharitricommunitychat"
+          href="https://t.me/DharitriCommunity"
           target="_blank"
           className="w-10 h-10 rounded-full flex items-center justify-center "
         >
@@ -220,7 +220,7 @@ const Solutions = ({}: SolutionsProps) => (
                   </Link>
                 )}
               </div>
-              <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0">
+              <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:flex lg:justify-center">
                 <Image
                   className="w-[70%] h-[70%]"
                   src={solution.image}

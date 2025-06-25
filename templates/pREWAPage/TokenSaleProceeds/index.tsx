@@ -19,12 +19,12 @@ const items = [
     icon: "images/content/icons/trend-up-bold.svg",
   },
   {
-    title: "Solid Foundations",
+    title: "Dharitri Green Badge",
     content: "Ensuring strong operations and good guidance.",
     icon: "images/content/icons/stack-bold.svg",
   },
   {
-    title: "Kenya Initiative",
+    title: "Conservation Records",
     content: "Gaining insights through agritech work in Kenya.",
     icon: "images/content/icons/globe-hemisphere-east-bold.svg",
   },

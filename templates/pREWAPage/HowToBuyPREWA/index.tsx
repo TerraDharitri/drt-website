@@ -13,7 +13,7 @@ const HowToBuyPREWA = () => (
         </div>
       </div>
 
-      <div className="flex items-center gap-20 xl:gap-12 lg:block lg:gap-0">
+      <div className="flex items-center sm:flex-col-reverse gap-20 xl:gap-12 lg:gap-0">
         {/* Image on the left */}
         <div className="flex-1 flex justify-center items-center lg:w-full lg:mb-10">
           <Image
