@@ -207,9 +207,13 @@ const Solutions = ({}: SolutionsProps) => (
                 </ul>
                 {/* Add buttons for the last three sections */}
                 {index >= 1 && (
-                  <Link
-                    className="btn-primary pr-5 md:w-full"
-                    href={solution.url}
+                  <button
+                    className="btn-primary pr-5 md:w-full flex items-center justify-center"
+                    data-tally-open={
+                      index === 1 ? "n9PBlY" : index === 2 ? "nPLpp1" : "nGaeAj"
+                    }
+                    // data-tally-emoji-text="👋"
+                    // data-tally-emoji-animation="wave"
                   >
                     <span>
                       {index === 1 && "Investor Form"}
@@ -217,7 +221,7 @@ const Solutions = ({}: SolutionsProps) => (
                       {index === 3 && "Contact Form"}
                     </span>
                     <Icon className="w-5 h-5" name="arrow-right" />
-                  </Link>
+                  </button>
                 )}
               </div>
               <div className="w-[calc(50%-5rem)] mx-20 2xl:w-[calc(50%-2.5rem)] 2xl:mx-10 xl:w-[calc(50%-1.25rem)] xl:mx-5 lg:w-full lg:mx-0 lg:flex lg:justify-center">

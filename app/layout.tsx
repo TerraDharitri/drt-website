@@ -105,6 +105,9 @@ export default function RootLayout({
           property="og:description"
           content="Premium Finance Website Template"
         />
+
+        {/* Tally Forms Script */}
+        <script async src="https://tally.so/widgets/embed.js"></script>
       </head>
       <body
         className={`${inter.variable} bg-white dark:bg-dark-bg font-sans text-xl text-greyscale-900 dark:text-dark-text-primary antialiased transition-colors duration-200`}

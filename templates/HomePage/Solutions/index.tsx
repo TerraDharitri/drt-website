@@ -8,8 +8,8 @@ const solutions = [
     stage: "",
     content:
       "Millions of smallholder farmers feed our world yet face rural poverty and poor harvests.\
-The problems are urgent: a $150 billion gap blocks credit access. Climate change makes farming harder. Buyers pay very little.\
-Without help, they can't afford sustainable agriculture methods.",
+       The problems are urgent: a $150 billion gap blocks credit access. Climate change makes farming harder. Buyers pay very little.\
+         Without help, they can't afford sustainable agriculture methods.",
     image: "/images/graphics/homepage/farmer-support.svg",
     url: "/problemsAndVision#b2b",
   },
@@ -18,8 +18,8 @@ Without help, they can't afford sustainable agriculture methods.",
     stage: "",
     content:
       "That's exactly why we built Dharitri.\
-Dharitri uses scalable blockchain technology to support regenerative agriculture and sustainable finance for farmers.\
-Farmers get digital IDs and proven agricultural knowledge. They earn real rewards for adopting better sustainable farming practices. Our platform tracks their conservation agriculture work too.\
+   Dharitri uses scalable blockchain technology to support regenerative agriculture and sustainable finance for farmers.\
+     Farmers get digital IDs and proven agricultural knowledge. They earn real rewards for adopting better sustainable farming practices. Our platform tracks their conservation agriculture work too.\
 ",
     image: "/images/graphics/homepage/farmer-solution.webp",
     url: "/solutions#microfinance",

@@ -172,12 +172,9 @@ const Footer = ({}: FooterProps) => (
               className="grow pr-8 text-lg font-medium last:pr-0 md:w-1/2 md:mt-5 md:pr-5"
               key={group.id}
             >
-              <Link
-                className="inline-block mb-4 text-[#666D80] dark:text-dark-text-secondary transition-colors hover:text-primary-100 dark:hover:text-primary-300 md:mb-2 md:text-base"
-                href={group.url}
-              >
+              <div className="inline-block mb-4 text-[#666D80] dark:text-dark-text-secondary transition-colors hover:text-primary-100 dark:hover:text-primary-300 md:mb-2 md:text-base">
                 {group.title}
-              </Link>
+              </div>
               <div className="flex flex-col items-start space-y-3">
                 {group.links.map((link) => (
                   <FooterLink

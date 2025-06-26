@@ -60,7 +60,7 @@ export const navigationFooter = [
   },
   {
     id: "2",
-    title: "Resources",
+    title: "Assets",
     url: "/resources",
     links: [
       { id: "0", title: "Resources", url: "/resources" },
