@@ -47,7 +47,7 @@ const Main = ({}: MainProps) => (
           <div className="basis-[30%] flex justify-center lg:mt-16 md:mt-8">
             <Image
               className="w-full max-w-[400px] h-auto"
-              src="images/graphics/homepage/blockchain-farmer.webp"
+              src="/images/graphics/homepage/blockchain-farmer.webp"
               width={400}
               height={400}
               alt="Blockchain network supporting farmers"
@@ -55,7 +55,7 @@ const Main = ({}: MainProps) => (
             {/* <div className="absolute top-[5%] -right-[24.5%] w-[80%] 2xl:top-[15%] 2xl:-right-[16%] 2xl:w-[70%] lg:top-[5%] lg:-right-[15%] lg:w-[80%]">
                             <Image
                                 className="w-full"
-                                src="images/"
+                                src="/images/"
                                 width={459}
                                 height={690}
                                 alt=""

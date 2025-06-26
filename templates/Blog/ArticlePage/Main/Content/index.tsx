@@ -152,7 +152,7 @@ const Content = ({}: ContentProps) => (
     <figure>
       <Image
         className="w-full"
-        src="images/content/content-pic-1.jpg"
+        src="/images/content/content-pic-1.jpg"
         width={920}
         height={520}
         alt=""
@@ -196,7 +196,7 @@ const Content = ({}: ContentProps) => (
     <figure>
       <Image
         className="w-full"
-        src="images/content/content-pic-2.jpg"
+        src="/images/content/content-pic-2.jpg"
         width={920}
         height={520}
         alt=""

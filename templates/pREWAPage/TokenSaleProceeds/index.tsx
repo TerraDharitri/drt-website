@@ -6,27 +6,27 @@ const items = [
   {
     title: "Platform Development",
     content: "Core blockchain creation and system tests.",
-    icon: "images/content/icons/cpu-bold.svg",
+    icon: "/images/content/icons/cpu-bold.svg",
   },
   {
     title: "Team Operations",
     content: "Support for project management and launch.",
-    icon: "images/content/icons/users-bold.svg",
+    icon: "/images/content/icons/users-bold.svg",
   },
   {
     title: "Ecosystem Growth",
     content: "Building our community and global presence.",
-    icon: "images/content/icons/trend-up-bold.svg",
+    icon: "/images/content/icons/trend-up-bold.svg",
   },
   {
     title: "Dharitri Green Badge",
     content: "Ensuring strong operations and good guidance.",
-    icon: "images/content/icons/stack-bold.svg",
+    icon: "/images/content/icons/stack-bold.svg",
   },
   {
     title: "Conservation Records",
     content: "Gaining insights through agritech work in Kenya.",
-    icon: "images/content/icons/globe-hemisphere-east-bold.svg",
+    icon: "/images/content/icons/globe-hemisphere-east-bold.svg",
   },
 ];
 

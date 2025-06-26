@@ -7,7 +7,7 @@ const WhatIsPREWA = () => (
         <div className="flex-1 flex justify-center xl:mb-0 mb-0">
           <Image
             className="w-full h-auto object-contain max-w-[300px] max-h-[300px]"
-            src="images/graphics/pREWA/pREWA/pREWA token.svg"
+            src="/images/graphics/pREWA/pREWA/pREWA token.svg"
             width={300}
             height={300}
             alt="pREWA token illustration"

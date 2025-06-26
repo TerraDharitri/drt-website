@@ -18,7 +18,7 @@ const HowToBuyPREWA = () => (
         <div className="flex-1 flex justify-center items-center lg:w-full lg:mb-10">
           <Image
             className="w-full h-auto object-contain max-w-[500px] max-h-[400px]"
-            src="images/graphics/pREWA/pREWA/pancakeswap.webp"
+            src="/images/graphics/pREWA/pREWA/pancakeswap.webp"
             width={500}
             height={400}
             alt="PancakeSwap trading interface"
@@ -35,7 +35,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -49,7 +49,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -63,7 +63,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -77,7 +77,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -91,7 +91,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -113,7 +113,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -127,7 +127,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -141,7 +141,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}
@@ -155,7 +155,7 @@ const HowToBuyPREWA = () => (
               <li className="flex items-start">
                 <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                   <Image
-                    src={"images/content/icons/check-bold.svg"}
+                    src={"/images/content/icons/check-bold.svg"}
                     className="w-3 h-3"
                     width={12}
                     height={12}

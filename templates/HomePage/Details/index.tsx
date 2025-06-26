@@ -6,24 +6,24 @@ const details = [
   {
     title: "Growing Farmers",
     content: "Secure IDs, knowledge access, fair markets, financial inclusion.",
-    icon: "images/content/icons/users-bold.svg",
+    icon: "/images/content/icons/users-bold.svg",
   },
   {
     title: "Green Agriculture",
     content: "Sustainable practices, conservation methods, climate resilience.",
-    icon: "images/content/icons/leaf-bold.svg",
+    icon: "/images/content/icons/leaf-bold.svg",
   },
   {
     title: "Smart Financing",
     content:
       "Agricultural microfinance, environmental rewards, transparent aid.",
-    icon: "images/content/icons/credit-card-bold.svg",
+    icon: "/images/content/icons/credit-card-bold.svg",
   },
   {
     title: "Blockchain Trust",
     content:
       " Blockchain verifiable data, immutable records, efficient systems.",
-    icon: "images/content/icons/shield-check-bold.svg",
+    icon: "/images/content/icons/shield-check-bold.svg",
   },
 ];
 

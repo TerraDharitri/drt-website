@@ -7,25 +7,25 @@ const items = [
     title: "Financial Access Issues",
     content:
       "Small farmers worldwide lack funds due to a $150 billion financing gap. Banks charge high fees for small loans, and most farmers lack land titles or collateral. Lenders see agricultural finance as risky because credit for farmers is hard to assess without formal records. Women deal with greater barriers, limiting financial inclusion in agriculture.",
-    icon: "images/content/icons/currency-dollar-bold.svg",
+    icon: "/images/content/icons/currency-dollar-bold.svg",
   },
   {
     title: "Market Connection Problems",
     content:
       "Selling crops is a major challenge that limits market access for farmers. Buyers have strict standards that are hard to meet, and cheap imports drive down local prices. High transport costs eat into profits, while individual farmers have little power to negotiate better deals. Poor storage and lack of cold transport cause them to lose crops and money.",
-    icon: "images/content/icons/trend-down-bold.svg",
+    icon: "/images/content/icons/trend-down-bold.svg",
   },
   {
     title: "Climate Change Threats",
     content:
       "Agricultural producers face many threats like pests and water shortages. Livestock losses also hurt farms. Climate change worsens this with droughts, floods, and erratic weather. These mounting problems create income uncertainty and food shortages, making climate resilient agriculture essential for survival.",
-    icon: "images/content/icons/cloud-lightning-bold.svg",
+    icon: "/images/content/icons/cloud-lightning-bold.svg",
   },
   {
     title: "Infrastructure Gaps",
     content:
       "Farmers often lack business skills and access to agricultural knowledge about available resources. Poor roads, storage, and irrigation make farming much harder than necessary. Bad internet and limited technology access create a digital divide, while unclear policies and weak support systems add more barriers.",
-    icon: "images/content/icons/wifi-slash-bold.svg",
+    icon: "/images/content/icons/wifi-slash-bold.svg",
   },
 ];
 
@@ -47,14 +47,13 @@ const Revenue = ({}: RevenueProps) => (
             There are over 475M smallholder farmers who own less than 2 hectares
             but feed much of the world. They're the backbone of our food system.
           </div>
-      
         </div>
 
         {/* IMAGE block on the right */}
         <div className="w-[calc(50%-5rem)] mx-20 xl:w-[calc(50%-2.5rem)] xl:mx-10 lg:w-full lg:mx-0 flex justify-center">
           <Image
             className="w-full max-w-[400px] h-auto"
-            src="images/graphics/the problem/farmer-essential.svg"
+            src="/images/graphics/the problem/farmer-essential.svg"
             width={400}
             height={300}
             alt="Farmer with animals silhouette on globe background"

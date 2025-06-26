@@ -23,7 +23,7 @@ const Main = ({}: MainProps) => (
           <div className="basis-[30%] flex justify-center lg:mt-16 md:mt-8">
             <Image
               className="w-full max-w-[400px] h-auto"
-              src="images/graphics/the problem/problem-farmer.webp"
+              src="/images/graphics/the problem/problem-farmer.webp"
               width={400}
               height={400}
               alt="Hands protecting a growing plant - supporting farmers"

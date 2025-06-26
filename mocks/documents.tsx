@@ -8,42 +8,42 @@ export const documents = [
         title: "Payment",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/credit-card.svg",
+        icon: "/images/content/icons/docs/credit-card.svg",
       },
       {
         id: "1",
         title: "Terminal",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/code-browser.svg",
+        icon: "/images/content/icons/docs/code-browser.svg",
       },
       {
         id: "2",
         title: "Connect",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/dataflow.svg",
+        icon: "/images/content/icons/docs/dataflow.svg",
       },
       {
         id: "3",
         title: "Radar",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/target.svg",
+        icon: "/images/content/icons/docs/target.svg",
       },
       {
         id: "4",
         title: "Climate",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/cpu-chip.svg",
+        icon: "/images/content/icons/docs/cpu-chip.svg",
       },
       {
         id: "5",
         title: "Identity",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/user-circle.svg",
+        icon: "/images/content/icons/docs/user-circle.svg",
       },
     ],
   },
@@ -56,42 +56,42 @@ export const documents = [
         title: "Billing",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/coins-hand.svg",
+        icon: "/images/content/icons/docs/coins-hand.svg",
       },
       {
         id: "1",
         title: "Tax",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/file-check.svg",
+        icon: "/images/content/icons/docs/file-check.svg",
       },
       {
         id: "2",
         title: "Revenue Recognition",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/wallet.svg",
+        icon: "/images/content/icons/docs/wallet.svg",
       },
       {
         id: "3",
         title: "Sigma",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/layers-two.svg",
+        icon: "/images/content/icons/docs/layers-two.svg",
       },
       {
         id: "4",
         title: "Data Pipeline",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/data.svg",
+        icon: "/images/content/icons/docs/data.svg",
       },
       {
         id: "5",
         title: "Atlas",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/globe.svg",
+        icon: "/images/content/icons/docs/globe.svg",
       },
     ],
   },
@@ -104,21 +104,21 @@ export const documents = [
         title: "Issuing",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/alert-triangle.svg",
+        icon: "/images/content/icons/docs/alert-triangle.svg",
       },
       {
         id: "1",
         title: "Treasury",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/image-indent-left.svg",
+        icon: "/images/content/icons/docs/image-indent-left.svg",
       },
       {
         id: "2",
         title: "Capital",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/building.svg",
+        icon: "/images/content/icons/docs/building.svg",
       },
     ],
   },
@@ -131,21 +131,21 @@ export const documents = [
         title: "Payment Link",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/credit-card-refresh.svg",
+        icon: "/images/content/icons/docs/credit-card-refresh.svg",
       },
       {
         id: "1",
         title: "Checkout",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/shopping-cart.svg",
+        icon: "/images/content/icons/docs/shopping-cart.svg",
       },
       {
         id: "2",
         title: "Elements",
         description:
           "Test your product idea by launching payments with little to no code.",
-        icon: "images/content/icons/docs/grid.svg",
+        icon: "/images/content/icons/docs/grid.svg",
       },
     ],
   },

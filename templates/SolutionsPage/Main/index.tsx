@@ -43,7 +43,7 @@ const Main = ({}: MainProps) => (
             <div className="flex justify-center items-center">
               <Image
                 className="w-full max-w-[500px] h-auto"
-                src="images/graphics/The Solution/The Solution/solution farmer.svg"
+                src="/images/graphics/The Solution/The Solution/solution farmer.svg"
                 width={500}
                 height={400}
                 alt="Technology solutions for farmers"

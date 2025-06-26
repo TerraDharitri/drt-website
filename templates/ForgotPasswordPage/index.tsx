@@ -23,7 +23,7 @@ const ForgotPasswordPage = () => {
           <Link className="w-26 mr-auto md:w-22" href="/">
             <Image
               className="w-full opacity-100"
-              src="images/logo-light.svg"
+              src="/images/logo-light.svg"
               width={103}
               height={38}
               alt=""
@@ -50,7 +50,7 @@ const ForgotPasswordPage = () => {
           <div className="flex justify-center items-center w-16 h-16 mx-auto mb-5 bg-primary-300 border-[0.625rem] border-primary-25 rounded-full md:w-14 md:h-14 md:border-[0.5rem]">
             <Image
               className="w-7 opacity-100"
-              src="images/content/icons/key.svg"
+              src="/images/content/icons/key.svg"
               width={28}
               height={28}
               alt=""

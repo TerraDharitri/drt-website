@@ -9,7 +9,7 @@ const solutions = [
     stage: "",
     content:
       "Dharitri's approach is farmer-focused. Blockchain provides trust and transparency where needed, supported by effective off-chain processing. Our mobile apps are designed for easy access to a useful and sustainable ecosystem.",
-    image: "images/graphics/The Solution/The Solution/technology farmer.svg",
+    image: "/images/graphics/The Solution/The Solution/technology farmer.svg",
     url: "/solutions#microfinance",
   },
   // {
@@ -17,7 +17,7 @@ const solutions = [
   //     stage: "Blockchain Trust",
   //     content:
   //         "Use blockchain to build verifiable trust. Farmers earn digital IDs, get transparent records, and unlock access to fair markets and sustainable finance.",
-  //     image: "images/content/solutions-pic-3.png",
+  //     image: "/images/content/solutions-pic-3.png",
   //     url: "/solutions#blockchain",
   // },
 ];
@@ -27,7 +27,7 @@ type SolutionsProps = {};
 const Solutions = ({}: SolutionsProps) => (
   <div>
     {/* Hero Section */}
-    <Dividers  hero>
+    <Dividers hero>
       <div className="py-22 md:pt-12 md:pb-6">
         <div className="container">
           <div className="flex items-center mb-22 lg:block md:mb-6">
@@ -43,7 +43,7 @@ const Solutions = ({}: SolutionsProps) => (
             <div className="basis-[30%] lg:mt-16 md:mt-8 flex justify-center">
               <Image
                 className="w-full max-w-[400px] h-auto"
-                src="images/graphics/The Solution/The Solution/solution farmer.svg"
+                src="/images/graphics/The Solution/The Solution/solution farmer.svg"
                 width={400}
                 height={400}
                 alt="Hexagonal blockchain network structure"

@@ -157,7 +157,7 @@ const Footer = ({}: FooterProps) => (
         >
           <Image
             className="w-7 opacity-100"
-            src="images/graphics/Logo/Logo/Dharitri Logo dark.svg"
+            src="/images/graphics/Logo/Logo/Dharitri Logo dark.svg"
             width={38}
             height={38}
             alt="Dharitri"

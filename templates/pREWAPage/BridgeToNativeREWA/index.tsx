@@ -31,7 +31,7 @@ const BridgeToNativeREWA = () => (
             <li className="flex items-start gap-3">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"images/content/icons/check-bold.svg"}
+                  src={"/images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -45,7 +45,7 @@ const BridgeToNativeREWA = () => (
             <li className="flex items-start gap-3">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"images/content/icons/check-bold.svg"}
+                  src={"/images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -59,7 +59,7 @@ const BridgeToNativeREWA = () => (
             <li className="flex items-start gap-3">
               <div className="flex justify-center items-center w-6 h-6 rounded-full bg-[#9FE870] shrink-0 mt-1">
                 <Image
-                  src={"images/content/icons/check-bold.svg"}
+                  src={"/images/content/icons/check-bold.svg"}
                   className="w-3 h-3"
                   width={12}
                   height={12}
@@ -87,7 +87,7 @@ const BridgeToNativeREWA = () => (
         <div className="flex-1 lg:w-full flex justify-center items-center">
           <Image
             className="w-full h-auto object-contain max-w-[500px] xl:max-w-[450px] lg:max-w-[400px] md:max-w-[350px]"
-            src="images/graphics/pREWA/pREWA/bridge.svg"
+            src="/images/graphics/pREWA/pREWA/bridge.svg"
             width={500}
             height={400}
             alt="Bridge to REWA token illustration"

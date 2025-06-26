@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
-  output: 'export', // Essential for static export
-  basePath: isProd ? '/pRewa_website' : '', // Adjust based on your repo name
-  assetPrefix: isProd ? '/pRewa_website/' : '', // Adjust based on your repo name
-  images: {
-    unoptimized: true, // <-- This is key for GitHub Pages
-  },
+  reactStrictMode: true,
+  swcMinify: true,
+  // Optional: If you're using remote images
+  // images: {
+  //   domains: ['your-image-domain.com'],
+  // },
 };
 
 module.exports = nextConfig;

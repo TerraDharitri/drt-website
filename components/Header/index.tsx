@@ -46,8 +46,8 @@ const Header = ({ className, dark }: HeaderProps) => {
             className="w-7 opacity-100"
             src={
               dark
-                ? "images/graphics/Logo/Logo/Dharitri Logo Light.svg"
-                : "images/graphics/Logo/Logo/Dharitri Logo dark.svg"
+                ? "/images/graphics/Logo/Logo/Dharitri Logo Light.svg"
+                : "/images/graphics/Logo/Logo/Dharitri Logo dark.svg"
             }
             width={38}
             height={38}

@@ -10,7 +10,7 @@ const solutions = [
     content: "",
     subtitle:
       "Together, we can transform agriculture through blockchain technology and create lasting change for farming communities worldwide.",
-    image: "images/graphics/Get Involved/Get Involved/join us.webp",
+    image: "/images/graphics/Get Involved/Get Involved/join us.webp",
     url: "/problemsAndVision#b2b",
   },
   {
@@ -21,7 +21,7 @@ const solutions = [
       "Three key ways to contribute exist. Investors can fund our mission, partners can collaborate on solutions, and community members can spread our regenerative farming message.",
       "Join us in building tools that make farming communities stronger worldwide.",
     ],
-    image: "images/graphics/Get Involved/Get Involved/tractor.webp",
+    image: "/images/graphics/Get Involved/Get Involved/tractor.webp",
     url: "/solutions#microfinance",
   },
   {
@@ -32,7 +32,7 @@ const solutions = [
       "We welcome investors of all sizes who want to create real change. Your investment directly supports agricultural innovation technology and financial inclusion for farming communities.",
       "Learn more through our project documentation or connect directly with our team.",
     ],
-    image: "images/graphics/Get Involved/Get Involved/balance.svg",
+    image: "/images/graphics/Get Involved/Get Involved/balance.svg",
     url: "/solutions#investors",
   },
   {
@@ -43,7 +43,7 @@ const solutions = [
       "We welcome NGOs, financial institutions, and technology organizations. Each partnership strengthens our agritech platform while expanding your impact with farming communities.",
       "Ready to explore collaboration? Share your organization's goals and discover partnership opportunities.",
     ],
-    image: "images/graphics/Get Involved/Get Involved/partner.svg",
+    image: "/images/graphics/Get Involved/Get Involved/partner.svg",
     url: "/solutions#partners",
   },
   {
@@ -142,7 +142,7 @@ const solutions = [
       </div>,
       "For general questions, feedback, or if you're unsure where to start, reach out directly.",
     ],
-    image: "images/graphics/Get Involved/Get Involved/join community.svg",
+    image: "/images/graphics/Get Involved/Get Involved/join community.svg",
     url: "/solutions#community",
   },
 ];

@@ -16,12 +16,11 @@ const Hero = () => (
               Fund farmer solutions with pREWA. Earn immediate crypto staking
               rewards.
             </div>
-            
           </div>
           <div className="relative shrink-0 w-[49.48%] lg:w-full lg:mt-16 md:mt-8 flex justify-center">
             <Image
               className="w-full h-auto object-contain max-h-[400px]"
-              src="images/graphics/pREWA/pREWA/staking rewards.svg"
+              src="/images/graphics/pREWA/pREWA/staking rewards.svg"
               width={400}
               height={300}
               alt="pREWA staking rewards illustration"

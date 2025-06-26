@@ -11,7 +11,7 @@ const DevelopmentStats = ({}: DevelopmentStatsProps) => (
         <div className="w-1/2 lg:w-full lg:mb-10 md:mb-8 flex justify-center">
           <Image
             className="w-full max-w-[400px] h-auto"
-            src="images/graphics/The Solution/The Solution/code.svg"
+            src="/images/graphics/The Solution/The Solution/code.svg"
             width={400}
             height={300}
             alt="Development approach illustration"
@@ -30,7 +30,6 @@ const DevelopmentStats = ({}: DevelopmentStatsProps) => (
             farmers. Each feature is built with careful attention to local
             contexts and validated through community feedback.
           </div>
-        
         </div>
       </div>
     </div>

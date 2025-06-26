@@ -6,17 +6,17 @@ const risks = [
   {
     title: "Investment risks",
     content: "Value fluctuates, no guarantees",
-    icon: "images/content/icons/trend-down-bold.svg",
+    icon: "/images/content/icons/trend-down-bold.svg",
   },
   {
     title: "Development risks",
     content: "Platform under active development",
-    icon: "images/content/icons/wrench-bold.svg",
+    icon: "/images/content/icons/wrench-bold.svg",
   },
   {
     title: "Regulatory risks",
     content: "Crypto laws vary by jurisdiction",
-    icon: "images/content/icons/scales-bold.svg",
+    icon: "/images/content/icons/scales-bold.svg",
   },
 ];
 
@@ -28,7 +28,7 @@ const KeyRisksWarnings = () => (
         <div className=" basis-[45%] flex-shrink-0 lg:mx-auto mb-8">
           <Image
             className="object-contain"
-            src="images/graphics/pREWA/pREWA/risk warning.webp"
+            src="/images/graphics/pREWA/pREWA/risk warning.webp"
             width={300}
             height={300}
             alt="Risk warning illustration"

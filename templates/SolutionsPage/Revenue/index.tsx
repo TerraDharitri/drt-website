@@ -6,22 +6,22 @@ const items = [
   {
     title: "Scalability",
     content: "Grows with community via blockchain sharding.",
-    icon: "images/content/icons/trend-up-bold.svg",
+    icon: "/images/content/icons/trend-up-bold.svg",
   },
   {
     title: "Efficiency",
     content: "Fast, low fee blockchain transactions.",
-    icon: "images/content/icons/lightning-bold.svg",
+    icon: "/images/content/icons/lightning-bold.svg",
   },
   {
     title: "Flexibility",
     content: "Supports WASM & Rust for agricultural tools.",
-    icon: "images/content/icons/gear-bold.svg",
+    icon: "/images/content/icons/gear-bold.svg",
   },
   {
     title: "Sustainable",
     content: "Proof-of-Stake design is energy efficient.",
-    icon: "images/content/icons/leaf-bold.svg",
+    icon: "/images/content/icons/leaf-bold.svg",
   },
 ];
 
