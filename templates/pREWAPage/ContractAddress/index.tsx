@@ -11,7 +11,7 @@ const ContractAddress = () => (
         </div>
         <div className="text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
           This is Dharitri's only official pREWA token contract. Always verify
-          before any transaction to protect your investment in farmer solutions.
+          before any transaction to protect your contribution in farmer solutions.
         </div>
       </div>
 

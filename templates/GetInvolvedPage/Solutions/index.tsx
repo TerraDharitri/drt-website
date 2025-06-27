@@ -25,11 +25,11 @@ const solutions = [
     url: "/solutions#microfinance",
   },
   {
-    title: "For Investors: Support Our Vision",
+    title: "For Supporters: Join Our Mission",
     stage: "",
     content: [
-      "Ready to invest in digital solutions for smallholder farmers? Our pREWA token sale funds platform development and farmer services launch.",
-      "We welcome investors of all sizes who want to create real change. Your investment directly supports agricultural innovation technology and financial inclusion for farming communities.",
+      "Ready to support digital solutions for smallholder farmers? Our pREWA token sale funds platform development and farmer services launch.",
+      "We welcome supporters of all sizes who want to create real change. Your contribution directly supports agricultural innovation technology and financial inclusion for farming communities.",
       "Learn more through our project documentation or connect directly with our team.",
     ],
     image: "/images/graphics/Get Involved/Get Involved/balance.svg",

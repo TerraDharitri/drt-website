@@ -9,7 +9,7 @@ const solutions = [
     content: [
       "Farmers: Gain REWA rewards, service access, secure digital identity, and use verified farm records for new opportunities.",
       "Partners: Expand operational reach and access reliable agricultural information to improve financial inclusion programs for farming communities.",
-      "Investors: Support impactful sustainable projects, earning staking rewards while funding vital agricultural solutions.",
+      "Supporters: Back impactful sustainable projects, earning staking rewards while funding vital agricultural solutions.",
       "Platform: Our system ensures deep trust and secure digital interactions using reliable blockchain verification methods.",
     ],
     image: "/images/graphics/Ecosystem/Ecosystem/ecosystem value.svg",

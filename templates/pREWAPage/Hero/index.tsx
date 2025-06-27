@@ -13,7 +13,7 @@ const Hero = () => (
               pREWA Token: Fund Farmers, Earn Staking Rewards
             </div>
             <div className="mb-10 text-white/70 md:text-lg">
-              Fund farmer solutions with pREWA. Earn immediate crypto staking
+              Support farmer solutions with pREWA. Earn immediate crypto staking
               rewards.
             </div>
           </div>

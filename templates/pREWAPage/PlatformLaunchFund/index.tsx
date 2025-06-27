@@ -20,7 +20,7 @@ const PlatformLaunchFund = () => (
             initial services for smallholder farmers.
           </div>
           <div className="mb-6 text-greyscale-400 dark:text-dark-text-secondary text-lg md:text-base">
-            This blockchain project funding enables three key steps:
+            This blockchain project support enables three key steps:
           </div>
           <ul className="mb-8 list-none space-y-2">
             <li className="flex items-start">
