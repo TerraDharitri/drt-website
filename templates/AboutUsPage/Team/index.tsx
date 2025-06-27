@@ -45,7 +45,7 @@ const Team = ({}: TeamProps) => (
             </div>
             <a
               className="group inline-flex items-center h-10 pl-5 pr-3 rounded-full bg-greyscale-0 dark:bg-dark-surface shadow-2 text-base font-semibold text-secondary-300 dark:text-dark-text-primary transition-colors hover:text-primary-100 dark:hover:text-primary-100"
-              href=""
+              href={person.linkedin}
               target="_blank"
               rel="noopener noreferrer"
             >
