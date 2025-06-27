@@ -6,7 +6,7 @@ import { team } from "@/mocks/team";
 type TeamProps = {};
 
 const Team = ({}: TeamProps) => (
-  <div className="section bg-white dark:bg-dark-bg">
+  <div id="team" className="section bg-white dark:bg-dark-bg">
     <div className="container">
       <div className="mb-20 xl:mb-16 md:mb-8">
         <div className="stage">Team</div>

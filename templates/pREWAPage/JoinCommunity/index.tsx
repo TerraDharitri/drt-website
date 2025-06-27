@@ -34,9 +34,11 @@ const JoinCommunity = () => (
                   <span className="text-greyscale-400 dark:text-dark-text-secondary">
                     Read Our White Paper:
                   </span>
+                  <Link href="/resources">
                   <span className=" dark:text-dark-text-secondary ml-1">
                     See our tech details and project plan
                   </span>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-start">
@@ -53,9 +55,11 @@ const JoinCommunity = () => (
                   <span className="text-greyscale-400 dark:text-dark-text-primary">
                     Our Mission for Farmers:
                   </span>
+                  <Link href="/solutions">
                   <span className=" dark:text-dark-text-secondary ml-1">
                     Learn how we help and our main goals
                   </span>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-start">
@@ -72,9 +76,11 @@ const JoinCommunity = () => (
                   <span className="text-greyscale-400 dark:text-dark-text-primary">
                     Meet the Dharitri Team:
                   </span>
+                  <Link href="/about-us#team">
                   <span className=" dark:text-dark-text-secondary ml-1">
                     Get to know the people behind Dharitri
                   </span>
+                  </Link>
                 </div>
               </div>
             </div>
