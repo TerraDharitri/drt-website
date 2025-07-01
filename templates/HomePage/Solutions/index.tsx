@@ -4,7 +4,7 @@ import Icon from "@/components/Icon";
 
 const solutions = [
   {
-    title: "Why Farmers Need Our Support",
+    title: "Why Farmers Need Support",
     stage: "",
     content:
       "Millions of smallholder farmers feed our world yet face rural poverty and poor harvests.\

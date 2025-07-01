@@ -52,7 +52,7 @@ export default function RootLayout({
         {/* Open Graph data for Facebook */}
         <meta
           property="og:title"
-          content="Dharitri - Finance Website Coded Template"
+          content=""
         />
         <meta property="og:type" content="Article" />
         <meta

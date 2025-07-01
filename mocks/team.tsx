@@ -4,7 +4,7 @@ export const team = [
     name: "Kasi Viswanath Aurangabad",
     position: "Founder",
     description:
-      "Farmer's son who helped family farming until graduation. Blockchain expert with 15+ years SAP consulting at IBM and EY.",
+      "Farmer's son who helped family farming until graduation. Blockchain expert with 15+ years SAP consulting.",
     avatar: "/images/content/kasi.webp",
     social: "kasi_vishwanath_aurangabad",
     linkedin:"https://www.linkedin.com/in/rewa-dharitri/",

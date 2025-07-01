@@ -156,13 +156,13 @@ const Footer = ({}: FooterProps) => (
           href="/"
         >
           <Image
-            className="w-7 opacity-100"
+            className="w-14 opacity-100"
             src="/images/graphics/Logo/Logo/Dharitri Logo dark.svg"
-            width={38}
-            height={38}
+            width={76}
+            height={76}
             alt="Dharitri"
           />
-          <span className="ml-2 text-2xl font-bold transition-colors text-greyscale-900 dark:text-dark-text-primary">
+          <span className="ml-2 text-4xl font-bold transition-colors text-greyscale-900 dark:text-dark-text-primary">
             Dharitri
           </span>
         </Link>
