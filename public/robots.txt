@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Important pages for crawling
+Allow: /about-us
+Allow: /pREWA
+Allow: /solutions
+Allow: /ecosystem
+Allow: /features
+Allow: /get-involved
+Allow: /resources
+
+# Legal pages
+Allow: /legal-compliance
+Allow: /legal-compliance/privacy-policy
+Allow: /legal-compliance/terms-of-service
+Allow: /legal-compliance/disclaimers
+Allow: /legal-compliance/cookie-policy
+
+# Disallow admin/private areas (if any)
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /forgot-password
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://dharitri.org/sitemap.xml
+
+# Crawl delay (optional - 1 second)
+Crawl-delay: 1
