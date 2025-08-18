@@ -23,7 +23,7 @@ const Join = ({}: JoinProps) => (
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
             <Link
               className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
-              href="/pREWA"
+              href="https://prewa.dharitri.org"
             >
               Get pREWA Tokens
             </Link>

@@ -99,7 +99,7 @@ const Header = ({ className, dark }: HeaderProps) => {
                         >
                             Sign In
                         </Link> */}
-            <Link className="btn-primary btn-sm" href="/pREWA">
+            <Link className="btn-primary btn-sm" href="https://prewa.dharitri.org">
               Get pREWA Tokens
             </Link>
           </div>
