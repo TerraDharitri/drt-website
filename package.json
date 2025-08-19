@@ -1,8 +1,8 @@
 {
-  "name": "Dharitri_website",
+  "name": "dharitri_website",
   "version": "0.0.1",
   "private": true,
-  "repository": "https://github.com/TerraDharitri/pRewa_website",
+  "repository": "https://github.com/TerraDharitri/drt-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -36,5 +36,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "homepage": "https://TerraDharitri.github.io/pRewa-website"
+  "homepage": "https://dharitri.org"
 }

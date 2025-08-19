@@ -31,8 +31,11 @@ const Main = ({}: MainProps) => (
             </div>
             <div className="flex space-x-4 md:block md:space-x-0 md:space-y-4">
               <Link
-                className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
-                href="https://prewa.dharitri.org"
+               href="https://prewa.dharitri.org/?ref=dharitri.org&utm_source=site&utm_medium=cta"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Get pREWA Tokens (opens in a new tab)"  
+               className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
               >
                 Get pREWA Tokens
               </Link>
