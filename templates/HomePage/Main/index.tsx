@@ -30,7 +30,7 @@ const Main = ({}: MainProps) => (
               Small farmers struggle despite feeding the world. We help.
             </div>
             <div className="flex space-x-4 md:block md:space-x-0 md:space-y-4">
-              <Link
+              <a
                href="https://prewa.dharitri.org/?ref=dharitri.org&utm_source=site&utm_medium=cta"
                target="_blank"
                rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Main = ({}: MainProps) => (
                className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
               >
                 Get pREWA Tokens
-              </Link>
+              </a>
               {/* <Link
                                 className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
                                 href="/contact-us"

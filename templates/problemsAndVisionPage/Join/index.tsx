@@ -13,7 +13,7 @@ const Join = ({}: JoinProps) => (
           </div>
           <div className="mb-10 text-start text-white/70 md:mb-8 md:px-1">
             Our vision for strong smallholder farmers and a healthier Earth
-            needs real action starting now. We're developing practical
+            needs real action starting now. We&apos;re developing practical
             blockchain solutions to make this vision reality for farming
             communities worldwide.
             <br />
@@ -23,7 +23,7 @@ const Join = ({}: JoinProps) => (
             reach more farmers faster.
           </div>
           <div className="flex justify-center space-x-4 md:block md:space-x-0 md:space-y-4">
-            <Link
+            <a
               href="https://prewa.dharitri.org/?ref=dharitri.org&utm_source=site&utm_medium=cta"
               target="_blank"
               rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const Join = ({}: JoinProps) => (
               className="btn-primary min-w-[10.6rem] px-5 md:min-w-full"
             >
               Get pREWA Tokens
-            </Link>
+            </a>
             <Link
               className="btn-secondary min-w-[10.6rem] px-5 md:min-w-full"
               href="/solutions"
