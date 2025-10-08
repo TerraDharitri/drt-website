@@ -76,7 +76,7 @@ yarn --version
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Shu12388y/drt-website.git
+   git clone https://github.com/TerraDharitri/drt-website.git
    cd drt-website
    ```
 
@@ -138,7 +138,7 @@ drt-website/
 
 ## 🎨 Tech Stack
 
-- **Framework:** Next.js 13+ (App Router)
+- **Framework:** Next.js 14+ (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Package Manager:** Yarn
@@ -153,26 +153,4 @@ drt-website/
 - ✅ Legal compliance pages
 - ✅ Multi-page application structure
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ✨ About DRT
-
-DRT (Decentralized Renewable Technology) is focused on sustainable and decentralized energy solutions. This website serves as the main platform for information about our ecosystem, features, and community involvement.
-
-## 📞 Support
-
-If you have any questions or need support, please visit our [Contact Us](http://localhost:3000/contact-us) page or reach out through our community channels.
-
----
-
-Made with ❤️ by the DRT Team
