@@ -2,13 +2,25 @@ import Icon from "@/components/Icon";
 import Image from "@/components/Image";
 import Link from "next/link";
 
-const items = [
+
+type Item = {
+  title: string;
+  content: string;
+  icon: string;
+  spanText: string;
+  href: string;
+  isDownload?: boolean;
+  downloadName?: string;
+};
+
+const items: Item[] = [
   {
     title: "Dharitri Project Roadmap",
     content:
       "Complete regenerative farming vision with development phases, blockchain technology foundation, and smallholder farmers support goals.",
     icon: "/images/content/icons/wallet.svg",
     spanText: "View Our Roadmap",
+    href: "/solutions#build-solutions",
   },
   {
     title: "Transparency & Trust",
@@ -16,6 +28,9 @@ const items = [
       "Technical agricultural blockchain architecture, pREWA and REWA tokenomics, ecosystem model, and financial inclusion approach details.",
     icon: "/images/content/icons/coins-stacked.svg",
     spanText: "Download White Paper",
+    href: "/docs/Dharitri-Whitepaper-v1.0.0.pdf", // served from /public/docs/
+    isDownload: true,
+    downloadName: "Dharitri-Whitepaper-v1.0.0.pdf",
   },
 ];
 
@@ -33,6 +48,7 @@ const Solutions = ({}: SolutionsProps) => (
           blockchain vision and agritech development strategy.
         </p>
       </div>
+
       <div className="grid gap-8 grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
         {items.map((item, index) => (
           <div
@@ -45,13 +61,27 @@ const Solutions = ({}: SolutionsProps) => (
             <div className="text-greyscale-400 dark:text-dark-text-secondary">
               {item.content}
             </div>
-            <Link
-              className="btn-primary inline-flex items-center mt-6 px-6 py-3 pr-5 md:w-full"
-              href="/solutions#build-solutions"
-            >
-              <span>{item.spanText}</span>
-              <Icon className="w-5 h-5" name="arrow-right" />
-            </Link>
+
+            {item.isDownload ? (
+              // Use <a> for download
+              <a
+                className="btn-primary inline-flex items-center mt-6 px-6 py-3 pr-5 md:w-full"
+                href={item.href}
+                download={item.downloadName}
+                aria-label="Download Dharitri Whitepaper PDF"
+              >
+                <span>{item.spanText}</span>
+                <Icon className="w-5 h-5" name="arrow-right" />
+              </a>
+            ) : (
+              <Link
+                className="btn-primary inline-flex items-center mt-6 px-6 py-3 pr-5 md:w-full"
+                href={item.href}
+              >
+                <span>{item.spanText}</span>
+                <Icon className="w-5 h-5" name="arrow-right" />
+              </Link>
+            )}
           </div>
         ))}
       </div>
