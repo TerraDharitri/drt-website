@@ -1,38 +1,156 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛠️ Project Setup Guide
 
-## Getting Started
-
-This guide https://ui8.notion.site/Project-Setup-af9fa48b613548dd8a5962d126b0265d will help you install Yarn. You can check if Yarn is installed on your PC with the command `yarn --version`
-
-First, run the development server:
+This guide will help you install **Yarn** and run the project on your local system.  
+You can verify if Yarn is already installed on your PC by running:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## A. Install Yarn on macOS (Using Homebrew)
+    1. Install Homebrew
+        Open your Terminal and run the following command to install Homebrew:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    2. Add Homebrew to Your PATH (For Apple Silicon M1/M2)
 
-## Learn More
+    ```bash
+    echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
 
-To learn more about Next.js, take a look at the following resources:
+    ```
+    After running this, close and reopen your Terminal to apply changes.
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    3. Install Yarn via Homebrew
+    
+    ```bash
+    brew install yarn
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## B. Install Yarn on Windows
 
-## Deploy on Vercel
+1. **Using npm (if you have Node.js installed):**
+   ```bash
+   npm install --global yarn
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Using Chocolatey:**
+   ```bash
+   choco install yarn
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Using Scoop:**
+   ```bash
+   scoop install yarn
+   ```
+
+## C. Install Yarn on Linux
+
+1. **Ubuntu/Debian:**
+   ```bash
+   curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   sudo apt update && sudo apt install yarn
+   ```
+
+2. **CentOS/RHEL/Fedora:**
+   ```bash
+   curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
+   sudo yum install yarn
+   ```
+
+3. **Using npm:**
+   ```bash
+   npm install --global yarn
+   ```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (version 14 or higher)
+- Yarn package manager
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/TerraDharitri/drt-website.git
+   cd drt-website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   yarn install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   yarn dev
+   ```
+
+4. **Open your browser and navigate to:**
+   ```
+   http://localhost:3000
+   ```
+
+### Build for Production
+
+1. **Create a production build:**
+   ```bash
+   yarn build
+   ```
+
+2. **Start the production server:**
+   ```bash
+   yarn start
+   ```
+
+## 📁 Project Structure
+
+```
+drt-website/
+├── app/                    # Next.js 13+ app directory
+│   ├── about-us/          # About us page
+│   ├── career/            # Career page
+│   ├── contact-us/        # Contact page
+│   ├── features/          # Features page
+│   ├── legal-compliance/  # Legal compliance pages
+│   └── ...               # Other pages
+├── components/            # Reusable React components
+├── templates/             # Page templates
+├── mocks/                 # Mock data
+├── constants/             # Application constants
+├── types/                 # TypeScript type definitions
+├── utils/                 # Utility functions
+├── public/                # Static assets
+└── legal-compliance/      # Legal documents
+```
+
+## 🛠️ Available Scripts
+
+- `yarn dev` - Start development server
+- `yarn build` - Build for production
+- `yarn start` - Start production server
+- `yarn lint` - Run ESLint
+- `yarn type-check` - Run TypeScript type checking
+
+## 🎨 Tech Stack
+
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Package Manager:** Yarn
+
+## 📋 Features
+
+- ✅ Responsive design
+- ✅ Dark/Light theme support
+- ✅ SEO optimized
+- ✅ Type-safe with TypeScript
+- ✅ Modern UI with Tailwind CSS
+- ✅ Legal compliance pages
+- ✅ Multi-page application structure
+
+

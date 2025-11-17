@@ -99,7 +99,7 @@ const Header = ({ className, dark }: HeaderProps) => {
                         >
                             Sign In
                         </Link> */}
-            <Link 
+            <a 
               href="https://prewa.dharitri.org/?ref=dharitri.org&utm_source=site&utm_medium=cta"
               target="_blank"
               rel="noopener noreferrer"
@@ -107,7 +107,7 @@ const Header = ({ className, dark }: HeaderProps) => {
               className="btn-primary btn-sm"
               >
               Get pREWA Tokens
-            </Link>
+            </a>
           </div>
         </div>
         <button
