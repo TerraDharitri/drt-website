@@ -2,7 +2,6 @@ import Icon from "@/components/Icon";
 import Image from "@/components/Image";
 import Link from "next/link";
 
-
 type Item = {
   title: string;
   content: string;
@@ -28,9 +27,19 @@ const items: Item[] = [
       "Technical agricultural blockchain architecture, pREWA and REWA tokenomics, ecosystem model, and financial inclusion approach details.",
     icon: "/images/content/icons/coins-stacked.svg",
     spanText: "Download White Paper",
-    href: "/docs/Dharitri-Whitepaper-v1.0.0.pdf", // served from /public/docs/
+    href: "/docs/Dharitri-Whitepaper-v1.0.0.pdf",
     isDownload: true,
     downloadName: "Dharitri-Whitepaper-v1.0.0.pdf",
+  },
+  {
+    title: "Project Dharitri Brochure",
+    content:
+      "Comprehensive overview of Dharitri’s real-world regenerative farming pilot, blockchain ecosystem, and ways to participate in restoring our planet.",
+    icon: "/images/content/icons/leaf.svg", // change to whatever icon you like
+    spanText: "Download Project Brochure",
+    href: "/docs/Project-Dharitri.pdf",
+    isDownload: true,
+    downloadName: "Project-Dharitri.pdf",
   },
 ];
 
@@ -49,7 +58,7 @@ const Solutions = ({}: SolutionsProps) => (
         </p>
       </div>
 
-      <div className="grid gap-8 grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
+      <div className="grid gap-8 grid-cols-3 xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
         {items.map((item, index) => (
           <div
             className="p-6 bg-greyscale-0 dark:bg-dark-card border border-greyscale-100 dark:border-dark-border shadow-2"
@@ -63,12 +72,11 @@ const Solutions = ({}: SolutionsProps) => (
             </div>
 
             {item.isDownload ? (
-              // Use <a> for download
               <a
                 className="btn-primary inline-flex items-center mt-6 px-6 py-3 pr-5 md:w-full"
                 href={item.href}
                 download={item.downloadName}
-                aria-label="Download Dharitri Whitepaper PDF"
+                aria-label={item.spanText}
               >
                 <span>{item.spanText}</span>
                 <Icon className="w-5 h-5" name="arrow-right" />
